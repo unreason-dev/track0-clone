@@ -70,6 +70,8 @@ def transcript_text(doc: dict) -> str:
             continue  # figure descriptions are transcriber prose, not page text
         if b.get("text"):
             parts.append(b["text"])
+        if b.get("caption"):
+            parts.append(b["caption"])
         for item in b.get("items") or []:
             parts.append(item)
         for col in b.get("columns") or []:
