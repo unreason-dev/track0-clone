@@ -117,6 +117,27 @@ representational gaps appear):
 - Residual queue volume after both fixes: ~2–11 numeric tokens per dense
   page — sized for agent adjudication (D-3), not operator review.
 
+### A.3.2 Table-representation conventions (durable, from pilot rounds 2–3)
+
+- **Side-by-side parallel tables** (e.g. per-class XP tables): one table
+  block each, ordered left-to-right, `caption` = the printed group title,
+  `columns: null` when the print has no column headers.
+- **Shared-row-rail bands** (e.g. the Spells Table: one numbered rail
+  indexing three level columns, rows baseline-aligned): ONE table, rail as
+  an unnamed first column (empty-string header). Row numbers verbatim
+  including punctuation.
+- **Numeral+ordinal spacing is normalized to attached** ("11th", "1st") —
+  a documented exception to strict verbatim: typewriter tracking makes
+  "11 th"/"11th" unreliable page-to-page, and inconsistent transcription is
+  worse than either reading. Same reasoning family as the 3.5 charter's
+  dash disambiguation.
+- **Both consumers bind to blocks**: the schema builder extracts from
+  blocks; the rules-oracle sweep keys questions to {booklet, page, block}.
+  After the full transcription run, a mechanical stamping step adds
+  per-block content hashes to complete the charter's provenance unit
+  {work, booklet, page, block-index, content-hash} — computed, not
+  model-emitted.
+
 ### A.4 Disagreement queue (validated)
 
 `tools/diff_passes.py` — digit-run multiset comparison per page between
