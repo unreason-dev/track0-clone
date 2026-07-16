@@ -97,32 +97,64 @@ def render_page(source: Path, pdf_page: int, dpi: int, tmpdir: Path) -> Path:
     return hits[0]
 
 
-def find_gutter(img: Image.Image) -> int:
-    """Darkest-column scan in the central band — the book spine shadow.
+def find_gutter(img: Image.Image, warn=None) -> int:
+    """Minimal-VARIANCE column scan in the central band.
 
-    Falls back to the exact midpoint if the darkness signal is flat
-    (< 8 gray levels of spread), so a spine-less scan still splits sanely.
+    A safe cut column is one with no text ink crossing it: the gutter's
+    spine shadow (uniformly dark), the gutter's paper gap (uniformly
+    light), and the pages' inner margins (uniformly light) all have LOW
+    vertical variance; text columns have HIGH variance (ink/paper
+    alternation). The earlier darkest-column heuristic mis-split 28/59
+    spreads (up to ~12% off center, clipping v1-p05's first characters);
+    variance discriminates correctly in both dark-gutter and light-gutter
+    cases. Ties break toward the exact center. If no adequately quiet
+    column exists (text running into the gutter), fall back to midpoint
+    and warn for manual review.
     """
     gray = img.convert("L")
-    # Downsample rows for speed; keep full x resolution.
     w, h = gray.size
     band_lo = int(w * (0.5 - GUTTER_BAND / 2))
     band_hi = int(w * (0.5 + GUTTER_BAND / 2))
     small = gray.resize((w, 256))
     px = small.load()
-    best_x, best_mean = w // 2, 255.0
-    means = []
+    center = w // 2
+
+    # Quiet mask over the band. NOTE a single quiet column is NOT proof of
+    # a gutter — narrow quiet lanes exist inside pages (verified: the v1
+    # INDEX page's lane between dot leaders and page numbers, which cut the
+    # page-number column off). The GUTTER REGION (inner margin + gutter +
+    # inner margin) is the WIDEST quiet run; split at its center.
+    QUIET_VAR = 900.0
+    quiet = []
     for x in range(band_lo, band_hi):
-        s = 0
-        for y in range(256):
-            s += px[x, y]
-        m = s / 256.0
-        means.append(m)
-        if m < best_mean:
-            best_mean, best_x = m, x
-    if max(means) - min(means) < 8.0:
-        return w // 2
-    return best_x
+        vals = [px[x, y] for y in range(256)]
+        mean = sum(vals) / 256.0
+        var = sum((v - mean) ** 2 for v in vals) / 256.0
+        quiet.append(var < QUIET_VAR)
+
+    runs = []  # (width, run_center_x)
+    i = 0
+    while i < len(quiet):
+        if quiet[i]:
+            j = i
+            while j < len(quiet) and quiet[j]:
+                j += 1
+            runs.append((j - i, band_lo + (i + j) // 2))
+            i = j
+        else:
+            i += 1
+
+    min_run = max(4, int(w * 0.015))
+    candidates = [(rw, rx) for rw, rx in runs if rw >= min_run]
+    if not candidates:
+        if warn:
+            warn("no quiet gutter run found; using midpoint — REVIEW this spread's crops")
+        return center
+    # widest run wins; ties resolve toward the center
+    best_w = max(rw for rw, _ in candidates)
+    best = min((rx for rw, rx in candidates if rw == best_w),
+               key=lambda rx: abs(rx - center))
+    return best
 
 
 def pdf_page_points(source: Path, pdf_page: int) -> tuple[float, float]:
@@ -146,6 +178,14 @@ GUTTER_TEXT_INSET_FRAC = 0.012
 # already ignorable by transcription convention; lost glyphs are not
 # recoverable.
 GUTTER_IMAGE_BLEED_FRAC = 0.012
+
+# Manual per-spread split overrides (fraction of spread width) — the escape
+# hatch for spreads the detector cannot rule correctly. Each entry carries
+# its reason; review at Stage A close.
+# pdf 2: v1 ifc | title. The ifc is near-blank except the inquiries block,
+# whose lines run INTO the binding; the widest-quiet-run mis-centers left on
+# this blank-heavy spread and clips them. Midpoint + bleed covers the text.
+SPLIT_OVERRIDES: dict[int, float] = {2: 0.5}
 
 
 def extract_half_text(source: Path, pdf_page: int, half: str,
@@ -223,7 +263,13 @@ def main() -> int:
                     if not is_spread:
                         sides = [("single", sides[0][1], sides[0][2])]
 
-                split_x = find_gutter(img) if is_spread else None
+                if not is_spread:
+                    split_x = None
+                elif pdf_page in SPLIT_OVERRIDES:
+                    split_x = int(w * SPLIT_OVERRIDES[pdf_page])
+                else:
+                    split_x = find_gutter(img, warn=lambda m, p=pdf_page:
+                                          warnings.append(f"pdf p{p}: {m}"))
                 split_frac = (split_x / w) if split_x is not None else None
 
                 bleed = int(w * GUTTER_IMAGE_BLEED_FRAC) if is_spread else 0
