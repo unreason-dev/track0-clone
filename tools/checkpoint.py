@@ -17,12 +17,20 @@ def main() -> int:
     manifest = json.loads((PAGES / "pages-manifest.json").read_text())
     by_id = {r["id"]: r for r in manifest["pages"]}
 
+    # Stamp ALL provenance fields from the manifest — the transcriber writes
+    # content; the manifest is the sole authority for where a page came from.
+    # (Lesson: 18 early transcripts carried hand-copied pdf_page values that
+    # had drifted off-by-one; never hand-copy provenance.)
     stamped = 0
     for p in TRANS.glob("*.pass2.json"):
         doc = json.loads(p.read_text())
         rec = by_id[doc["id"]]
-        if doc["source"].get("image_sha256") != rec["image_sha256"]:
-            doc["source"]["image_sha256"] = rec["image_sha256"]
+        dirty = False
+        for k in ("pdf_page", "side", "image", "image_sha256"):
+            if doc["source"].get(k) != rec[k]:
+                doc["source"][k] = rec[k]
+                dirty = True
+        if dirty:
             p.write_text(json.dumps(doc, indent=1, ensure_ascii=False))
             stamped += 1
 
