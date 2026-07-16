@@ -138,6 +138,24 @@ representational gaps appear):
   {work, booklet, page, block-index, content-hash} — computed, not
   model-emitted.
 
+### A.3.3 Pilot verdict (2026-07-16): format LOCKED
+
+Seven transcripts spanning every major page type of the source — display
+cover, errata insert (lists, inline emphasis, ink annotation), side-by-side
+tables, dense reference table (gold), attack matrix + prose, shared-rail
+spell tables, monster-description prose with stub-leader table, and the
+wandering-monster matrix pair. All validate; disagreement-queue residue is
+pass-1-side noise only (4 of 7 pages fully clean both directions). The
+block-model schema, prompt conventions, and differ are locked for the full
+run; further schema changes require a documented reason and a retrofit
+script (two precedents: caption, inline markup).
+
+Cross-artifact corroborations already banked: the Correction Sheet's
+"Skeletons/Zombies 1/2/1" amends the v2-p03 table; its "Balrogs Die 9"
+amends v3-p11, whose printed Lords/Balrogs duplicate-8 is verified in the
+transcript. The errata↔booklet join is real data and the fidelity policy
+(D-6) will govern its typed-value posture.
+
 ### A.4 Disagreement queue (validated)
 
 `tools/diff_passes.py` — digit-run multiset comparison per page between
