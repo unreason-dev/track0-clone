@@ -139,6 +139,14 @@ def pdf_page_points(source: Path, pdf_page: int) -> tuple[float, float]:
 # pass 1 (verified noise source: v1-p19 pilot diff).
 GUTTER_TEXT_INSET_FRAC = 0.012
 
+# Bleed applied to the IMAGE crop on the gutter side (fraction of spread
+# width): each half keeps a sliver of the other side so glyphs can never be
+# lost to the cut (verified defect: v1-p03's first character column was
+# clipped — its text runs tight to the gutter). Facing-page slivers are
+# already ignorable by transcription convention; lost glyphs are not
+# recoverable.
+GUTTER_IMAGE_BLEED_FRAC = 0.012
+
 
 def extract_half_text(source: Path, pdf_page: int, half: str,
                       split_frac: float | None) -> str:
@@ -218,13 +226,14 @@ def main() -> int:
                 split_x = find_gutter(img) if is_spread else None
                 split_frac = (split_x / w) if split_x is not None else None
 
+                bleed = int(w * GUTTER_IMAGE_BLEED_FRAC) if is_spread else 0
                 for side, label, claimed in sides:
                     if side == "single":
                         half_img = img
                     elif side == "left":
-                        half_img = img.crop((0, 0, split_x, h))
+                        half_img = img.crop((0, 0, min(w, split_x + bleed), h))
                     else:
-                        half_img = img.crop((split_x, 0, w, h))
+                        half_img = img.crop((max(0, split_x - bleed), 0, w, h))
 
                     rec_id = f"{bk_id}-{label}"
                     img_rel = f"{bk_id}/{rec_id}.png"
