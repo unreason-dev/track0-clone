@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Digitization intermediates — operator ruling 2026-07-16: these carry source
+# expression (copyrighted 1970s text) and are local-only working substrate,
+# never part of the public distro. This supersedes the charter's Stage A
+# "committed intermediate" language: the intermediate is still the single
+# thing everything downstream reads, and is still content-hash-verified —
+# it is just not published. The public repo carries ONLY what ships:
+# schemas, corpus entries (mechanics + firewalled expression), manifests,
+# edge changelogs, findings.
+**/digitization/
+
+# Belt-and-braces: no source scans or PDFs ever land in the public repo.
+*.pdf
+**/sources/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Editor
+*.swp
+*~
