@@ -36,8 +36,27 @@ TRANSCRIPTS_DIR = ROOT / "OpenFRP74" / "digitization" / "transcripts"
 
 DIGIT_RUN = re.compile(r"\d+")
 
+# Pass-1 (embedded OCR) confuses I/l with 1 and O with 0. Conservative
+# token-level normalization applied to PASS-1 TEXT ONLY: a whitespace-
+# delimited token consisting solely of [IlO0-9] plus an optional ordinal
+# suffix, and containing at least one digit-or-O, has I/l→1 and O→0 applied.
+# The ≥1-digit-or-O guard keeps genuine roman numerals ("MATRIX II.") from
+# minting phantom numbers. Verified classes: "lOth"→"10th", ".12th" digit
+# unaffected, "8 + I" token "I" stays (no digit/O — irreducible; the
+# adjudicator clears it).
+P1_CONFUSABLE = re.compile(r"^[IlO0-9]+(?:st|nd|rd|th)?$")
 
-def digit_runs(text: str) -> Counter:
+
+def normalize_pass1_token(tok: str) -> str:
+    core = re.sub(r"(st|nd|rd|th)$", "", tok)
+    if P1_CONFUSABLE.match(tok) and re.search(r"[0-9O]", core):
+        return tok.translate(str.maketrans({"I": "1", "l": "1", "O": "0"}))
+    return tok
+
+
+def digit_runs(text: str, is_pass1: bool = False) -> Counter:
+    if is_pass1:
+        text = " ".join(normalize_pass1_token(t) for t in text.split())
     return Counter(DIGIT_RUN.findall(text))
 
 
@@ -61,7 +80,7 @@ def transcript_text(doc: dict) -> str:
 
 
 def diff_page(page_id: str, pass1_path: Path, pass2_doc: dict) -> dict | None:
-    p1 = digit_runs(pass1_path.read_text(encoding="utf-8"))
+    p1 = digit_runs(pass1_path.read_text(encoding="utf-8"), is_pass1=True)
     p2 = digit_runs(transcript_text(pass2_doc))
     only1 = p1 - p2
     only2 = p2 - p1

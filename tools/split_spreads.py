@@ -133,17 +133,25 @@ def pdf_page_points(source: Path, pdf_page: int) -> tuple[float, float]:
     return float(box.width), float(box.height)
 
 
+# Inset applied to the TEXT crop on the gutter side only (fraction of page
+# width). The image crop keeps everything; the text crop pulls back from the
+# cut so facing-page character slivers don't inject phantom tokens into
+# pass 1 (verified noise source: v1-p19 pilot diff).
+GUTTER_TEXT_INSET_FRAC = 0.012
+
+
 def extract_half_text(source: Path, pdf_page: int, half: str,
                       split_frac: float | None) -> str:
     """Embedded-text-layer extraction for one half of a spread (or a full
     single page), via pdftotext -layout with a crop box in 72-dpi units."""
     w_pt, h_pt = pdf_page_points(source, pdf_page)
+    inset = int(w_pt * GUTTER_TEXT_INSET_FRAC)
     if half == "single":
         x, wid = 0, int(w_pt)
     elif half == "left":
-        x, wid = 0, int(w_pt * (split_frac or 0.5))
+        x, wid = 0, int(w_pt * (split_frac or 0.5)) - inset
     else:
-        x = int(w_pt * (split_frac or 0.5))
+        x = int(w_pt * (split_frac or 0.5)) + inset
         wid = int(w_pt) - x
     out = subprocess.run(
         ["pdftotext", "-layout", "-r", "72",

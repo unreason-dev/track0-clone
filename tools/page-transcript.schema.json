@@ -18,8 +18,8 @@
         "additionalProperties": false,
         "required": [
           "index", "type", "text", "level", "underlined", "items",
-          "columns", "rows", "continues_previous_page", "continues_next_page",
-          "transcriber_note"
+          "columns", "caption", "rows", "continues_previous_page",
+          "continues_next_page", "transcriber_note"
         ],
         "properties": {
           "index": { "type": "integer", "description": "0-based position on the page." },
@@ -30,7 +30,7 @@
           },
           "text": {
             "type": ["string", "null"],
-            "description": "Verbatim text for heading/paragraph/footnote/running_head; a concise visual description for figure; null for table/list."
+            "description": "Verbatim text for heading/paragraph/footnote/running_head; a concise visual description for figure; null for table/list. Inline print emphasis uses lightweight markup: __underlined span__, ~~struck-through span~~ (same convention applies to list items and table cells). Block-level `underlined` covers fully-underlined headings; inline markup covers partial spans."
           },
           "level": { "type": ["integer", "null"], "description": "Heading level (1 = page-top section head); null for non-headings." },
           "underlined": { "type": ["boolean", "null"], "description": "true when the heading/label is underlined in print; null when not applicable." },
@@ -43,6 +43,10 @@
             "type": ["array", "null"],
             "items": { "type": "string" },
             "description": "Table column headers, verbatim (multi-line headers joined with newline); null for non-tables."
+          },
+          "caption": {
+            "type": ["string", "null"],
+            "description": "Table title or spanning super-header printed above the column heads, verbatim (e.g. a group header spanning several columns); null when absent or for non-tables."
           },
           "rows": {
             "type": ["array", "null"],

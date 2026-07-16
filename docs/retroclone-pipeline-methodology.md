@@ -70,8 +70,17 @@ Fidelity rules baked into the prompt (durable):
 - Figures/illustrations are described, not omitted (they carry no rules
   content but their presence is provenance).
 
-Execution: Batches API (50% cost; transcription is not latency-sensitive).
-Model: `claude-opus-4-8` (vision). Structured outputs pin the JSON shape.
+Execution (operator-corrected 2026-07-16): **the worker agent transcribes
+in-session** — the agent reads each split page image directly and emits the
+schema-conformant transcript, sharded across supervisor invocations for
+scale. This is the standing Track 0 pattern (the worker agent IS the vision
+system); no API credential, no separate billing surface. The optional
+`tools/transcribe_pages.py` batch tool is retained as an alternative
+execution path for future scale, but it is NOT the default and is NOT a
+pipeline dependency. Transcriber independence note: the in-session
+transcriber inevitably sees page ids/labels; independence is preserved at
+the observation level — `printed_page_number` records only what is printed
+on the page, and the differ compares content regardless.
 
 Durable table conventions (surfaced by the v2-p03 gold exemplar — author a
 gold exemplar of the hardest page type BEFORE any API spend; it is where
@@ -83,6 +92,30 @@ representational gaps appear):
 - Cell content wrapped across printed lines joins with a newline.
 - Figure blocks are described, but their descriptions are transcriber prose
   and are EXCLUDED from pass-comparison text.
+
+### A.3.1 Pilot lessons (2026-07-16, in-session transcription of errata-sheet + v1-p19)
+
+- **Inline print emphasis needs markup**: underlines are semantic in this
+  era (the Correction Sheet marks corrected readings by underline). Format:
+  `__underlined__`, `~~struck-through~~` in any text surface. Handwritten
+  ink annotations are described in `transcriber_note`, never transcribed as
+  text.
+- **Tables carry spanning super-headers** → `caption` field on the table
+  block.
+- **Facing-page slivers**: the gutter cut leaves character fragments from
+  the facing page at the bound edge. Transcribers ignore them (noted on the
+  first block); the pass-1 TEXT crop pulls back from the gutter by 1.2% of
+  page width (`GUTTER_TEXT_INSET_FRAC`) so slivers don't inject phantom
+  tokens — verified to clear the whole noise class on v1-p19.
+- **Schema enforcement works**: the validator rejected a transcript carrying
+  a field not in the schema — run `--validate` after every transcription
+  batch, before the differ.
+- **Pass-1 I/l/O confusion** ("lOth", "An II th level", "8 + I") is partly
+  recoverable by conservative token normalization on the pass-1 side only
+  (≥1-digit-or-O guard so roman numerals don't mint phantom numbers);
+  the irreducible remainder stays queued for adjudication, correctly.
+- Residual queue volume after both fixes: ~2–11 numeric tokens per dense
+  page — sized for agent adjudication (D-3), not operator review.
 
 ### A.4 Disagreement queue (validated)
 
@@ -112,7 +145,7 @@ Status: OPEN / RATIFIED.
 | D-1 | Repo scope: public-distro only; intermediates gitignored | RATIFIED 2026-07-16 | Supersedes charter "committed intermediate" |
 | D-2 | Errata insert (Correction Sheet) is its own work, separate from booklets | RATIFIED 2026-07-16 | Typed-value posture where errata contradicts booklet text still OPEN (batched with fidelity policy) |
 | D-3 | Disagreement adjudication autonomy: charter says numeric disagreements get a "human-eyes check"; proposed amendment for the autonomy goal — an independent agent-vision re-read (fresh context, zoomed region, high effort) adjudicates first, and only unresolved-after-re-read residues escalate to the operator | OPEN | Determines how much of the queue lands on the operator |
-| D-4 | API credential provisioning for the pipeline box (env `ANTHROPIC_API_KEY` or `ant auth login` profile) | OPEN | Hard prerequisite for pass 2 + all future autonomous nodes |
+| D-4 | ~~API credential provisioning~~ | RETIRED 2026-07-16 | Operator-corrected: pass 2 runs in-session (the worker agent reads pages directly, per standing Track 0 practice). No credential needed. |
 | D-5 | Node graph ratification (74/76/77b/79a…) | OPEN | Charter §11.1; needed before any second node, not before pilot completion |
 | D-6 | Fidelity policy for source typos (record-don't-correct posture assumed from 3.5 charter precedent) | OPEN | Register seeded in source-disposition memo §5 |
 

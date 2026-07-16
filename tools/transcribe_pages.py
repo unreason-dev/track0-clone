@@ -56,10 +56,19 @@ join the lines with a newline character.
 - If a glyph or token is unclear, give your best reading in place and record \
 it in uncertain_tokens with the reason. Never silently guess.
 - Describe illustrations as figure blocks; do not omit them.
+- Mark inline print emphasis with lightweight markup: __underlined span__, \
+~~struck-through span~~. Underlines in these booklets are often semantic \
+(corrected readings, emphasis) — preserve them. Handwritten ink annotations \
+are NOT printed text: describe them in transcriber_note instead.
 - Record the printed page number exactly as it appears, or null if none.
 - Reading order: top to bottom; note blocks that visibly continue from the \
 previous page or onto the next.
 - Faint mirrored text is ink bleed-through from the reverse side: ignore it.
+- Character slivers at the extreme bound edge are spillover from the FACING \
+page across the binding: ignore them (they are transcribed with their own \
+page). Note their presence in transcriber_note on the first block only.
+- A header spanning several table columns goes in the table's `caption` \
+field, verbatim.
 """
 
 USER_PROMPT = """\
