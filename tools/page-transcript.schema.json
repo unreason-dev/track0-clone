@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PageTranscript",
+  "description": "Pass-2 vision transcription of one split booklet page. Verbatim block-model: the transcript records the page as printed (typos included); typing and normalization happen at extraction, never here.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["printed_page_number", "blocks", "uncertain_tokens"],
+  "properties": {
+    "printed_page_number": {
+      "type": ["string", "null"],
+      "description": "The page number as PRINTED on the page, verbatim (usually a bare numeral). null when no page number is printed (covers, title leaves, blanks). Observed independently — the transcriber is never shown the arithmetic claim."
+    },
+    "blocks": {
+      "type": "array",
+      "description": "Ordered top-to-bottom content blocks.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "index", "type", "text", "level", "underlined", "items",
+          "columns", "rows", "continues_previous_page", "continues_next_page",
+          "transcriber_note"
+        ],
+        "properties": {
+          "index": { "type": "integer", "description": "0-based position on the page." },
+          "type": {
+            "type": "string",
+            "enum": ["heading", "paragraph", "table", "list", "figure", "footnote", "running_head"],
+            "description": "figure = illustration/diagram (described in text, not omitted); footnote = asterisked notes below tables; running_head = repeated header/footer furniture other than the page number."
+          },
+          "text": {
+            "type": ["string", "null"],
+            "description": "Verbatim text for heading/paragraph/footnote/running_head; a concise visual description for figure; null for table/list."
+          },
+          "level": { "type": ["integer", "null"], "description": "Heading level (1 = page-top section head); null for non-headings." },
+          "underlined": { "type": ["boolean", "null"], "description": "true when the heading/label is underlined in print; null when not applicable." },
+          "items": {
+            "type": ["array", "null"],
+            "items": { "type": "string" },
+            "description": "List items, verbatim, for type=list; null otherwise."
+          },
+          "columns": {
+            "type": ["array", "null"],
+            "items": { "type": "string" },
+            "description": "Table column headers, verbatim (multi-line headers joined with newline); null for non-tables."
+          },
+          "rows": {
+            "type": ["array", "null"],
+            "items": { "type": "array", "items": { "type": "string" } },
+            "description": "Table body cells as VERBATIM STRINGS exactly as printed ('30 - 300', '1-1/1/2', '--'); empty string for empty cells; one array per printed row; null for non-tables."
+          },
+          "continues_previous_page": { "type": "boolean", "description": "true when this block visibly continues a block from the previous page (mid-sentence start, table carried over)." },
+          "continues_next_page": { "type": "boolean", "description": "true when this block visibly continues onto the next page." },
+          "transcriber_note": {
+            "type": ["string", "null"],
+            "description": "Sparse, factual observation about the PAGE (smudge, stamp, handwriting, damaged glyph). Never commentary on the content."
+          }
+        }
+      }
+    },
+    "uncertain_tokens": {
+      "type": "array",
+      "description": "Every token the transcriber is not certain of, with its best reading in place in the block and the doubt recorded here.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["block_index", "token", "reason"],
+        "properties": {
+          "block_index": { "type": "integer" },
+          "token": { "type": "string", "description": "The best-reading token as transcribed." },
+          "reason": { "type": "string", "description": "Why it is uncertain (broken type, smudge, ambiguous glyph)." }
+        }
+      }
+    }
+  }
+}
