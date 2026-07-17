@@ -1,0 +1,41 @@
+{
+ "id": "adventure-rule-traps-pits",
+ "name": "Traps and Pits",
+ "system": "openfrp74",
+ "category": "adventure-rules",
+ "description": "Traps spring on 1-2 when a character passes; pits open likewise. Falling into a pit deals damage on 1-2, otherwise a turn to clamber out with spikes or comrades — unless the pit snaps shut and the victim is alone.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p09",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "452da01fa2ffac62db2e9178b2d6d11aa18e5adcd4e5fa666d4bf973d613c3e2"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p05",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "0b82b4fb7cc474527aa4dee5e60d7932e36d4dfc51b41301a5cb53b04b36363e"
+    ],
+    "note": "pit consequences in map key"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

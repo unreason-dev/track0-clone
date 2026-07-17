@@ -1,0 +1,32 @@
+{
+ "id": "system-rule-relatives",
+ "name": "Relatives and Inheritance",
+ "system": "openfrp74",
+ "category": "system-rules",
+ "description": "A character may name one relative to inherit if he disappears a game month, the estate passing at a 10% tax on all goods; the heir starts at his class's lowest level. A returning character repossesses (referee's option on the heir's grace) for another 10% — the heir may stay on as a retainer at loyalty 0 to -6, and may intrigue. The relative-less lose everything.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p13",
+  "blocks": [
+   5,
+   6,
+   7
+  ],
+  "content_sha256": [
+   "67f9bcb18c4b753844a9a83fa6bde0e659771faa61c52b1508499f8d5646d1ab",
+   "e55ab31eaaf1e686eb05454067e38badb1b31691881463dcfec63c03a8502041",
+   "16913f68d730bea0e628261918c37df6cfdd8d8e4a647f2a2f9bb25277d65130"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

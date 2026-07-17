@@ -1,0 +1,28 @@
+{
+ "id": "stronghold-rule-angry-villagers",
+ "name": "The Angry Villager Rule",
+ "system": "openfrp74",
+ "category": "strongholds",
+ "description": "When a player commits an unforgivable outrage, remember every horror movie: angry villagers, thieves of the thieves' quarter, city watch and militia — or someone like Conan — arrive to bring matters into line.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p24",
+  "blocks": [
+   9
+  ],
+  "content_sha256": [
+   "bcc31283c1110a53169b9494212decb23b13d5b6cd1614f383e6862e7fa7e93f"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

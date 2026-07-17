@@ -1,0 +1,28 @@
+{
+ "id": "adventure-rule-listening",
+ "name": "Listening at Doors",
+ "system": "openfrp74",
+ "category": "adventure-rules",
+ "description": "Listen at a door: humans hear on 1, Elves/Dwarves/Hobbits on 1-2. The Undead make no sound at all. Good referees keep noisy corridors and muttering rooms.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p09",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "05276d32f58d95a84f132a784252a3786c9d286c2b15e536b1c882b83cc306b2"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

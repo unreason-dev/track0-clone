@@ -1,0 +1,70 @@
+{
+ "id": "system-rule-npc-loyalty",
+ "name": "Loyalty and Morale of Retainers",
+ "system": "openfrp74",
+ "category": "system-rules",
+ "description": "Retainers serve loyally while paid regularly, treated fairly, spared perpetual extra-hazard, and bonused for danger. Roll 3d6 loyalty when first taken on; re-check periodically, service and rewards adding, poor treatment subtracting. Morale is checked in dangerous or unnerving straits.",
+ "data": {
+  "columns": [
+   "Loyalty Score",
+   "Morale"
+  ],
+  "rows": [
+   [
+    "3 or less",
+    "Deserts at first opportunity"
+   ],
+   [
+    "4-6",
+    "-2 on morale dice"
+   ],
+   [
+    "7-8",
+    "-1"
+   ],
+   [
+    "9-12",
+    "average"
+   ],
+   [
+    "13-14",
+    "+1"
+   ],
+   [
+    "15-18",
+    "+2"
+   ],
+   [
+    "19+",
+    "never checks morale"
+   ]
+  ],
+  "note": null
+ },
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p13",
+  "blocks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "content_sha256": [
+   "e03535be64a06d72db9739f9dd24eeb945c8c21c618d873b3988e59ba43d7a21",
+   "9a1403e55c4cc07ff1e5f940680b23c4f58bfe1cb086b75992ebb8b61a93207e",
+   "e033571e510d735f42725f4a9fcce3bd23bc344143809ab13b6535c001cd6a35",
+   "fd6f3e9532747ca2f9f492ce765d17d1bc14755c9f87cdc1fb457a16ecddf100"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

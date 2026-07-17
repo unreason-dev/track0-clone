@@ -1,0 +1,34 @@
+{
+ "id": "system-rule-currency-exchange",
+ "name": "Precious Metal Exchange",
+ "system": "openfrp74",
+ "category": "system-rules",
+ "description": "1 Gold Piece = 10 Silver; 1 Silver = 5 Copper. Optional Electrum at double or half gold; optional Platinum at five times gold.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p39",
+  "blocks": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "content_sha256": [
+   "139808f3ef15c50a6ee2a2e108c2c8c07cd5a66612a34a285d2507db274c1a21",
+   "de61f408938229ab1813c9a1bd147f237acd5046d1b47d431d3390402688721f",
+   "fc6a6cb3553114b473e599e9963828d41ea2960fce4990ef5892bf4f4d3cd10a",
+   "54da4ccdeb0e944e316d8c61568dddca2d38ac2f2d91514b3c86c1e6416984bd"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

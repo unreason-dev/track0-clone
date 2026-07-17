@@ -1,0 +1,45 @@
+{
+ "id": "hireling-seaman",
+ "name": "Seaman",
+ "system": "openfrp74",
+ "category": "hirelings",
+ "description": "Ships must be crewed by Seamen under a Ship Captain; fighters among them draw both pays.",
+ "data": null,
+ "special_notes": [
+  "cost: 10 GP/month"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p22",
+  "blocks": [
+   12
+  ],
+  "content_sha256": [
+   "a7d38c00ca74a70847ea6b892c3d0f02d65673aa0313eed25c7639c8135691bd"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p22",
+    "blocks": [
+     4,
+     5
+    ],
+    "content_sha256": [
+     "1af06036a4de8921ce7b44a0ed2079a32724fe75e903ad4a84d329fe6e75c7f1",
+     "82be189b9894afd898b7bd52c1bcaa1fbbeb03d1fd007bbdf0cb221c57d2f110"
+    ],
+    "note": "specialist cost tables"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

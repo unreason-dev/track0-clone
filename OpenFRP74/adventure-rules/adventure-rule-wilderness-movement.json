@@ -1,0 +1,59 @@
+{
+ "id": "adventure-rule-wilderness-movement",
+ "name": "Wilderness Movement",
+ "system": "openfrp74",
+ "category": "adventure-rules",
+ "description": "Hexes per day by mount and vessel (Man 3, Draft Horse 5, Light Horse 10, Galley 20…, flyers 15-48 per the tables); parties over 100 lose a hex, over 1,000 two. Terrain per OUTDOOR SURVIVAL: mountains/swamps 3 per hex, non-ford river crossings 3, woods/deserts 2; mountain tracks 2, wood/swamp tracks none. Rest one full day in six (Dragons: a week per three walking weeks, three weeks after flying ones). A hex spans about 5 miles; each move is a day, each day a turn.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [
+  "terrain penalties per OUTDOOR SURVIVAL"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p16",
+  "blocks": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "content_sha256": [
+   "1f9906aadbfea2cd1512b8d5464db1ebae6f13a20d5037fcde93416b244c761c",
+   "8caab2d747f92b4b48f644032161479c6f7a53dee3434ad38b9250a859162717",
+   "5029f1bedb1fca5058ba3a79ca890889a7f48e2519d2f8cd2cc7a4ef96535cfc",
+   "55567679b43003f5f26aeba6e9c68fc94d3698497b77974f72313dd515dcf398",
+   "f281172ef9df9f2f8ce9ce952da259984d04a1afa841efb8d7ba84601a2e3d55"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p17",
+    "blocks": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "eea79e32ae1f5a53a0ea0706054f96b1eb3fec01f772472dbaed03d74d754985",
+     "75f365dd70e44e973f9049d6b77ca5347857a622d0b563a1f31dd9ee07da9cf4",
+     "f639cf875624d684cff20091404e7a14ee2786ef15275c4a64df6287951a6ec9",
+     "d75bbb927db1bfcca316227537b03f3ff7ad9423a4db4ab4f0b152f5c8a18a4c",
+     "9b44a51735e9962fe756b2a8de382f2d2ff0779ef5769b5d70d4c874dccaa177"
+    ],
+    "note": "penalties, rest, scale, turn"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

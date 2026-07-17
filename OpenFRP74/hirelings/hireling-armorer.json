@@ -1,0 +1,45 @@
+{
+ "id": "hireling-armorer",
+ "name": "Armorer",
+ "system": "openfrp74",
+ "category": "hirelings",
+ "description": "One per 50 fighters is mandatory for upkeep. Unassisted he forges monthly one suit of armor, or three shields, or five weapons; two assistants (one a Smith) double it, six (two Smiths) treble it.",
+ "data": null,
+ "special_notes": [
+  "cost: 100 GP/month"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p22",
+  "blocks": [
+   7
+  ],
+  "content_sha256": [
+   "4e03e8f598b09b54c51ff053a2a5e6cbb7c2c81331941e0777d66d994b7b5ccc"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p22",
+    "blocks": [
+     4,
+     5
+    ],
+    "content_sha256": [
+     "1af06036a4de8921ce7b44a0ed2079a32724fe75e903ad4a84d329fe6e75c7f1",
+     "82be189b9894afd898b7bd52c1bcaa1fbbeb03d1fd007bbdf0cb221c57d2f110"
+    ],
+    "note": "specialist cost tables"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

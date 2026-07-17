@@ -1,0 +1,41 @@
+{
+ "id": "adventure-rule-other-worlds",
+ "name": "Other Worlds",
+ "system": "openfrp74",
+ "category": "adventure-rules",
+ "description": "No natural law is certain: space may be breathable, the stars tiny lights a few hundred miles up, and stretches of land gates to other worlds, dimensions, or times. Mars is given in these rules; any fantastic setting will serve — added gradually, so no sudden burden falls on the referee.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p24",
+  "blocks": [
+   11
+  ],
+  "content_sha256": [
+   "24c1380b5ff6e8ad85bd6555b41d023bfb445950db429bac0065fd99b5ee789b"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p25",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "0136115461389ae146cc81c9a923f51c3679bec7be6fe3b8cac7e0523d45431f"
+    ],
+    "note": "entry concludes"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

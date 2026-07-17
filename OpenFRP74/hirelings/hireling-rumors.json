@@ -1,0 +1,43 @@
+{
+ "id": "hireling-rumors",
+ "name": "Rumors, Information, and Legends",
+ "system": "openfrp74",
+ "category": "hirelings",
+ "description": "Advertising and any unusual doings breed rumor. News is bought in taverns: a round of drinks 10-60 GP, the barman's palm 1-10 GP. Misinformation is the referee's prerogative; legends are his instrument to lead or warn.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p23",
+  "blocks": [
+   9,
+   10
+  ],
+  "content_sha256": [
+   "76d6bab94ffb19aed36f3655f535b68ae60de59cc1ccc08b232a422803f84373",
+   "bed1b28573e69222ae62618f94d59759a79ce14e17b780506f7e2cc4664be623"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p24",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "d092bbe26d02516663a009195c398c68bf4a3bff629f6a7f7c3869b2c6b2a408"
+    ],
+    "note": "entry concludes"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

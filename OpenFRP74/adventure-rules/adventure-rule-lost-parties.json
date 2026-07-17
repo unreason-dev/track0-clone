@@ -1,0 +1,32 @@
+{
+ "id": "adventure-rule-lost-parties",
+ "name": "Lost Parties",
+ "system": "openfrp74",
+ "category": "adventure-rules",
+ "description": "Chance of losing the way depends on the terrain beginning the turn (per the wilderness matrix); a lost party moves in the die-indicated direction, one direction-change allowed. When exploring, the referee tells the party only which way it is lost.",
+ "data": null,
+ "special_notes": [],
+ "related": [
+  "matrix-wilderness-lost-encounter"
+ ],
+ "interpretation_records": [],
+ "external_refs": [
+  "direction die per OUTDOOR SURVIVAL board"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p17",
+  "blocks": [
+   9
+  ],
+  "content_sha256": [
+   "54c4016c65dbcb4bc4e62309f1342f5a299daf465415da10d80947ca62411c75"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

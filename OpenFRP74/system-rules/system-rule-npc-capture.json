@@ -1,0 +1,30 @@
+{
+ "id": "system-rule-npc-capture",
+ "name": "Capture and Subdual of Monsters",
+ "system": "openfrp74",
+ "category": "system-rules",
+ "description": "Failed morale can make a man or intelligent monster surrender or be subdued; offer service as with hiring. The subdued obey for a time without reaction checks — and are salable (Vol. II subdual prices).",
+ "data": null,
+ "special_notes": [],
+ "related": [
+  "monster-dragon"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p13",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "582e51d944ced397f0499b17ddf7576e4c4947c4a26caf9c88cfc79c3bc4d33e"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "id": "system-rule-experience-awards",
+ "name": "Experience Awards",
+ "system": "openfrp74",
+ "category": "system-rules",
+ "description": "Experience comes from treasure won and monsters defeated, prorated by depth: a character operating above his level gains own-level/dungeon-level (an 8th-level Magic-User on the 5th level earns 5/8). Never award above 1-for-1, and never more in one adventure than lifts the character a single level (award 3,999 rather than two levels' worth). Prime-requisite bonuses and penalties apply.",
+ "data": null,
+ "special_notes": [
+  "worked example arithmetic corrected per ir-a4 (6,737.5)"
+ ],
+ "related": [
+  "ability-strength",
+  "ability-intelligence",
+  "ability-wisdom"
+ ],
+ "interpretation_records": [
+  "ir-a4-xp-example-arithmetic"
+ ],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p18",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "416d87250ee80f5c896642c4509de8bc5531953acc40f2a9aeca5f69577cad75"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

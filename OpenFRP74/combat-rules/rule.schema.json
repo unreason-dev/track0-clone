@@ -1,0 +1,100 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "OpenFRP74 rule",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "name",
+  "system",
+  "category",
+  "description",
+  "source"
+ ],
+ "properties": {
+  "id": {
+   "type": "string"
+  },
+  "name": {
+   "type": "string"
+  },
+  "system": {
+   "const": "openfrp74"
+  },
+  "category": {
+   "type": "string"
+  },
+  "description": {
+   "type": "string"
+  },
+  "data": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "columns": {
+     "type": [
+      "array",
+      "null"
+     ],
+     "items": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    },
+    "rows": {
+     "type": "array",
+     "items": {
+      "type": "array",
+      "items": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     }
+    },
+    "note": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   }
+  },
+  "special_notes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "related": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "interpretation_records": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "external_refs": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "source": {
+   "type": "object"
+  },
+  "extraction": {
+   "type": "object"
+  }
+ }
+}

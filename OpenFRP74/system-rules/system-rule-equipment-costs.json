@@ -1,0 +1,343 @@
+{
+ "id": "system-rule-equipment-costs",
+ "name": "Basic Equipment and Costs",
+ "system": "openfrp74",
+ "category": "system-rules",
+ "description": "Starting money is 3d6 × 10 Gold Pieces; the price list covers arms, armor, transport, livestock, and dungeon sundries.",
+ "data": {
+  "columns": [
+   "Item",
+   "Cost (GP)"
+  ],
+  "rows": [
+   [
+    "3 or less",
+    "Will desert at first opportunity"
+   ],
+   [
+    "4 - 6",
+    "-2 on morale dice"
+   ],
+   [
+    "7 - 8",
+    "-1 on morale dice"
+   ],
+   [
+    "9 - 12",
+    "Average morale dice"
+   ],
+   [
+    "13 - 14",
+    "+1 on morale dice"
+   ],
+   [
+    "15 - 18",
+    "+2 on morale dice"
+   ],
+   [
+    "19 and above",
+    "Need never check morale"
+   ],
+   [
+    "Dagger",
+    "3"
+   ],
+   [
+    "Hand Axe",
+    "3"
+   ],
+   [
+    "Mace",
+    "5"
+   ],
+   [
+    "Sword",
+    "10"
+   ],
+   [
+    "Battle Axe",
+    "7"
+   ],
+   [
+    "Morning Star",
+    "6"
+   ],
+   [
+    "Flail",
+    "8"
+   ],
+   [
+    "Spear",
+    "2"
+   ],
+   [
+    "Pole Arm",
+    "7"
+   ],
+   [
+    "Halberd",
+    "7"
+   ],
+   [
+    "Two-Handed Sword",
+    "15"
+   ],
+   [
+    "Lance",
+    "4"
+   ],
+   [
+    "Pike",
+    "5"
+   ],
+   [
+    "Short Bow",
+    "25"
+   ],
+   [
+    "Long Bow",
+    "40"
+   ],
+   [
+    "Composite Bow",
+    "50"
+   ],
+   [
+    "Light Crossbow",
+    "15"
+   ],
+   [
+    "Heavy Crossbow",
+    "25"
+   ],
+   [
+    "Quiver of 20 Arrows",
+    "10"
+   ],
+   [
+    "Case with 30 Quarrels",
+    "10"
+   ],
+   [
+    "20 Arrows/30 Quarrels",
+    "5"
+   ],
+   [
+    "Silver Tipped Arrow",
+    "5"
+   ],
+   [
+    "Mule",
+    "20"
+   ],
+   [
+    "Draft Horse",
+    "30"
+   ],
+   [
+    "Light Horse",
+    "40"
+   ],
+   [
+    "Warhorse, Medium",
+    "100"
+   ],
+   [
+    "Warhorse, Heavy",
+    "200"
+   ],
+   [
+    "Saddle",
+    "25"
+   ],
+   [
+    "Saddle Bags",
+    "10"
+   ],
+   [
+    "Cart",
+    "100"
+   ],
+   [
+    "Wagon",
+    "200"
+   ],
+   [
+    "Raft",
+    "40"
+   ],
+   [
+    "Small Boat",
+    "100"
+   ],
+   [
+    "Small Merchant Ship",
+    "5000"
+   ],
+   [
+    "Large Merchant Ship",
+    "20000"
+   ],
+   [
+    "Small Galley",
+    "10000"
+   ],
+   [
+    "Large Galley",
+    "30000"
+   ],
+   [
+    "Leather Armor",
+    "15"
+   ],
+   [
+    "Chain-type Mail",
+    "30"
+   ],
+   [
+    "Plate Mail",
+    "50"
+   ],
+   [
+    "Helmet",
+    "10"
+   ],
+   [
+    "Shield",
+    "10"
+   ],
+   [
+    "Barding (Horse Armor)",
+    "150"
+   ],
+   [
+    "50' of Rope",
+    "1"
+   ],
+   [
+    "10' Pole",
+    "1"
+   ],
+   [
+    "12 Iron Spikes",
+    "1"
+   ],
+   [
+    "Small Sack",
+    "1"
+   ],
+   [
+    "Large Sack",
+    "2"
+   ],
+   [
+    "Leather Back Pack",
+    "5"
+   ],
+   [
+    "Water/Wine Skin",
+    "1"
+   ],
+   [
+    "6 Torches",
+    "1"
+   ],
+   [
+    "Lantern",
+    "10"
+   ],
+   [
+    "Flask of Oil",
+    "2"
+   ],
+   [
+    "3 Stakes & Mallet",
+    "3"
+   ],
+   [
+    "Steel Mirror",
+    "5"
+   ],
+   [
+    "Silver Mirror, Small",
+    "15"
+   ],
+   [
+    "Wooden Cross",
+    "2"
+   ],
+   [
+    "Silver Cross",
+    "25"
+   ],
+   [
+    "Holy Water/Vial",
+    "25"
+   ],
+   [
+    "Wolvesbane, bunch",
+    "10"
+   ],
+   [
+    "Belladona, bunch",
+    "10"
+   ],
+   [
+    "Garlic, bud",
+    "5"
+   ],
+   [
+    "Wine, quart",
+    "1"
+   ],
+   [
+    "Iron Rations (for dungeon\nexpeditions) 1 person/1 week",
+    "15"
+   ],
+   [
+    "Standard Rations for 1 person,\n1 week",
+    "5"
+   ]
+  ],
+  "note": "merged from the printed two-column-pair layout"
+ },
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p13",
+  "blocks": [
+   8,
+   9
+  ],
+  "content_sha256": [
+   "370f246d45d8d8e3572835d2e83a3ff647a84c48cf6a520a9ea931faa379c8e2",
+   "51bff7c2947fc72926a17178f5d4821d9df0e55e44cf8eb796c044b6a0b6a9b8"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p14",
+    "blocks": [
+     0,
+     1,
+     2
+    ],
+    "content_sha256": [
+     "cc5517c27bb0299fb7cce892c60f407aa64ad683bf8b2b8739c9375d650d1f49",
+     "a315e92dc9bcc28d4cf0ef6ba8b4724bd7c5efba43834a33e3549bf7d969dd67",
+     "f80f612aeffac0260c9d91362e8c0a12cd414adedc9c001060b7afba71183d74"
+    ],
+    "note": "cost table continuation"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

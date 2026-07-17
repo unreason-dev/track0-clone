@@ -1,0 +1,45 @@
+{
+ "id": "hireling-alchemist",
+ "name": "Alchemist",
+ "system": "openfrp74",
+ "category": "hirelings",
+ "description": "Duplicates any potion from a formula at half the potion's value; researches as a Magic-User at double time and cost, and only poisons.",
+ "data": null,
+ "special_notes": [
+  "cost: 1,000 GP/month"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p22",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "1f1c153f0f86dd8f59ef895568febee257a2b54fc794c1fde392c2fc482e4044"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p22",
+    "blocks": [
+     4,
+     5
+    ],
+    "content_sha256": [
+     "1af06036a4de8921ce7b44a0ed2079a32724fe75e903ad4a84d329fe6e75c7f1",
+     "82be189b9894afd898b7bd52c1bcaa1fbbeb03d1fd007bbdf0cb221c57d2f110"
+    ],
+    "note": "specialist cost tables"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

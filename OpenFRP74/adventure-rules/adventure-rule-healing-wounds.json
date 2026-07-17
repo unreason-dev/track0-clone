@@ -1,0 +1,28 @@
+{
+ "id": "adventure-rule-healing-wounds",
+ "name": "Healing Wounds",
+ "system": "openfrp74",
+ "category": "adventure-rules",
+ "description": "Energy levels return only through fresh experience; wounds heal with time or magic: the first day of full rest restores nothing, every day after it one hit point, until whole. It can take a long time.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p35",
+  "blocks": [
+   9
+  ],
+  "content_sha256": [
+   "13ce44f9fd64d3a114d062b33195ea2b45ea2b754fa8f92cd57b9225cf7f4c6c"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

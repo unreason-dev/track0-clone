@@ -1,0 +1,121 @@
+{
+ "id": "hireling-men-at-arms",
+ "name": "Men-at-Arms",
+ "system": "openfrp74",
+ "category": "hirelings",
+ "description": "Hired fighters — men, dwarves, elves, or (for the Chaotic) Orcs at half a man's upkeep. Monthly cost in GP: Non-Fighter 1; Light Foot 2 (Orc 1); Heavy Foot 3/4/5/1.5 (man/dwarf/elf/orc); Archer 5 (elf 10, orc 3); Crossbowman 4 (dwarf 5); Longbowman 10; Light/Medium/Heavy Horseman 10/15/20. To hire either class: post notices or send servitors at 100-600 GP a week; generosity governs success, and Elves, Dwarves, and specialists are scarce.",
+ "data": {
+  "columns": [
+   "Classification",
+   "Man",
+   "Dwarf",
+   "Elf",
+   "Orc"
+  ],
+  "rows": [
+   [
+    "Non-Fighter",
+    "1",
+    "---",
+    "---",
+    "---"
+   ],
+   [
+    "Light Foot",
+    "2",
+    "---",
+    "---",
+    "1"
+   ],
+   [
+    "Heavy Foot",
+    "3",
+    "4",
+    "5",
+    "1 1/2"
+   ],
+   [
+    "Archer",
+    "5",
+    "---",
+    "10",
+    "3"
+   ],
+   [
+    "Crossbowman",
+    "4",
+    "5",
+    "---",
+    "---"
+   ],
+   [
+    "Longbowman",
+    "10",
+    "---",
+    "---",
+    "---"
+   ],
+   [
+    "Light Horseman",
+    "10",
+    "---",
+    "---",
+    "---"
+   ],
+   [
+    "Medium Horseman",
+    "15",
+    "---",
+    "---",
+    "---"
+   ],
+   [
+    "Heavy Horseman",
+    "20",
+    "---",
+    "---",
+    "---"
+   ]
+  ],
+  "note": "Monthly cost in Gold Pieces"
+ },
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p23",
+  "blocks": [
+   4,
+   5,
+   6
+  ],
+  "content_sha256": [
+   "13586c247d90e97e30b97f3579f1dda6891ec4d8aa79708db3ee35ba0a97a447",
+   "ebe0d3f0bd8cf2601d24427d0019ef39adfa0563378a87d52482056defa66926",
+   "f4d05caec1a305ba04dbd77f7835c9591f535fdb9b2ac63357da05e087683fc1"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p23",
+    "blocks": [
+     7,
+     8
+    ],
+    "content_sha256": [
+     "5e43df1ceaa96f4e774855172ad3df3d572c2021ee04567f62820e910f431dd3",
+     "0449a81a473da6b5c7c08573d2612ec3d4427b261d694e9f06f25cfce994de47"
+    ],
+    "note": "obtaining rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "id": "adventure-rule-doors",
+ "name": "Doors",
+ "system": "openfrp74",
+ "category": "adventure-rules",
+ "description": "Doors open by force, not handles: 1-2 on d6 (smaller characters may need a 1), up to three trying at the cost of readiness. Doors close themselves — but open of themselves for monsters unless held. A spiked-open door slips shut on 5-6.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p09",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "f1f6f0b4d155a21aae208939bee31904bb65c6383b62b79a04fe694be78f6265"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

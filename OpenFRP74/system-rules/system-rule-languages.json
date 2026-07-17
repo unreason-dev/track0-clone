@@ -1,0 +1,30 @@
+{
+ "id": "system-rule-languages",
+ "name": "Languages",
+ "system": "openfrp74",
+ "category": "system-rules",
+ "description": "The common tongue is known to most humans; every speaking creature kind has its own language, one in five knowing common besides; and Law, Neutrality, and Chaos each speak a divisional tongue of their own. Communication may be attempted through any of these. Intelligence grants additional languages.",
+ "data": null,
+ "special_notes": [],
+ "related": [
+  "ability-intelligence"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p12",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "375423cb8e6022e4b8f58f55a988bf2b3e82e14fc3388c805d96f3cbf36b4560"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

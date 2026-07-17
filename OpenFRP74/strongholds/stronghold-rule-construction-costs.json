@@ -1,0 +1,64 @@
+{
+ "id": "stronghold-rule-construction-costs",
+ "name": "Castle and Stronghold Construction",
+ "system": "openfrp74",
+ "category": "strongholds",
+ "description": "Any character may claim land or a city lot and build. Costed parts per the CONSTRUCTION plate: Gatehouse 4,500-9,000 with portcullis and drawbridge; great round towers to 30,000; wall sections 42,000 with gates; Barbette 1,000; Small Tower 4,500; Great Keep 10,000; Bastion 3,000; Curtain Wall 3,500 per 90'; Towers 5,000-40,000; Barbican 14,000-20,000; Building 2,500. Doors, stairs, and windows per the fitted-cost list (Wooden Door 10/15 … Stairs stone 90/140; shorten towers −10%/10', extend +20%/10'). Other works: Moat 2,000; Earth Works 1,000; Palisade 1,500; Wooden Building 500 as stone-equivalent; Light/Heavy Catapult 250/400; Cauldron & Oil 50; Ram 1,000; Siege Tower 2,000. Anything unlisted prices by nearest comparison. Builders file duplicate plans with the referee — surprises, intakings, and sieges can happen.",
+ "data": null,
+ "special_notes": [
+  "hand-written plate values corroborated by pass-1 (adjudication log)"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p20",
+  "blocks": [
+   10,
+   11
+  ],
+  "content_sha256": [
+   "423d5cee0b3e1b073059ed3a2dd93bf0d62b0a4bfbb4cbd99b1114619a2d659e",
+   "3afbef2824e9a4addf1cdceb242876bb6a14e451d6d0e79f496430091769d145"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p21",
+    "blocks": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "453e905051fcd7f7c18e5a1277fe4976a11f740a5f5fcb287965b241f2ec3a2e",
+     "f8c932d8f4347293a89a184a35bddc1ac39f9955f596fd95063a8a92d320148a",
+     "c6a3bcfccae88a822a8970bd8f9fef19351234a9907147be9f12f9cce19ddc57",
+     "02aff29bc7be519ebee9ade6c102960ac391166986dd06e981e2a3e101fe0ded",
+     "7e9ed929528f6b5baa22f28dd21ecb3b55f6e95fba2093c510f016626aca5271"
+    ],
+    "note": "plate + cost lists"
+   },
+   {
+    "booklet": "v3",
+    "page": "p22",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "fe098372844a4158d6c3d742b6af349dfd260fa3a879682cb45c64a2567a806b"
+    ],
+    "note": "siege equipment costs"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

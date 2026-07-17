@@ -1,0 +1,45 @@
+{
+ "id": "hireling-assassin",
+ "name": "Assassin",
+ "system": "openfrp74",
+ "category": "hirelings",
+ "description": "Self-evident work; success odds are the referee's, weighed against the victim's precautions. Scarce — cap the yearly supply.",
+ "data": null,
+ "special_notes": [
+  "cost: 2,000 GP/mission"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p22",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "b913eaf0d37e97e8b352056330019d673b94a97ede2ac9c43f90e375cabf0bf2"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p22",
+    "blocks": [
+     4,
+     5
+    ],
+    "content_sha256": [
+     "1af06036a4de8921ce7b44a0ed2079a32724fe75e903ad4a84d329fe6e75c7f1",
+     "82be189b9894afd898b7bd52c1bcaa1fbbeb03d1fd007bbdf0cb221c57d2f110"
+    ],
+    "note": "specialist cost tables"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

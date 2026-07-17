@@ -1,0 +1,39 @@
+{
+ "id": "stronghold-rule-baronies",
+ "name": "Baronies",
+ "system": "openfrp74",
+ "category": "strongholds",
+ "description": "A wilderness stronghold rules its countryside once cleared of monsters — move a force to each hex, the referee dicing for monsters to remove. Territory up to ten miles distant from a stronghold may be kept clear of monsters once cleared — the inhabitation of the stronghold being considered as sufficient to maintain the monster-free status (missing word restored per errata). Each territory holds 2-8 villages of 100-400 souls paying 10 GP a year each; investments (roads, canals, inns, trade, farming, fishing…) grow revenue and population at the referee's adjudication (hunting and trapping excepted).",
+ "data": null,
+ "special_notes": [
+  "'ten' restored from Correction Sheet (Page 24 line 16)"
+ ],
+ "related": [
+  "class-fighting-man",
+  "class-cleric"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p24",
+  "blocks": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "content_sha256": [
+   "c58a0907faeb13f84e7844e6e0126afc59774cb2fa1a3deb6337e7edaf77c496",
+   "f2e1e1c1a4e7a882f371ce91456c3f44814b726fa2e45e1a10e923c45137783a",
+   "5adbb4beffe197a09bf87886f079685879c5fab4816a93ed65849afeeed14ecf",
+   "3552d2f43ad0e4585b25534bf4f80d4a4e36d76ebfe2842507b693514291de8a"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

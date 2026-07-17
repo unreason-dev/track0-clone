@@ -1,0 +1,82 @@
+{
+ "id": "system-rule-encumbrance",
+ "name": "Encumbrance",
+ "system": "openfrp74",
+ "category": "system-rules",
+ "description": "Weights in Gold Piece equivalents. A man bears 1,750 maximum; up to 750 he moves as Light Foot (12\"), to 1,000 as Heavy Foot (9\"), to 1,500 as Armored Foot (6\"), and to the 3,000 ceiling at half speed. Armor: leather 250, chain 500, plate 750; helmet 50, shield 150; polearms/two-handed 150 each; morning star/flail/battle axe 100; sword/mace/hand axe/bow-and-arrows 50; dagger 20; miscellaneous gear 80.",
+ "data": {
+  "columns": [
+   "Item",
+   "GP weight"
+  ],
+  "rows": [
+   [
+    "Coin (any metal)",
+    "1"
+   ],
+   [
+    "Small sack (holds)",
+    "50"
+   ],
+   [
+    "Large sack or backpack (holds)",
+    "300"
+   ],
+   [
+    "Scroll or piece of jewelry",
+    "20"
+   ],
+   [
+    "Potion or wine skin",
+    "30"
+   ],
+   [
+    "Flagon or chalice",
+    "50"
+   ],
+   [
+    "Wand with case",
+    "100"
+   ],
+   [
+    "Staff with case",
+    "300"
+   ],
+   [
+    "Gem",
+    "1"
+   ]
+  ],
+  "note": "Weight and Equivalents table"
+ },
+ "special_notes": [
+  "worked example totals 1,200 → Armored Foot 6\"/turn"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p15",
+  "blocks": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "content_sha256": [
+   "cac60e2a53205bcef3ed1da7c0d7431aa0d82f0261e1e06e2e7ece4f9a7be41e",
+   "c86e617c5b3a4a2e77ee99d171d94b3a8cac8c386ea836fce591ac7ec8f976a5",
+   "2710fec766d2186dc4a36f0338d8bb8e3cfff05ea87228cf6a8cca010f8436d1",
+   "609397f13f92cc9c38e42f692614ecb92f472de0bbd6f725135f2c0da4c9dd86",
+   "b325d42ba129e52856ca2115534d1b4119222e6da976eddc3b154af55dde8856"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

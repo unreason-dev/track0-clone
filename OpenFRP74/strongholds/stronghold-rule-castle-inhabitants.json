@@ -1,0 +1,59 @@
+{
+ "id": "stronghold-rule-castle-inhabitants",
+ "name": "Wilderness Castle Encounters",
+ "system": "openfrp74",
+ "category": "strongholds",
+ "description": "Ponds on the map are castles; occupants sortie on 1-3 over the castle hex, 1-2 one hex out, 1 two hexes out, and always answer a hail unless the party looks too strong. Determine occupant and guards per the castle table; hostility 1-3, neutrality 4-6 (Patriarchs always Lawful, Evil High Priests always Chaotic). Fighting-Men demand jousts of like class (CHAINMAIL rules — winner takes the loser's armor, or the victorious traveler earns a month's hosting, two weeks' rations, and warhorses); Magic-Users send passersby for treasure under Geas or exact a magic item or 1,000-4,000 GP; Clerics tithe 10%.",
+ "data": null,
+ "special_notes": [],
+ "related": [
+  "etable-castle-occupants"
+ ],
+ "interpretation_records": [],
+ "external_refs": [
+  "jousting per CHAINMAIL"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p15",
+  "blocks": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "content_sha256": [
+   "7d29478ee6e1edd0c19e006a5cc09d7976f989cc28590c7793c94fa25e66a182",
+   "d89a3e8b60c5846f488522bfb96a15bdc5b5916bac654e2e54ca2897e5cb65f3",
+   "aec764138b936382cad24b0ca240c7e5bc47332cb66557c8267b69bbe5e59761",
+   "c64d77a0d1121059cfe87574afe50a3f3bb6a752ea33ced0fcecbedc3670146d",
+   "cb347525a74a278a88140dfb02acf99bd08f194d285a4132eddf21d74d6036a8",
+   "859b9738fcac82c6dfdfb5b92498d3007765e2826b54e9909ef5f6a81955643a"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p16",
+    "blocks": [
+     0,
+     1,
+     2
+    ],
+    "content_sha256": [
+     "10ee3e6679656e2b6b401eadf58f3e0e74807e07bdca34380bd74b13c75ac8ec",
+     "a79a5c7525b103992bfcb59e3816a440d053bda795172dfcc08ac96b806bff60",
+     "58c5bfaf6c6671f8a69acc367443ae988ceaeabfd2ad97354b29e1bee6c84458"
+    ],
+    "note": "guards and retinues"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

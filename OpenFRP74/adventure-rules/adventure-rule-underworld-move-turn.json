@@ -1,0 +1,36 @@
+{
+ "id": "adventure-rule-underworld-move-turn",
+ "name": "The Move/Turn in the Underworld",
+ "system": "openfrp74",
+ "category": "adventure-rules",
+ "description": "Underground, all distances are in feet — read inches as tens of feet. Movement comes in ~10-minute segments: two moves per turn (120 feet per move fully-armored), doubled in flight/pursuit with no mapping allowed. One turn in every hour must be spent resting, twice that after flight/pursuit. Searching, loading, listening, ESP'ing cost referee-adjudged fractions (ESP a quarter-turn; searching ten feet of wall, a full turn).",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p08",
+  "blocks": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "content_sha256": [
+   "980fc126de92254f6c52cc0e2db36428423d39eba55790f1c77d05f2cc497e32",
+   "4cffb495c2e9616216b2065c78fa5df729c3c68d1dc1603d1a0c95c4a7ed8cf0",
+   "df8335c3d82dbf99492ab814eb54e21ac89a5a21ba4b6de8d2228e61105d85f3",
+   "55ea9a161a82deb2afa044c5c16f9f2e6029645dd04e28fcae53acfa55b3858e",
+   "232f62600d4d54e65d93655857c654cd870cb580ea346b0b2298b4fabb817efb"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "adventure-rule-time",
+ "name": "Time",
+ "system": "openfrp74",
+ "category": "adventure-rules",
+ "description": "Keep a per-player record, the referee checking off weeks: a dungeon expedition = 1 week; wilderness adventure = 1 move per day; 1 actual week = 1 game week. Dungeon time covers preparation and a one-day descent; wilderness time includes rest. Time passes for those mewed in their keeps as it does for those in the pits — but not for players out on a wilderness adventure.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p35",
+  "blocks": [
+   11
+  ],
+  "content_sha256": [
+   "0c7828ee5296e000b424ef965bf396a8afb0cbb5a836d06f805231ca5c98abec"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p36",
+    "blocks": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "content_sha256": [
+     "997455a91909ba3f69d973901c05f7e9dc6c2f7fb73a0d69fb57bb3f8dcb70d8",
+     "6c0ffa23de58f21aa92e26d61d2043b37732665e29c242c88bff795a4445211e",
+     "80d4013c0fffa0619180f8ae90e715f85d28a7cbde695b47813eee806604bb95",
+     "cddfaf3228b17e5b6648897d28af709df8e6dd3440c0e6d46eff0141fd9509c8"
+    ],
+    "note": "reckoning table and notes"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

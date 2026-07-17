@@ -1,0 +1,66 @@
+{
+ "id": "system-rule-npc-hiring",
+ "name": "Hiring Non-Player Characters",
+ "system": "openfrp74",
+ "category": "system-rules",
+ "description": "Only lowest-level characters can be hired: advertise by notices, public frequenting, or messengers to elf-land, dwarf-land and the like — at a cost and delay the referee sets — then tempt the respondent with an offer and roll 2d6 reaction. Monsters serve if of like alignment, or Charmed; a genuine reward must be offered (sparing a life is not one). Charisma caps the entourage.",
+ "data": {
+  "columns": [
+   "2d6",
+   "Reaction"
+  ],
+  "rows": [
+   [
+    "2",
+    "Attempts to attack"
+   ],
+   [
+    "3-5",
+    "Hostile reaction"
+   ],
+   [
+    "6-8",
+    "Uncertain (further offers possible)"
+   ],
+   [
+    "9-11",
+    "Accepts offer"
+   ],
+   [
+    "12",
+    "Enthusiast, Loyalty +3"
+   ]
+  ],
+  "note": null
+ },
+ "special_notes": [],
+ "related": [
+  "ability-charisma"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p12",
+  "blocks": [
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "content_sha256": [
+   "47552ee6fb1a1d1959312848ce8199fc02fd3705cb815e835b081124180ca0a2",
+   "67ea66c52d4ee629a5ccfd1aa2f9862768ec6e77a61be8a78894e5e7ccecb46b",
+   "7534fa799460d1de96f507c2f35aa12fca74eafb44dde481c832d339526213c3",
+   "56824987226ead188c994d80ae4298ad71208a5f4896bc740fa2b18df93f33db",
+   "b62ac69328d7e5383166ae0cdd76d98a782975b0f451cfdd612f8780f7652ff0"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

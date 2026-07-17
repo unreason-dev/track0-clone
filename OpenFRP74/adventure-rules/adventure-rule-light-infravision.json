@@ -1,0 +1,41 @@
+{
+ "id": "adventure-rule-light-infravision",
+ "name": "Light and Infravision",
+ "system": "openfrp74",
+ "category": "adventure-rules",
+ "description": "The underworld demands a light source or infravision. Light betrays: its bearers can never surprise except through a door, and wind snuffs torches. Monsters have permanent infravision until they serve a character; nearly every monster and man sees in the dark — save player characters.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p09",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "c365c27ede25119603944458603fecfefa4dc0f80d2f8e467909508851722b19"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p05",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "11ccdde51eae5463c44cfb3b0f4672bbdf31accaa487ae0c16d98f953e69c0a0"
+    ],
+    "note": "universal darkvision note"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
