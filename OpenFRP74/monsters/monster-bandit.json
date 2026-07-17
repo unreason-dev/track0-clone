@@ -1,0 +1,98 @@
+{
+ "id": "monster-bandit",
+ "name": "Bandits",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": null,
+ "number_appearing": null,
+ "armor_class_raw": "see Composition of Force",
+ "armor_class": null,
+ "move_raw": "see Composition of Force",
+ "move_inches": null,
+ "fly_inches": null,
+ "hit_dice_raw": "1 die/man",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": null,
+ "percent_in_lair": null,
+ "treasure_raw": null,
+ "treasure_refs": [],
+ "alignment": [
+  "neutrality",
+  "chaos"
+ ],
+ "description": "Normal men under super-normal leaders. Per 30 bandits rides one 4th-level Fighting-Man; per 50, additionally a 5th- or 6th-level fighter (d6 1-3/4-6); per 100, additionally an 8th- or 9th-level fighter (d6 1-3/4-6). Above 200 bandits there is a 50% chance of a Magic-User (d6 1-4: 10th, 5-6: 11th level) and 25% of an 8th-level Cleric; at exactly 300 the Magic-User is certain and the Cleric chance rises to 50%. Each leader has a 5% chance per level of magical gear, rolled by class: fighters for Armor, Shield, Sword; Magic-Users for Wand/Staff, Ring, Miscellaneous Magic; Clerics for Miscellaneous Weapon, Armor, Shield. Force composition: Light Foot (leather & shield) 40%, Short Bow or Light Crossbow (leather) 25%, Light Horse (leather & shield) 25%, Medium Horse (chain & shield) 10%; leaders ride heavy barded horses. Hit Dice: 1 per man.",
+ "special_notes": [
+  "alignment: 50% Neutrality / 50% Chaos per encounter",
+  "magic-gear check: 5%/level, 20-50% percentile bands by leader tier"
+ ],
+ "related_monsters": [
+  "monster-men"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-bandit",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p05",
+  "blocks": [
+   4,
+   5
+  ],
+  "content_sha256": [
+   "83c7787804d627e18b7e249e38626937ea37cccef27e3e0b4addd1eefd209a60",
+   "7da2e1e99e14923127a84b9898cad1a4917893bab778fb486466115fe41b74b3"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p06",
+    "blocks": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "content_sha256": [
+     "d81a88ebe4e5838c3a2fb74be6704090f6eb3857d207b05e920fa876a7f0b4c3",
+     "59b928563a4aef9517e858cb5f78082f5bdad4a8622a0d1c792c621824aecba8",
+     "a4bc2d16fbf5f030055ae7d47f0f1ec749a638604c54f2fd047629e340d1f4eb",
+     "314109a612275900c466ffa7b8ea861328f0e8e2b2898622eeeb2df901bd1b40",
+     "67b2b1c4ca17a56cbca2c8f95338b622994625a788b9c89f836497a36a1ad641",
+     "587f22f661ffd2f31f8ff509ef8f8469af1d4fb34c828955809d197fbe02333c",
+     "600d25a423fa4f58bde56485a1aaf99ea5ae6d1384134469f68adac2dc973358",
+     "97338ed9acca9c2315e4e1f74118d018cbdb3a5cd68c31ca02f7bd4e9a4330f6"
+    ],
+    "note": "example, gear bands, composition, alignment"
+   },
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

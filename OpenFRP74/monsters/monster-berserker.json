@@ -1,0 +1,78 @@
+{
+ "id": "monster-berserker",
+ "name": "Berserkers",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": null,
+ "number_appearing": null,
+ "armor_class_raw": "Leather Armor",
+ "armor_class": null,
+ "move_raw": "12\"",
+ "move_inches": 12,
+ "fly_inches": null,
+ "hit_dice_raw": "1 die +1/man",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": 1,
+  "note": null
+ },
+ "percent_in_lair_raw": null,
+ "percent_in_lair": null,
+ "treasure_raw": null,
+ "treasure_refs": [],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "Men mad with battle-lust, led by Fighting-Men exactly as Bandits are. They never check morale, and against normal men their fury adds +2 to attack dice. Armor class: leather. Move: 12\". Hit Dice: 1+1 per man. Alignment: Neutrality.",
+ "special_notes": [
+  "never check morale",
+  "+2 attack dice vs normal men"
+ ],
+ "related_monsters": [
+  "monster-bandit"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-berserker",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p06",
+  "blocks": [
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "content_sha256": [
+   "221c1c0a0115dc5f63fc4a16e7ce9ec292251d4e2821a478e77c33fe31219d4a",
+   "4b3ef386fb504295b17b8d1a40e658beb5b7799be898b9e6a4df70192aac2301",
+   "1d97d9d021ed4d8806c571cc698a272415830a699a5e2a6ac73644fc87313f5c",
+   "23e32cc5376dddfa2cd133bb27c17bf3bd9757a8a74b30405e889186d1f48b36",
+   "3b58ae20874d8801486e3fffd624d32f33a1d833a7d152764adeda4afb176319"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

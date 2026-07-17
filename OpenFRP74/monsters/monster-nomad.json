@@ -1,0 +1,74 @@
+{
+ "id": "monster-nomad",
+ "name": "Nomads",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": null,
+ "number_appearing": null,
+ "armor_class_raw": "by composition",
+ "armor_class": null,
+ "move_raw": "by composition",
+ "move_inches": null,
+ "fly_inches": null,
+ "hit_dice_raw": "1 die/man",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": null,
+ "percent_in_lair": null,
+ "treasure_raw": null,
+ "treasure_refs": [],
+ "alignment": [],
+ "description": "Raiders of desert and steppe, like Bandits in leaders and general character but mounted: desert bands ride 50% Light Horse Lancers, 20% Light Horse Bowmen, 30% Medium Horse Lancers; steppe bands 20% Light Horse Lancers, 50% Light Horse Bowmen, 10% Medium Horse Lancers, 20% Medium Horse Bowmen. Encampments post an additional 20-40 medium foot with composite bows.",
+ "special_notes": [],
+ "related_monsters": [
+  "monster-bandit",
+  "monster-dervish"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p06",
+  "blocks": [
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "content_sha256": [
+   "3d8f076a340dd1797f9c06263d7aec4342e20542011301e6944400ace06b81eb",
+   "735f837623996b3c5aef9aca097e229c268b75aa9c416c49016ca58298d0bfc5",
+   "7b3d80731cad84fa71624a0d3600ba36b4ac5f3565d16f208ceab30e02863895",
+   "b8475252b9c79c45f03ab88b1ce93d757bef7f1c418dccddfdfffef3f5511907",
+   "9360e3c55f77838f9a75d6eb89167d5de8268f1a9d8a172d7e6f1a9a92a59b8a"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

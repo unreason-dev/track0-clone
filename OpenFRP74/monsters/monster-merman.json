@@ -1,0 +1,68 @@
+{
+ "id": "monster-merman",
+ "name": "Mermen",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": null,
+ "number_appearing": null,
+ "armor_class_raw": "equal to Leather Armor",
+ "armor_class": null,
+ "move_raw": null,
+ "move_inches": null,
+ "fly_inches": null,
+ "hit_dice_raw": "1 die +1",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": 1,
+  "note": "as Berserkers"
+ },
+ "percent_in_lair_raw": null,
+ "percent_in_lair": null,
+ "treasure_raw": null,
+ "treasure_refs": [],
+ "alignment": [],
+ "description": "As Berserkers in most respects, though ashore they fight at -1. Armed half with tridents, half with darts; armored as leather.",
+ "special_notes": [
+  "-1 fighting on land",
+  "weapons 50/50 tridents/darts"
+ ],
+ "related_monsters": [
+  "monster-berserker"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-merfolk",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p07",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "69c89154b76844b4d3f2f55efca0f36918d7d8868cca9440190f7abe7bd5e0d7"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

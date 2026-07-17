@@ -1,0 +1,95 @@
+{
+ "id": "monster-goblin",
+ "name": "Goblins",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "40 - 400",
+ "number_appearing": {
+  "min": 40,
+  "max": 400,
+  "note": "shared table row with Kobolds"
+ },
+ "armor_class_raw": "6",
+ "armor_class": 6,
+ "move_raw": "6",
+ "move_inches": 6,
+ "fly_inches": null,
+ "hit_dice_raw": "1-1",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": -1,
+  "note": "minimum 1 pip"
+ },
+ "percent_in_lair_raw": "50%",
+ "percent_in_lair": 50,
+ "treasure_raw": "1-6 G.P. ea.",
+ "treasure_refs": [],
+ "alignment": [
+  "chaos"
+ ],
+ "description": "Small monsters of the underworld who see well in darkness and dim light but fight at -1 to attack and morale under full daylight. They attack dwarves on sight. Their hit dice always score at least one pip. In their lair rules the goblin king — fighting as a Hobgoblin in all respects — ringed by 5-30 guards (5d6) who fight as Hobgoblins too.",
+ "special_notes": [],
+ "related_monsters": [
+  "monster-kobold",
+  "monster-hobgoblin"
+ ],
+ "statline_shared_with": "monster-kobold",
+ "counterpart_5_1srd": "monster-goblin",
+ "interpretation_records": [],
+ "period_conventions": [
+  "table row 'Goblins/Kobolds' split per census; AC 6/7 and HD 1-1/1/2 read as Goblin 6, 1-1; Kobold 7, 1/2"
+ ],
+ "external_refs": [
+  "base description delegated to CHAINMAIL"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p07",
+  "blocks": [
+   5,
+   6
+  ],
+  "content_sha256": [
+   "a05aca60c17b9b73fe3dbc224132116caa3dc484dab4a7d2841bf199f2fb452d",
+   "0c855888d80e93044a126b46aeb062aecd2badecceaa7763df0616feef54bcfb"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

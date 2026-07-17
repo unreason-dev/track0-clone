@@ -1,0 +1,113 @@
+{
+ "id": "monster-orc",
+ "name": "Orcs",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "30 - 300",
+ "number_appearing": {
+  "min": 30,
+  "max": 300,
+  "note": null
+ },
+ "armor_class_raw": "6",
+ "armor_class": 6,
+ "move_raw": "9",
+ "move_inches": 9,
+ "fly_inches": null,
+ "hit_dice_raw": "1",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "50%",
+ "percent_in_lair": 50,
+ "treasure_raw": "Type D",
+ "treasure_refs": [
+  "treasure-type-d"
+ ],
+ "alignment": [
+  "neutrality",
+  "chaos"
+ ],
+ "description": "Tribal monsters — as many tribes as the campaign wants; roll to see which is met, and keep tribal hostility in mind: different tribes attack each other on sight unless a stronger master scores better than 50% on an obedience check (4-6 on d6). Orcs shun full daylight, reacting as Goblins do. Their lair is a sentry-guarded cave complex (d6 1-4) or a village behind ditch and palisade with a light catapult per 50 Orcs and a central tower (5-6). Lair guardians by die: cave — Balrog 25%/100 Orcs, Dragon 10%/100, 1-6 Ogres 10%/50, 1-4 Trolls 10%/100; village — 7th-9th level Fighting-Man 25%/100, 11th-level Magic-User 10%/100, 1-6 Ogres 15%/50. They defend the lair without morale checks until outnumbered 3-1. Abroad, 50% chance they escort a wagon train of 1-8 wagons, each carrying 200-1,200 Gold Pieces, guarded by 10 more Orcs per wagon and led by a Fighting-Man (Champion/Superhero/Lord by d6 1/2-4/5-6) or Magic-User (Sorcerer/Necromancer/Wizard likewise), 50% either. In a mapped campaign, record tribe and territory — neighbors are tribe-mates.",
+ "special_notes": [],
+ "related_monsters": [
+  "monster-goblin",
+  "monster-balrog"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-orc",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p07",
+  "blocks": [
+   8,
+   9,
+   10,
+   11
+  ],
+  "content_sha256": [
+   "3136773714b2413bc71559f3b2adae6da3978326042c94b66498e883f953f508",
+   "7d480adfb52ab10010590b1bc4cc04f959fb09a01612186656871f91943d01a5",
+   "712d005867f4116a74538d5017ab29458cd439525b4cb9b7bf51a49ff86705e2",
+   "c19b6ce71f748f4d6f4d25db806693e44d361f733caa0086e234c26c1508581b"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p08",
+    "blocks": [
+     0,
+     1,
+     2
+    ],
+    "content_sha256": [
+     "a6c2a5931d8238d422191b35cae9f4db34806340129efa29e170e6f31f879258",
+     "5ab9176c612efe018f3731f03ddd6616691a0756bfeaf789b206ccf4e837e046",
+     "ee835c539e76e2570c1d3a6eb8ed54de61472adc0737f312d4e3e321763eddfb"
+    ],
+    "note": "entry concludes"
+   },
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

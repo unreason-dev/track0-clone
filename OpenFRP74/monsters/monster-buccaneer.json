@@ -1,0 +1,68 @@
+{
+ "id": "monster-buccaneer",
+ "name": "Buccaneers",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": null,
+ "number_appearing": null,
+ "armor_class_raw": "by composition",
+ "armor_class": null,
+ "move_raw": "by composition",
+ "move_inches": null,
+ "fly_inches": null,
+ "hit_dice_raw": "1 die/man",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": null,
+ "percent_in_lair": null,
+ "treasure_raw": null,
+ "treasure_refs": [],
+ "alignment": [],
+ "description": "Water-going Bandits in all respects but the makeup of their force: Light Foot 60%, Light Crossbow 30%, Heavy Crossbow (chain mail) 10%.",
+ "special_notes": [],
+ "related_monsters": [
+  "monster-bandit",
+  "monster-pirate"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p07",
+  "blocks": [
+   0,
+   1
+  ],
+  "content_sha256": [
+   "cc1bb4367bba9ab6de3af7f7d6e104259c0ded73dfdbb5708b8aed3ff8d1a7b8",
+   "0e5bb2b1428284f7aa6b4f76f0d0eb56115a2d494d491563825f20d7d6193970"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
