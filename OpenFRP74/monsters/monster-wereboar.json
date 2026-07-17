@@ -1,0 +1,108 @@
+{
+ "id": "monster-wereboar",
+ "name": "Wereboar",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "2 - 20",
+ "number_appearing": {
+  "min": 2,
+  "max": 20,
+  "note": null
+ },
+ "armor_class_raw": "4",
+ "armor_class": 4,
+ "move_raw": "12",
+ "move_inches": 12.0,
+ "fly_inches": null,
+ "hit_dice_raw": "4 + 1",
+ "hit_dice": {
+  "min": 4,
+  "max": 4,
+  "bonus": 1,
+  "note": null
+ },
+ "percent_in_lair_raw": "15%",
+ "percent_in_lair": 15,
+ "treasure_raw": "Type C",
+ "treasure_refs": [
+  "treasure-type-c"
+ ],
+ "alignment": [
+  "neutrality",
+  "chaos"
+ ],
+ "description": "The wereboar breed of Lycanthrope; all common Lycanthrope rules (packs, defense multipliers, infection) apply.",
+ "special_notes": [],
+ "related_monsters": [
+  "monster-lycanthrope"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-wereboar",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p14",
+  "blocks": [
+   4,
+   5,
+   6,
+   7
+  ],
+  "content_sha256": [
+   "bfd533a8dd08c623c25aee4773577b0171c024fa5b3a38291ac2871fd979dd22",
+   "dc8495c07d75fcb5f4884ef1123525427fb2eae4e268815cec0f05a8a68e15fa",
+   "987b7474d921f5dde1a4421de7e0d6ff81b0ad3734f1a19418dcca562eaf4c70",
+   "3a9b4c842025d8750ffd6ee2d648d5b89802908cd9058a750e2781091edc3b57"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p15",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "49c593cd39124658a97a8943ac863643bef79f2d6299c184b38b69cfa34e66c7"
+    ],
+    "note": "family-pack conclusion, infection"
+   },
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "id": "monster-nixie",
+ "name": "Nixies",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "10 - 100",
+ "number_appearing": {
+  "min": 10,
+  "max": 100,
+  "note": null
+ },
+ "armor_class_raw": "7",
+ "armor_class": 7,
+ "move_raw": "12",
+ "move_inches": 12,
+ "fly_inches": null,
+ "hit_dice_raw": "1",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "100%",
+ "percent_in_lair": 100,
+ "treasure_raw": "Type B",
+ "treasure_refs": [
+  "treasure-type-b"
+ ],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "Water sprites, neutral by nature, forever luring humans below to a year's enslavement: per 10 Nixies one Charm Person works on any person within 3\" of their lair, the charmed walking underwater to serve out the year (Dispel Magic has a 75% chance before immersion). They fight with daggers and javelins (6\" throw), and in the water command a school of 10-100 of the fiercest local fish — muskie, pike, gar — which flame holds back, though not the Nixies themselves.",
+ "special_notes": [
+  "1 Charm Person per 10 Nixies, 3\" of lair; year-long thrall",
+  "commanded fish school 10-100"
+ ],
+ "related_monsters": [],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p15",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "86868c272b9e60e5cf09c5093af3a71c6499112564523e3bcb3fffba28bdf3a0"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p16",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "e6d6120b51e01449b95fd7a73450d9e5fabf0a5c876772ef9d46448090c4f62f"
+    ],
+    "note": "entry concludes"
+   },
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

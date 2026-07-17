@@ -1,0 +1,93 @@
+{
+ "id": "monster-elf",
+ "name": "Elves",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "30 - 300",
+ "number_appearing": {
+  "min": 30,
+  "max": 300,
+  "note": null
+ },
+ "armor_class_raw": "5",
+ "armor_class": 5,
+ "move_raw": "12",
+ "move_inches": 12,
+ "fly_inches": null,
+ "hit_dice_raw": "1 +1",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": 1,
+  "note": null
+ },
+ "percent_in_lair_raw": "25%",
+ "percent_in_lair": 25,
+ "treasure_raw": "Type E",
+ "treasure_refs": [
+  "treasure-type-e"
+ ],
+ "alignment": [
+  "law",
+  "neutrality"
+ ],
+ "description": "Of two sorts — woodland and meadowland. Per 50 Elves one is above normal: roll d4 for fighting level and d6 for magic level (1s count as 2s; magical 6s as 5s); per 100, a Hero/Warlock. Half a party bears bows, half spears, all carry swords. They move silently, near-invisible in gray-green cloaks; with magical weapons they add a pip to each damage die (2-7 per die). Afoot they split-move and fire; mounted they cannot, being no natural riders.",
+ "special_notes": [
+  "silent movement, near-invisibility in cloaks",
+  "+1 pip/die with magic weapons",
+  "split-move-and-fire on foot"
+ ],
+ "related_monsters": [],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p16",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "4ec0aa1ae48185eb5895a1d8b12010e5456832d49f58176c031d38a15c7d0b1a"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

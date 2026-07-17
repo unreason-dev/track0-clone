@@ -1,0 +1,90 @@
+{
+ "id": "monster-griffon",
+ "name": "Griffons",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "2 - 16",
+ "number_appearing": {
+  "min": 2,
+  "max": 16,
+  "note": null
+ },
+ "armor_class_raw": "3",
+ "armor_class": 3,
+ "move_raw": "12/30",
+ "move_inches": 12,
+ "fly_inches": 30,
+ "hit_dice_raw": "7",
+ "hit_dice": {
+  "min": 7,
+  "max": 7,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "10%",
+ "percent_in_lair": 10,
+ "treasure_raw": "Type E",
+ "treasure_refs": [
+  "treasure-type-e"
+ ],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "The most prized of steeds — swift, loyal, fierce — but mad for horseflesh above all foods: never mix them with horses or bring the two within 36\". Wild Griffons attack anyone near with little provocation, above all close to their lair.",
+ "special_notes": [
+  "incompatible with horses within 36\""
+ ],
+ "related_monsters": [],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-griffon",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p18",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "15878a67e71645e816cf01d7d53dccb1a1bb7510045e389ccde183fa38d001d4"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
