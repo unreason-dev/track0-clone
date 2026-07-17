@@ -1,0 +1,162 @@
+{
+ "id": "monster-green-dragon",
+ "name": "Green Dragons",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "1 - 4",
+ "number_appearing": {
+  "min": 1,
+  "max": 4,
+  "note": null
+ },
+ "armor_class_raw": "2",
+ "armor_class": 2,
+ "move_raw": "9/24",
+ "move_inches": 9,
+ "fly_inches": 24,
+ "hit_dice_raw": "7 - 9",
+ "hit_dice": {
+  "min": 7,
+  "max": 9,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "60%",
+ "percent_in_lair": 60,
+ "treasure_raw": "Type H",
+ "treasure_refs": [
+  "treasure-type-h"
+ ],
+ "alignment": [
+  "neutrality",
+  "chaos"
+ ],
+ "description": "Green Dragons haunt woods and forests. Breath weapon: Chlorine Gas, 5\" x 4\" cloud. Chance of talking 55%; of being found asleep 40%. Talkers have a 10% chance of magic, 1st- and 2nd-level spells. All common dragon rules apply.",
+ "special_notes": [
+  "weapon efficacy: Air +1"
+ ],
+ "related_monsters": [
+  "monster-dragon"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-adult-green-dragon",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p11",
+  "blocks": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "content_sha256": [
+   "8914791602b65d75d9ec41aad14ee75748365d1b9ed0506dfc4a1b120e503576",
+   "f175da3557685227aeb6a30a430d0db9d453a31364ed34fcb3238c8df37fa1dc",
+   "407fba262c39b6524b7c3c1aeda5c926d7ce64c66498d6f972ecff3a7d7b06b0",
+   "84658ae5b87ccdc28e72569d6bb76d95b6c7a6d097258bbfd671139129cfb2f8",
+   "e5837c0ae9c7a7ca8e150efac51ac3b0a5d3ec0d944068ad97821bbe8604c273",
+   "a85e1cd4c80858a8a1bac7f2d652ee46f0f0a30129452afecfbc5fd451a236e8",
+   "3c79cb88d2b72cb486527c1f285228c00e576afbfac080a95f4c2feaba6300c5",
+   "61caace83a6e074c65c7fabe6efee700adac4131fe2f60166af4b1d2bfd03068",
+   "96415d1567e5e5e78019db7eb35159c905b5f455056b38d8a5f4583ab6d9ab72"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p12",
+    "blocks": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "content_sha256": [
+     "44af9e50b787b6ceaf2df64dd9e69b2e29b358cd97b8d1f00eaaf15850d19aec",
+     "18cc067d0b0e26b7f6d2e723ae46551c5ea7d8bbfd0335d313e23a108bf2d3a4",
+     "c4bc66dc293041fc3a366d207fe7457224f1da129463c484e253dbc2f10e39c6",
+     "9630f7e08295a0b550622e34c5648b1c146dcc4c2d12d296a0691240f2191af0",
+     "d52b0b069999c40f0c8fbb596abad099bad477190a88eb2b02870f8c7c231d0d",
+     "206dfd0bf64ddf3f92f14e00d8f7062a619e10a6d24a9495629eb7b80d985b38",
+     "132249312497a482d9d5d6d9bc2416375b67de6f9e2652397cec9464ee9048d0"
+    ],
+    "note": "attacking/weapon-efficacy/subduing"
+   },
+   {
+    "booklet": "v2",
+    "page": "p13",
+    "blocks": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "content_sha256": [
+     "1e0f221482e8f80b85f61c694d39bb546ae8fb06fb7a3d37cd2af30efb810922",
+     "4e9dbb8612cd571f4c497302a843d3d0cba5d3e8245335543e045442eef27101",
+     "5e26fb1c87ff5ca57a62a5c29cadcdf789175c2aa922e19a80cf3788c4366061",
+     "14b35bf905b6f9c81f36045bb4d72ddcfe4f08815d4a5b63ee80e803e7104e7c"
+    ],
+    "note": "subdual example, cap, value, length"
+   },
+   {
+    "booklet": "v2",
+    "page": "p14",
+    "blocks": [
+     0,
+     1
+    ],
+    "content_sha256": [
+     "4bae4eb61a573c802721ad3c3eb88dcd236bd2cde32fe5eb48aa05e3ad75df9d",
+     "b53e9e78ffc9383d6801a92a3fd9ff45ba7ba9a20d63df9f4c62cff85677e261"
+    ],
+    "note": "pairs/families, treasure by age"
+   },
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
