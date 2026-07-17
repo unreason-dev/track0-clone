@@ -1,0 +1,101 @@
+{
+ "id": "table-magic-item-saving-throws",
+ "name": "Magical Items' Saving Throws",
+ "system": "openfrp74",
+ "die_sides": 20,
+ "usage": "When the bearer is killed (or the item lies alone) and Fire (Dragon or Ball) or Lightning (Dragon or Bolt) strikes: roll d20 ≥ the item's target to survive. Items not listed are automatically destroyed; items on a living bearer survive if the bearer does (Helms excepted). Rows give target numbers, not roll ranges.",
+ "rows": [
+  {
+   "min": 10,
+   "max": 10,
+   "result": "Staff of Power",
+   "result_raw": null,
+   "refs": [
+    "item-staff-of-power"
+   ],
+   "note": null
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "result": "Staff of Wizardry",
+   "result_raw": null,
+   "refs": [
+    "item-staff-of-wizardry"
+   ],
+   "note": null
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "result": "Fire Ball Wand / Lightning Bolt Wand",
+   "result_raw": null,
+   "refs": [
+    "item-wand-of-fire-balls",
+    "item-wand-of-lightning-bolts"
+   ],
+   "note": "−2 (target 16) if hit by the opposite weapon it throws"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "result": "Fire Resistance Ring",
+   "result_raw": null,
+   "refs": [
+    "item-ring-fire-resistance"
+   ],
+   "note": "−2 (target 12) if hit by lightning"
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "result": "Ring of Protection",
+   "result_raw": null,
+   "refs": [
+    "item-ring-protection"
+   ],
+   "note": null
+  },
+  {
+   "min": 14,
+   "max": 14,
+   "result": "Magic Armor, Shield or Weapon (base)",
+   "result_raw": null,
+   "refs": [
+    "item-magic-armor"
+   ],
+   "note": "+1 items target 12; +2 target 10; +3 blank in print"
+  }
+ ],
+ "footnotes": [
+  "Roll with a twenty-sided die (printed footnote)",
+  "+3 column prints no value — gap as printed"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p38",
+  "blocks": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "content_sha256": [
+   "085a631dbbf3ba62c6b8d63419a00452059c0e96d01725d45f172c89ca606a45",
+   "5c354418a41593e43e2dbbe5a71f0f9d424ea920a85caf694773f373cbba9f21",
+   "3f67b28b6541ebaf7bbcee88f8282decc0b8c2ca2ae33be040e86cb626c997eb",
+   "25dc387e1b2afd42bef30855cd9ab43ebfba22b27a63aa1795f2b7fe1be91849",
+   "e5a900e441c1d5ca1b47867c99d7a2275bb283ec48c39b32585470ae10cdc62f",
+   "9d8041b8a3474b9064638e598b989ee9ba42d8cc2e725f8b11a3937156d0c69e"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
