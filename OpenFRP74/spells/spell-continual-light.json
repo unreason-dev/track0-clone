@@ -1,0 +1,72 @@
+{
+ "id": "spell-continual-light",
+ "name": "Continual Light",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 2,
+   "note": null
+  },
+  {
+   "class": "cleric",
+   "level": 3,
+   "note": null
+  }
+ ],
+ "range_raw": "12\"",
+ "range_inches": 12,
+ "duration_raw": "until dispelled",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Kindles a lasting radiance wherever the caster wishes — a circle of illumination 24\" across, short of true daylight, burning until dispelled. Range: 12\".",
+ "related_spells": [
+  "spell-light"
+ ],
+ "counterpart_5_1srd": "spell-continual-flame",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p25",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "3add984e4a0d931fa3bacd31b4d1be673c526bc233172462a2ee77a7271c2ecd"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   },
+   {
+    "booklet": "v1",
+    "page": "p33",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "87e5a8ad5e466bd4f1fc5fd8d003ac10fbd370383a331e0005af0ba0d199700a"
+    ],
+    "note": "Cleric list entry"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

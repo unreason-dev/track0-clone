@@ -1,0 +1,58 @@
+{
+ "id": "spell-invisibility",
+ "name": "Invisibility",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 2,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "until broken by the user or outside force",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Renders one person or thing unseen until the caster ends the spell or an outside force breaks it — and, as in the source combat rules, no one can remain invisible and attack. Range: 24\".",
+ "related_spells": [
+  "spell-detect-invisible-objects"
+ ],
+ "counterpart_5_1srd": "spell-invisibility",
+ "interpretation_records": [],
+ "period_conventions": [
+  "combat interaction delegated to CHAINMAIL (external-refs)"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p24",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "c45543e3099433b392deb26379969366aa4fee422d55c62d8f93d7da9338bb07"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

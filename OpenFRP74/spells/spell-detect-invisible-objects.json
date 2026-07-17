@@ -1,0 +1,69 @@
+{
+ "id": "spell-detect-invisible-objects",
+ "name": "Detect Invisible (Objects)",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 2,
+   "note": null
+  }
+ ],
+ "range_raw": "1\" x the level of the Magic-User",
+ "range_inches": null,
+ "duration_raw": "6 turns",
+ "duration_turns": 6,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Reveals what unseen things lie nearby — treasure secreted by an Invisibility spell, or invisible creatures themselves. Duration: 6 turns. Range: 1\" per level of the caster, so an 11th-level Wizard reaches 11\".",
+ "related_spells": [
+  "spell-invisibility"
+ ],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [
+  "range formula: 1\" × caster level"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p23",
+  "blocks": [
+   12
+  ],
+  "content_sha256": [
+   "053f1a276456eab7cf49a95877a4d76bf120725920aad37ce50bcedb43efc68f"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p24",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "0baa1effe4be2c968f5037ef00c723dee55692dfc926b31a6618cdb42b23b5d5"
+    ],
+    "note": "entry concludes"
+   },
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

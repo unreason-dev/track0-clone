@@ -1,0 +1,56 @@
+{
+ "id": "spell-levitate",
+ "name": "Levitate",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 2,
+   "note": null
+  }
+ ],
+ "range_raw": "2\"/level of Magic-User",
+ "range_inches": null,
+ "duration_raw": "6 turns + the level of the user",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": "6 + caster level",
+ "reversible": false,
+ "description": "The caster rises and descends at will, all magical motion being vertical — though one might drift to a ceiling and pull along it by hand. Upward speed is 6\" per turn. Duration: 6 turns plus the caster's level. Range of levitation: 2\" per level of the caster.",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-levitate",
+ "interpretation_records": [],
+ "period_conventions": [
+  "range formula: 2\" × caster level; ascent 6\"/turn"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p24",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "5d139168ebe4910f063a5496d68570e7b9e400af83ce88447855efa20aa9c4c5"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

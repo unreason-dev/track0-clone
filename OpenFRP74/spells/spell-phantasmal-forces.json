@@ -1,0 +1,54 @@
+{
+ "id": "spell-phantasmal-forces",
+ "name": "Phantasmal Forces",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 2,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "concentration; no limit per se",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Conjures a vivid illusion of nearly anything the caster imagines — a projected mental image. It persists as long as the caster concentrates, without limit, unless some living creature touches it. Harm dealt by a Phantasmal Force is real to any viewer who believes the illusion. Range: 24\".",
+ "related_spells": [],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p24",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "7a9077bcda5fdd506b17e9e2afc3c0b6ed6688fd02d10592e7a84958fff6fa8b"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

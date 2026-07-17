@@ -1,0 +1,56 @@
+{
+ "id": "spell-locate-object",
+ "name": "Locate Object",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 2,
+   "note": null
+  }
+ ],
+ "range_raw": "6\" + 1\"/level of the Magic-User",
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Points the caster toward an object — but only one known with certainty: to find a particular magical item its exact nature, dimensions, and coloring must be known, though commonplace things like a flight of stairs leading up can always be sought. The spell gives direction, never distance, and the object must lie within range. Range: 6\" plus 1\" per level, so a 10th-level Necromancer reaches 16\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-locate-object",
+ "interpretation_records": [],
+ "period_conventions": [
+  "range formula: 6\" + 1\" × caster level"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p24",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "f9843a6945f127a5f238a458a5e07f7b8bfa59dee46f5a505a77cf05cbfd9967"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

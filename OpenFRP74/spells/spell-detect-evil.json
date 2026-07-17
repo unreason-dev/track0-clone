@@ -1,0 +1,70 @@
+{
+ "id": "spell-detect-evil",
+ "name": "Detect Evil",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 2,
+   "note": null
+  },
+  {
+   "class": "cleric",
+   "level": 1,
+   "note": null
+  }
+ ],
+ "range_raw": "6\"",
+ "range_inches": 6,
+ "duration_raw": "2 turns",
+ "duration_turns": 2,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Senses evil intent in creatures, or evil enchantment in objects. Mere danger does not register — poison, for example, is neither good nor evil. Duration: 2 turns. Range: 6\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-detect-evil-and-good",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p25",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "779915d8a27c4a1a8441b3c5f7a3225cbd18e09f444ca1fb4d399e7f1c207266"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   },
+   {
+    "booklet": "v1",
+    "page": "p32",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "131a015e58a7ef272c98aef682eb304f4f291d7c82ce9d21ed01cfe951081831"
+    ],
+    "note": "Cleric list entry"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
