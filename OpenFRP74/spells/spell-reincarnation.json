@@ -1,0 +1,56 @@
+{
+ "id": "spell-reincarnation",
+ "name": "Reincarnation",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 6,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Calls a dead character back — in another body. The new form follows the dead one's alignment: roll on the Character Alignment table, and whatever comes up, that creature the character now is, and so must play. Returned as a man, he rolls class and a six-sided die for level; likewise level is diced for return as an elf or dwarf.",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-reincarnate",
+ "interpretation_records": [],
+ "period_conventions": [
+  "\"dependant\" printed; normalized"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p31",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "33c45c3ef2f020c9089a8467839b897b8af2accaf418dfc95df9ec94017ee123"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

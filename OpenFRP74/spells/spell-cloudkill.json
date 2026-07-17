@@ -1,0 +1,54 @@
+{
+ "id": "spell-cloudkill",
+ "name": "Cloudkill",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": "6 turns",
+ "duration_turns": 6,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "A poisonous vapor, 3\" across and heavier than air, that slays every creature of fewer than five hit dice it touches. It drifts 6\" per turn with the wind — or straight away from the caster in still air — always sinking to the lowest ground. Duration: 6 turns, though strong winds or trees break it up.",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-cloudkill",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p30",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "01a316b60a8f1f1827a58df334fbcdadd7319266b948fd9e2642955d503802f2"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

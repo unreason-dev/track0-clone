@@ -1,0 +1,54 @@
+{
+ "id": "spell-pass-wall",
+ "name": "Pass-Wall",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": "3\"",
+ "range_inches": 3,
+ "duration_raw": "3 turns",
+ "duration_turns": 3,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Opens a man-sized hole through solid rock, up to 10 feet deep. Duration: 3 turns. Range: 3\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-passwall",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p30",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "328513ba27f92e084c5dc2bee6eaedf8490f3bef1ea15186b4c52af5676f6135"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

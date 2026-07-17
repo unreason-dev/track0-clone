@@ -1,0 +1,56 @@
+{
+ "id": "spell-animate-dead",
+ "name": "Animate Dead",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": "until dispelled or destroyed",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Raises skeletons or zombies from remains at hand — it grants no true life. Animate one six-sided die of dead per caster level above the 8th; a 9th-level Sorcerer raises 1-6. The dead serve until dispelled or destroyed.",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-animate-dead",
+ "interpretation_records": [],
+ "period_conventions": [
+  "count formula: 1d6 per level above 8th; bodies must be present"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p29",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "f10fa0f2bc2ad0b15b0477f6b0c8ac096ed11996c1cb737ee7835899f94ed6ee"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

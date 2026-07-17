@@ -1,0 +1,57 @@
+{
+ "id": "spell-geas",
+ "name": "Geas",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 6,
+   "note": null
+  }
+ ],
+ "range_raw": "3\"",
+ "range_inches": 3,
+ "duration_raw": "until the task is completed",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Lays an unbreakable charge on the recipient to perform the caster's chosen task. Straying from it brings weakness; defying it outright brings death. The referee must weigh the charge and its performance with care. Duration: until the task is done. Range: 3\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-geas",
+ "interpretation_records": [],
+ "period_conventions": [
+  "\"receipiant\" printed; normalized",
+  "open-textured adjudication delegated to referee by the text"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p31",
+  "blocks": [
+   10
+  ],
+  "content_sha256": [
+   "e74dfcc16ce35815ac09c29ca61766ff563cb90f10d2853b30b4472627040e83"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

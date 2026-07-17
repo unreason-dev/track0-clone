@@ -1,0 +1,58 @@
+{
+ "id": "spell-contact-higher-plane",
+ "name": "Contact Higher Plane",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "The caster reaches toward the higher planes of existence (the referee) with yes-or-no questions. The higher the plane, the more questions, the likelier the knowledge, the truer the answers — and the greater the risk of madness. Insanity lasts one week per plane number contacted, the caster incapacitated throughout; casters above 11th level retain sanity 5% better per level. Usable once per game week (referee's option). Plane by plane (questions / chance known / veracity / insanity): 3rd 3/25%/30%/nil; 4th 4/30%/40%/10%; 5th 5/35%/50%/20%; 6th 6/40%/60%/30%; 7th 7/50%/70%/40%; 8th 8/60%/75%/50%; 9th 9/70%/80%/60%; 10th 10/80%/85%/70%; 11th 11/90%/90%/80%; 12th 12/95%/100%/90%.",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-contact-other-plane",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p30",
+  "blocks": [
+   1,
+   2,
+   3
+  ],
+  "content_sha256": [
+   "c61f68f31e81f10cdd45f5b6230ffafbbc19212c56aa7d35e8b5d934a234ab86",
+   "2b0a513ab5c5f1b236cfecfda14334dff38e5c82e495f711a3d8c771536efb44",
+   "753387b9ed12a25af556e3bf161b269fd5a0ec4ee3bdff3c17261d526adefb42"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

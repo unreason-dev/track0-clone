@@ -1,0 +1,54 @@
+{
+ "id": "spell-wall-of-stone",
+ "name": "Wall of Stone",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": "6\"",
+ "range_inches": 6,
+ "duration_raw": "until dispelled or broken",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Raises a stone wall two feet thick, its length and height totaling at most 10 square inches. It stands until dispelled, broken down, or battered through like any stone wall. Range: 6\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-wall-of-stone",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p29",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "106ede677fe80a21dea75ea4e6df879aa6e82c2e7de002f50b2f369fb2bdba62"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

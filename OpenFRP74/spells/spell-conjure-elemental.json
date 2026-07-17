@@ -1,0 +1,56 @@
+{
+ "id": "spell-conjure-elemental",
+ "name": "Conjure Elemental",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "until dispelled; concentration to control",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Summons an Elemental of Air, Water, Fire, or Earth — no more than one of each kind in a day. It remains until dispelled, but the conjurer must hold it in unbroken concentration or it turns on him. Conjured elementals are the strongest of their kind, of 16 hit dice. Range: 24\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-conjure-elemental",
+ "interpretation_records": [],
+ "period_conventions": [
+  "control/turn rules delegated to CHAINMAIL (external-refs); statline in Vol. II"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p28",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "1a34a5244c166576e0da7a97febe5168ec8e82c32132338ae5f7497a3a2dc245"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

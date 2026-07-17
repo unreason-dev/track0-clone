@@ -1,0 +1,58 @@
+{
+ "id": "spell-hold-monster",
+ "name": "Hold Monster",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "As Hold Person, but it grips monsters.",
+ "related_spells": [
+  "spell-hold-person"
+ ],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [
+  "parameters inherited from Hold Person: 6+level turns, 12\", single-target −2 save"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p28",
+  "blocks": [
+   7
+  ],
+  "content_sha256": [
+   "945f39b5613f2a440cbe1bfca98aaac4a681050445f72c6582a0442dcfed0a5a"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

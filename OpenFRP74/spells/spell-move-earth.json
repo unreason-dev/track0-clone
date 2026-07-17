@@ -1,0 +1,56 @@
+{
+ "id": "spell-move-earth",
+ "name": "Move Earth",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 6,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "6 turns",
+ "duration_turns": 6,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Above ground, the caster sets the land itself in motion — hills, ridges, and like prominences crawl at 6\" per turn. The spell takes one turn to come into effect. Duration: 6 turns. Range: 24\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-move-earth",
+ "interpretation_records": [],
+ "period_conventions": [
+  "one-turn onset before movement begins"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p32",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "6ddde3aff25a771209d996499863d5be4281702a7426e4578d403d6942d2167f"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "spell-wall-of-iron",
+ "name": "Wall of Iron",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": "6\"",
+ "range_inches": 6,
+ "duration_raw": "12 turns",
+ "duration_turns": 12,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "As Wall of Stone, but iron: three inches thick, at most 5 square inches in area. Duration: 12 turns. Range: 6\".",
+ "related_spells": [
+  "spell-wall-of-stone"
+ ],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p29",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "8bffd4445c40b90f01a5d8f2568c706e92b1009beacdbbb473bb7b820463f29c"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

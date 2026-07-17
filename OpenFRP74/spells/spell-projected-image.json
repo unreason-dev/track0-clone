@@ -1,0 +1,54 @@
+{
+ "id": "spell-projected-image",
+ "name": "Projected Image",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 6,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "6 turns",
+ "duration_turns": 6,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Casts a double of the Magic-User up to 24\" distant; every spell he works thereafter seems to spring from the image. Duration: 6 turns. Range: 24\".",
+ "related_spells": [],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p31",
+  "blocks": [
+   7
+  ],
+  "content_sha256": [
+   "b0c4b879fd71dde775b2cc0f5b14996c55728418943f7c910bbd636f71147db4"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "spell-lower-water",
+ "name": "Lower Water",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 6,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "ten turns",
+ "duration_turns": 10,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "The waters of a river or similar body sink to half their depth for ten turns. Range: 24\".",
+ "related_spells": [
+  "spell-part-water"
+ ],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p31",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "ea203d9100316110385751434d57208d7c5bcc3744b09280551e123b1b3718b1"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

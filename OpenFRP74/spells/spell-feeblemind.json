@@ -1,0 +1,58 @@
+{
+ "id": "spell-feeblemind",
+ "name": "Feeblemind",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "until countered by Dispell Magic",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "A spell that strikes only at Magic-Users, leaving the victim feeble-minded until countered by Dispel Magic. So narrow is its aim that it succeeds 20% more often — the victim saves at -4, so one who normally saves on 12 needs 16. Range: 24\".",
+ "related_spells": [
+  "spell-dispel-magic"
+ ],
+ "counterpart_5_1srd": "spell-feeblemind",
+ "interpretation_records": [],
+ "period_conventions": [
+  "\"receipiant\" printed; normalized"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p30",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "83e35d84e870fe6f72feccf41eebea91323bc912c4f793aaf95a927aa3d3c3a1"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

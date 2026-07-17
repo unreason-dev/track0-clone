@@ -1,0 +1,54 @@
+{
+ "id": "spell-stone-to-flesh",
+ "name": "Stone to Flesh",
+ "name_raw": "Stone to Flesh (table: Stone-Flesh)",
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 6,
+   "note": null
+  }
+ ],
+ "range_raw": "12\"",
+ "range_inches": 12,
+ "duration_raw": "permanent unless reversed",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": true,
+ "description": "Turns stone to living flesh — or, reversed, flesh to stone. Its chief employment is restoring those petrified by some monster. The change is permanent unless the reverse is worked. Range: 12\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-flesh-to-stone",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p31",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "9f248a735022a1a8764855b3836ec21089f84458e205ac29b65f51f2e08ceb19"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

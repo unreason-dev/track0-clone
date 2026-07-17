@@ -1,0 +1,54 @@
+{
+ "id": "spell-anti-magic-shell",
+ "name": "Anti-Magic Shell",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 6,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": "12 turns",
+ "duration_turns": 12,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "An invisible field seals the Magic-User away from all magic: no spell can reach him, and none of his own can pass out through the shell. Duration: 12 turns.",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-antimagic-field",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p31",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "bc078f3a1f60b56c8fc2a4d02bc965e6cf0cd4f57b2a3bf9ba70256a6befe8d8"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

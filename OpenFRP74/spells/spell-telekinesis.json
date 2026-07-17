@@ -1,0 +1,69 @@
+{
+ "id": "spell-telekinesis",
+ "name": "Telekinesis",
+ "name_raw": "Telekenesis",
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": "12\"",
+ "range_inches": 12,
+ "duration_raw": "6 turns",
+ "duration_turns": 6,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Objects move at the caster's mental command. He may lift a weight of 200 Gold Pieces per level — a 10th-level Necromancer shifts 2,000 Gold Pieces weight. Duration: 6 turns. Range: 12\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-telekinesis",
+ "interpretation_records": [
+  "ir-a3-telekinesis-spellings"
+ ],
+ "period_conventions": [
+  "weight formula: 200 GP-weight × caster level"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p28",
+  "blocks": [
+   9
+  ],
+  "content_sha256": [
+   "62bb3671ce68dc795a6fc3840014e215eef7dd687b88d1cea2e8fa4450d3f177"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p29",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "194ea3ad88c198315a8fa93d5f326adaf3ec940e2ce6a52f32fa6c4e121443c5"
+    ],
+    "note": "entry concludes"
+   },
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

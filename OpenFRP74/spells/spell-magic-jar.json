@@ -1,0 +1,67 @@
+{
+ "id": "spell-magic-jar",
+ "name": "Magic Jar",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": "12\" (possession); jar within 3\" of body at casting",
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "The caster pours his life force into an inanimate vessel — even a bare rock — which must lie within 3\" of his body when the spell is spoken. From the jar his spirit strikes at any creature within 12\", possessing it if the victim fails its saving throw against magic. If a possessed body is destroyed the spirit falls back to the jar, whence it may strike again or return home; it may return to the jar at will. If the caster's own body is destroyed, his spirit is bound to possessed flesh or the jar — and if the jar itself is shattered, he is annihilated utterly.",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-magic-jar",
+ "interpretation_records": [],
+ "period_conventions": [
+  "\"anihilated\" printed; normalized"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p29",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "db67075a1cb47f7e79ae90fe4aa703dbef1af65aefbafa4226d6e46734ccbd65"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p30",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "fc504edb48ead8cd3f39089eeee763851583e857501ab192100448701e3ef369"
+    ],
+    "note": "entry concludes"
+   },
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
