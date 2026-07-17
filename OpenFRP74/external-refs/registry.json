@@ -1,0 +1,213 @@
+{
+ "id": "external-refs-registry",
+ "system": "openfrp74",
+ "note": "Every site where the 1974 source delegates rules to an external product. This registry is the dependency surface the retroclone must replace with original mechanics — and the scope-seed for the openfwg1972 adapter (CHAINMAIL 2nd ed.). OUTDOOR SURVIVAL (Avalon Hill board-as-map) will likely be replaced, not adapted; Fight in the Skies is name-checked only.",
+ "products": {
+  "CHAINMAIL": {
+   "role": "upstream rules core: melee/missile resolution, man-to-man and mass combat, morale, jousting, fantasy-creature abilities",
+   "adapter_planned": "openfwg1972"
+  },
+  "OUTDOOR SURVIVAL": {
+   "role": "wilderness playing board: terrain, movement penalties, lost-party direction rules",
+   "adapter_planned": null
+  },
+  "Fight in the Skies": {
+   "role": "credited inspiration for the BITS aerial system; no rules delegated",
+   "adapter_planned": null
+  }
+ },
+ "sites": [
+  {
+   "product": "CHAINMAIL",
+   "page": "v1-p03",
+   "block": 1,
+   "context": "ONCE UPON A TIME, long, lang ago there was a little group known as the Castle and Crusade Society. Their fantasy rules were published, and to this writer's know"
+  },
+  {
+   "product": "OUTDOOR SURVIVAL",
+   "page": "v1-p05",
+   "block": 6,
+   "context": "__Outdoor Survival__ (available from your hobby dealer or directly from Avalon Hill Company, 4517 Harford Road, Baltimore, MD. 21214)"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v1-p05",
+   "block": 9,
+   "context": "__Chainmail__ miniature rules, latest edition (available from your hobby dealer or directly from Guidon Games, P.O. Box C, Belfast, ME. 04915)"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v1-p08",
+   "block": 1,
+   "context": "__Elves__: Elves can begin as either Fighting-Men or Magic-Users and freely switch class whenever they choose, from adventure to adventure, but not during the c"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v1-p08",
+   "block": 2,
+   "context": "__Hobbits__: Should any player wish to be one, he will be limited to the Fighting-Men class as a hobbit. Hobbits cannot progress beyond the 4th level (Hero), bu"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v1-p18",
+   "block": 4,
+   "context": "__Fighting Capability__: This is a key to use in conjunction with the CHAINMAIL fantasy rules, as modified in various places herein. An alternative system will "
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v1-p24",
+   "block": 4,
+   "context": "__Invisibility__: A spell which lasts until it is broken by the user or by some outside force (remember that as in CHAINMAIL, a character cannot remain invisibl"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v1-p25",
+   "block": 10,
+   "context": "__Fire Ball__: A missile which springs from the finger of the Magic-User. It explodes with a burst radius of 2\" (slightly larger than specified in CHAINMAIL). I"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v1-p26",
+   "block": 0,
+   "context": "missile will double back to attain 6\", possibly striking its creator. It is otherwise similar to a __Fire Ball,__ but as stated in CHAINMAIL the head of the mis"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v1-p28",
+   "block": 8,
+   "context": "__Conjure Elemental__: A spell to conjure an Air, Water, Fire or Earth Elemental. Only one of each type can be conjured by a Magic-User during any one day. The "
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v1-title",
+   "block": 4,
+   "context": "Dedicated to all the fantasy wargamers who have enthusiastically played and expanded upon the CHAINMAIL Fantasy Rules, with thanks and gratitude. Here is someth"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v2-p05",
+   "block": 0,
+   "context": "__Special Ability__ functions are generally as indicated in CHAINMAIL where not contradictory to the information stated hereinafter, and it is generally true th"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v2-p07",
+   "block": 5,
+   "context": "GOBLINS: These small monsters are as described in CHAINMAIL. They see well in darkness or dim light, but when they are subjected to full daylight they subtract "
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v2-p08",
+   "block": 7,
+   "context": "GIANTS: As stated in CHAINMAIL, Giants act as mobile light catapults with a 20' range. Due to their huge weapons all Giants will score two dice of damage when h"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v2-p09",
+   "block": 2,
+   "context": "GHOULS: As stated in CHAINMAIL for Wights, Ghouls paralize any normal figure they touch, excluding Elves. They otherwise melee in the regular fashion and are su"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v2-p09",
+   "block": 6,
+   "context": "SPECTRES: These monsters have no corporeal body which makes them totally imprevious to all normal weaponry (but can be struck by all magical weapons), including"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v2-p14",
+   "block": 2,
+   "context": "BALROGS: Balrogs are highly intelligent monsters with a magical nature. There is a high probability that spells will not work against them. To determine success"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v2-p16",
+   "block": 1,
+   "context": "PIXIES: Air sprites as described in CHAINMAIL, Pixies can be made visible, or make themselves visible, but they are naturally invisible to human eyes. Therefor,"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v2-p16",
+   "block": 4,
+   "context": "DWARVES: Because of their relatively small size, clumsy monsters like Ogres, Giants and the like will have a difficult time hitting Dwarves, so score only one-h"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v2-p20",
+   "block": 3,
+   "context": "HORSES: As explained in CHAINMAIL, war horses melee. The other characteristics of Horses (and Mules) are:"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v2-p38",
+   "block": 0,
+   "context": "__Horn of Blasting__: A horn whose sounding has the effect of a double __bombard__ (see Vol. III and CHAINMAIL) on non-living materials such as walls, gates, et"
+  },
+  {
+   "product": "OUTDOOR SURVIVAL",
+   "page": "v3-p15",
+   "block": 1,
+   "context": "The terrain beyond the immediate surroundings of the dungeon area should be unknown to all but the referee. Off-hand adventures in the wilderness are made on th"
+  },
+  {
+   "product": "OUTDOOR SURVIVAL",
+   "page": "v3-p15",
+   "block": 2,
+   "context": "OUTDOOR SURVIVAL has a playing board perfect for general adventures. Catch basins are castles, buildings are towns, and the balance of the terrain is as indicat"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v3-p15",
+   "block": 6,
+   "context": "__Fighting-Men__ within castles will demand a jousting match with all passersby of like class. Otherwise they will demand a toll of from 100 to 600 Gold Pieces "
+  },
+  {
+   "product": "OUTDOOR SURVIVAL",
+   "page": "v3-p17",
+   "block": 1,
+   "context": "__Terrain Penalties:__ All terrain penalties are as stated in OUTDOOR SURVIVAL, mountains and swamps cost three movement per hex, crossing rivers at non-ford he"
+  },
+  {
+   "product": "OUTDOOR SURVIVAL",
+   "page": "v3-p17",
+   "block": 9,
+   "context": "__Lost Parties:__ There is a chance of being lost, the chance depending on the type of terrain the party begins its turn upon. A lost party must move in the dir"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v3-p25",
+   "block": 2,
+   "context": "The basic system is that from CHAINMAIL, with one figure representing one man or creature. Melee can be conducted with the combat table given in Volume I or by "
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v3-p25",
+   "block": 4,
+   "context": "Many of the most interesting battles take place in the air, so we offer you \"Battle in the Skies\", or \"BITS\" (with no apologies to Mike Carr, creator of __Fight"
+  },
+  {
+   "product": "Fight in the Skies",
+   "page": "v3-p25",
+   "block": 4,
+   "context": "Many of the most interesting battles take place in the air, so we offer you \"Battle in the Skies\", or \"BITS\" (with no apologies to Mike Carr, creator of __Fight"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v3-p30",
+   "block": 4,
+   "context": "All missile fire, including the various forms of catapult fire, are as in CHAINMAIL. Catapult hits will do points of damage to the ships, and when sufficient po"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v3-p31",
+   "block": 9,
+   "context": "To conduct boarding vessels must be grappled. The deck plans of the vessels involved should then be placed in the manner indicated by the grappled models. For e"
+  },
+  {
+   "product": "CHAINMAIL",
+   "page": "v3-p31",
+   "block": 11,
+   "context": "Use Man-to-Man rules as found in CHAINMAIL."
+  }
+ ]
+}
