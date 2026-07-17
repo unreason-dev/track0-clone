@@ -1,0 +1,109 @@
+{
+ "id": "etable-monster-level-3",
+ "name": "Monster Level Table 3",
+ "system": "openfrp74",
+ "die_sides": 10,
+ "usage": "Die result 0 = 10 per period convention (ir-a11).",
+ "rows": [
+  {
+   "min": 1,
+   "max": 1,
+   "result": "Wights",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "result": "Heroes",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "result": "Giant Hogs",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "result": "Giant Ants",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "result": "Ochre Jelly",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "Thaumaturgists",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "Swashbucklers",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "Magicians",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "result": "Giant Snakes",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "result": "Giant Weasels",
+   "result_raw": "0",
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "'Theurgistists'/'Heros'/'Giant Weasles' printed; normalized (D-6)"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p10",
+  "blocks": [
+   7
+  ],
+  "content_sha256": [
+   "dcb60160e6cbf251c54d92ad3cbaba1b8fe1e92e3f861f33856fae789955d392"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

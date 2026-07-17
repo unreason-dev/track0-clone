@@ -1,0 +1,125 @@
+{
+ "id": "etable-wilderness-men",
+ "name": "Wilderness Men",
+ "system": "openfrp74",
+ "die_sides": 12,
+ "usage": "Columns: Typical / Mountain / Desert (Mars) / Waterbourne. 2-12 men accompany any leader met, levels 1-4; leaders' magic-item chances per the census notes (v3-p19).",
+ "rows": [
+  {
+   "min": 1,
+   "max": 1,
+   "result": "Bandits / Bandits / Nomads / Buccaneers",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "result": "Brigands / Berserkers / Dervishes / Pirates",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "result": "Necromancer / Brigands / Nomads / Buccaneers",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "result": "Wizard / Lord / Lord / Pirates",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "result": "Bandits / Wizard / Wizard / Buccaneers",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "Berserkers / Superhero / Nomads / Mermen",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "Lord / Cavemen / (Red Martians) / ---",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "Superhero / Necromancer / (Tharks) / ",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "result": "Brigands / Evil H.P. / (Black Martians) / ",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "result": "Bandits / Cavemen / (Yellow Martians) / ",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "result": "Evil H.P. / Patriarch / (Tharks) / ",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "result": "Patriarch / Berserkers / (White Martians) / ",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "'Martains' printed; normalized (D-6); Barsoom names stand per D-7"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p18",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "8dfcf953c843ef80766f47c6c5cb2f4c8e9de69c2301a71dbad193419fd20b6d"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

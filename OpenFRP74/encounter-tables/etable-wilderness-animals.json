@@ -1,0 +1,125 @@
+{
+ "id": "etable-wilderness-animals",
+ "name": "Wilderness Animals",
+ "system": "openfrp74",
+ "die_sides": 12,
+ "usage": "Columns: Basic / Optional Woods / Optional Swamps / Optional Arid Plains / Optional Mountains.",
+ "rows": [
+  {
+   "min": 1,
+   "max": 1,
+   "result": "Spiders / Centaurs / Tyr. Rex / Apts / Cave Bears",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "result": "Centipedes / Unicorns / Pterodactyl / Banths / Dire Wolves",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "result": "Lizards / Minotaurs / Triceratops / Thoats / Sabre-Tooth Tigers",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "result": "Toads / Gorgons / Brontosaurus / Calots / Mastodons",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "result": "Ants / Pixies / Stegosaurs / White Apes / Spotted Lions",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "Weasels / Manticores / Tyr. Rex / Thoats / Wooly Rhinos",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "Apes / Dryads / Pterodactyl / Orluks / Titanotheres",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "Beetles / Medusae / Triceratops / Sith / Cave Bears",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "result": "Scorpions / --- / --- / Tharks / Mammoths",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "result": "Lions /  /  / Darseen / Sabre-Tooth Tigers",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "result": "Boars /  /  / Banths / Dire Wolves",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "result": "Snakes /  /  / Tharks / Spotted Lions",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "Abbreviations expanded per ir-a12; Barsoom fauna stand per D-7"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p19",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "95c058e31241555218b1e634b57f096f9c44d4940df0edab3fc431291d5204d0"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

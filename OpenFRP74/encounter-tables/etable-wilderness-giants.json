@@ -1,0 +1,136 @@
+{
+ "id": "etable-wilderness-giants",
+ "name": "Wilderness Giant Types",
+ "system": "openfrp74",
+ "die_sides": 12,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 1,
+   "result": "Kobolds",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "result": "Goblins",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "result": "Orcs",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "result": "Hobgoblins",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "result": "Gnolls",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "Ogres",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "Trolls",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "Giants",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "result": "Gnomes",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "result": "Dwarves",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "result": "Elves",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "result": "Ents",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p18",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "5a2fa68f7c5519e5b04e76a2ce960cf50b6b0ca3b5f25c90e53bfab044b8ab53"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p19",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "181557eae2232678ea4eddf281b3eb0a3c6ed4b9a79c8dffbe9e455ec185da1c"
+    ],
+    "note": "rows 10-12 continuation"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

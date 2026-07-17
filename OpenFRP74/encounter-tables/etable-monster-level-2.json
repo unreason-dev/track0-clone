@@ -1,0 +1,109 @@
+{
+ "id": "etable-monster-level-2",
+ "name": "Monster Level Table 2",
+ "system": "openfrp74",
+ "die_sides": 10,
+ "usage": "Die result 0 = 10 per period convention (ir-a11).",
+ "rows": [
+  {
+   "min": 1,
+   "max": 1,
+   "result": "Hobgoblins",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "result": "Zombies",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "result": "Lizards",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "result": "Warriors",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "result": "Conjurers",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "Gnolls",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "Ghouls",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "Toads",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "result": "Berserkers",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "result": "Theurgists",
+   "result_raw": "0",
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "'Theurgistists'/'Heros'/'Giant Weasles' printed; normalized (D-6)"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p10",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "f001951b09d85649b2d81173b20c29afcedaa359830a2c7fa0fe1a62067355c4"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": "etable-wilderness-flyers",
+ "name": "Wilderness Flyer Types",
+ "system": "openfrp74",
+ "die_sides": 12,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 1,
+   "result": "Pegasi",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "result": "Rocs",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "result": "Chimerae",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "result": "Hippogriffs",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "result": "Griffons",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "Manticores",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "Rocs (large)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "Wyverns",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "result": "Dragons",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "result": "Pegasi",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "result": "Hippogriffs",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "result": "Balrogs",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "die 7 prints 'Rocs' again — read as the large variety"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p18",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "5a2fa68f7c5519e5b04e76a2ce960cf50b6b0ca3b5f25c90e53bfab044b8ab53"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p19",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "181557eae2232678ea4eddf281b3eb0a3c6ed4b9a79c8dffbe9e455ec185da1c"
+    ],
+    "note": "rows 10-12 continuation"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

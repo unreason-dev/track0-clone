@@ -1,0 +1,81 @@
+{
+ "id": "etable-castle-occupants",
+ "name": "Castle Occupants",
+ "system": "openfrp74",
+ "die_sides": 6,
+ "usage": "Roll d6 for occupant, then d4 for which guard column, then the listed die for how many. * = with a like number of Heroes riding. Patriarchs always Lawful, Evil High Priests always Chaotic; others hostile 1-3 / neutral 4-6. Fighting-Men demand jousts (CHAINMAIL) or 100-600 GP toll; Magic-Users send passersby for treasure by Geas or take a magic-item/1000-4000 GP toll; Clerics tithe passersby 10%.",
+ "rows": [
+  {
+   "min": 1,
+   "max": 1,
+   "result": "Lord — guards d1: Champions ×d8 / d2: Griffons* ×d6 / d3: Myrmidons ×d10 / d4: Giants ×d4",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "result": "Superhero — Myrmidons ×d8 / Rocs* ×d4 / Ogres ×d4 / Swashbucklers ×d10",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "result": "Wizard — Dragons ×d4 / Balrogs ×d4 / Wyverns ×d4 / Basilisks ×d4",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "result": "Necromancer — Chimeras ×d4 / Manticores ×d6 / Lycanthropes ×d12 / Gargoyles ×d12",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "result": "Patriarch — Heroes ×d20 / Superheroes ×d6 / Ents ×d10 / Hippogriffs* ×d8",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "Evil High Priest — Trolls ×d10 / Vampires ×d6 / White Apes ×d20 / Spectres ×d10",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "Abbreviations expanded per ir-a12"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p15",
+  "blocks": [
+   3,
+   4,
+   5
+  ],
+  "content_sha256": [
+   "7d29478ee6e1edd0c19e006a5cc09d7976f989cc28590c7793c94fa25e66a182",
+   "d89a3e8b60c5846f488522bfb96a15bdc5b5916bac654e2e54ca2897e5cb65f3",
+   "aec764138b936382cad24b0ca240c7e5bc47332cb66557c8267b69bbe5e59761"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

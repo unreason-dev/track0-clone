@@ -1,0 +1,143 @@
+{
+ "id": "matrix-underworld-monster-determination",
+ "name": "Monster Determination and Level of Monster Matrix",
+ "system": "openfrp74",
+ "die": "d6",
+ "row_axis": "dungeon level beneath surface",
+ "col_axis": "monster level table (die result)",
+ "columns": [
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  "6"
+ ],
+ "rows": [
+  {
+   "label": "1",
+   "sublabel": null,
+   "cells": [
+    "1-2",
+    "3-4",
+    "5",
+    "6",
+    "-",
+    "-"
+   ],
+   "note": null
+  },
+  {
+   "label": "2",
+   "sublabel": null,
+   "cells": [
+    "1",
+    "2",
+    "3-4",
+    "5",
+    "6",
+    "-"
+   ],
+   "note": null
+  },
+  {
+   "label": "3",
+   "sublabel": null,
+   "cells": [
+    "-",
+    "1",
+    "2",
+    "3-4",
+    "5",
+    "6"
+   ],
+   "note": null
+  },
+  {
+   "label": "4-5",
+   "sublabel": null,
+   "cells": [
+    "-",
+    "-",
+    "1",
+    "2-3",
+    "4-5",
+    "6"
+   ],
+   "note": null
+  },
+  {
+   "label": "6-7",
+   "sublabel": null,
+   "cells": [
+    "-",
+    "-",
+    "-",
+    "1",
+    "2-4",
+    "5-6"
+   ],
+   "note": null
+  },
+  {
+   "label": "8-9",
+   "sublabel": null,
+   "cells": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "1-2",
+    "3-6"
+   ],
+   "note": null
+  },
+  {
+   "label": "10-12",
+   "sublabel": null,
+   "cells": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "1",
+    "2-6"
+   ],
+   "note": null
+  },
+  {
+   "label": "13+",
+   "sublabel": null,
+   "cells": [
+    "-",
+    "-",
+    "-",
+    "-",
+    "-",
+    "1-6"
+   ],
+   "note": null
+  }
+ ],
+ "usage": "Roll d6 on the row for the dungeon level; the band containing the result names which Monster Level Table to roll on.",
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p10",
+  "blocks": [
+   2,
+   3
+  ],
+  "content_sha256": [
+   "db4cedede99fbee4daf37f722f87c4521e5095b495712a44def42b3c3a22c678",
+   "c0d239a2e2b80381f58f42e5b2a0befec9db6af42f79e737dfe9a3062ced7e82"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

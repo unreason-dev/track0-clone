@@ -1,0 +1,152 @@
+{
+ "id": "matrix-wilderness-encounter-type",
+ "name": "Wilderness Encounter Type",
+ "system": "openfrp74",
+ "die": "d8",
+ "row_axis": "die roll",
+ "col_axis": "terrain",
+ "columns": [
+  "Clear",
+  "Woods",
+  "River",
+  "Swamp",
+  "Mtns.",
+  "Desert",
+  "City"
+ ],
+ "rows": [
+  {
+   "label": "1",
+   "sublabel": null,
+   "cells": [
+    "Men",
+    "Men",
+    "Men",
+    "Men",
+    "Men",
+    "Men",
+    "Men"
+   ],
+   "note": null
+  },
+  {
+   "label": "2",
+   "sublabel": null,
+   "cells": [
+    "Flyer",
+    "Flyer",
+    "Flyer",
+    "Flyer",
+    "Flyer",
+    "Flyer",
+    "Undead"
+   ],
+   "note": null
+  },
+  {
+   "label": "3",
+   "sublabel": null,
+   "cells": [
+    "Giant",
+    "Giant",
+    "Giant",
+    "Giant",
+    "Giant",
+    "Giant",
+    "Undead"
+   ],
+   "note": null
+  },
+  {
+   "label": "4",
+   "sublabel": null,
+   "cells": [
+    "Lycs.",
+    "Lycs.",
+    "Lycs.",
+    "Lycs.",
+    "Lycs.",
+    "Men",
+    "Men"
+   ],
+   "note": null
+  },
+  {
+   "label": "5",
+   "sublabel": null,
+   "cells": [
+    "Anmls.",
+    "Lycs.",
+    "Swim'r",
+    "Swim'r",
+    "Anmls.",
+    "Anmls.",
+    "---"
+   ],
+   "note": null
+  },
+  {
+   "label": "6",
+   "sublabel": null,
+   "cells": [
+    "Men",
+    "Men",
+    "Swim'r",
+    "Undead",
+    "Giants",
+    "Dragon",
+    "---"
+   ],
+   "note": null
+  },
+  {
+   "label": "7",
+   "sublabel": null,
+   "cells": [
+    "Anmls.",
+    "Anmls.",
+    "Anmls.",
+    "Undead",
+    "Dragon",
+    "---",
+    "---"
+   ],
+   "note": null
+  },
+  {
+   "label": "8",
+   "sublabel": null,
+   "cells": [
+    "Dragon",
+    "Dragon",
+    "Dragon",
+    "Dragon",
+    "Dragon",
+    "---",
+    "---"
+   ],
+   "note": null
+  }
+ ],
+ "usage": "Roll d8 down the terrain column; abbreviations per the expansion map (ir-a12).",
+ "footnotes": [],
+ "interpretation_records": [
+  "ir-a12-abbreviation-map"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p18",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "41691bd067647c1024c2d881c753c160d6cf20623506b0e2666c84211d4256b4"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
