@@ -1,0 +1,70 @@
+{
+ "id": "monster-black-pudding",
+ "name": "Black Pudding",
+ "name_raw": null,
+ "aliases": [
+  "Gray Pudding"
+ ],
+ "system": "openfrp74",
+ "number_appearing_raw": "- - - - - -",
+ "number_appearing": null,
+ "armor_class_raw": "6",
+ "armor_class": 6,
+ "move_raw": "6",
+ "move_inches": 6,
+ "fly_inches": null,
+ "hit_dice_raw": "10",
+ "hit_dice": {
+  "min": 10,
+  "max": 10,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "Nil",
+ "percent_in_lair": null,
+ "treasure_raw": "Nil",
+ "treasure_refs": [],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "Nuisance and janitor both. Unharmed by cold, split by chops and lightning, killed by fire. It dissolves wood, corrodes metal briskly — armor waded through falls away next turn — leaves stone alone, and deals three dice to exposed flesh. It squeezes through small openings and travels ceilings as easily as floors.",
+ "special_notes": [
+  "cold: no effect; chops/lightning split; fire kills",
+  "3d6 vs flesh; corrodes metal"
+ ],
+ "related_monsters": [],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-black-pudding",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p19",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "251ccb3c482ad334817d405ba54ba49c32752363ba5e0055b837c8bc8d36e4ce"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

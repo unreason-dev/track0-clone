@@ -1,0 +1,72 @@
+{
+ "id": "monster-djinni",
+ "name": "Djinn",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "- - - - - -",
+ "number_appearing": null,
+ "armor_class_raw": "5",
+ "armor_class": 5,
+ "move_raw": "9/24",
+ "move_inches": 9,
+ "fly_inches": 24,
+ "hit_dice_raw": "7 +1",
+ "hit_dice": {
+  "min": 7,
+  "max": 7,
+  "bonus": 1,
+  "note": null
+ },
+ "percent_in_lair_raw": "Nil",
+ "percent_in_lair": null,
+ "treasure_raw": "Nil",
+ "treasure_refs": [],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "Aerial beings without the wish-granting of the fairy tales. They fight as Giants at −1 damage (1-11 per hit) and carry up to 6,000 Gold Pieces weight, walking or (briefly) flying. They create: sound food, drinkable drink, lasting soft goods and wooden things — but metal is short-lived (the harder, the shorter; Djinn-gold lasts a day) — and illusions that persist without concentration until touched or dispelled. They form a whirlwind 1\" base, 2\" top, 3\" high, otherwise as an Air Elemental's, and may go invisible or gaseous at will.",
+ "special_notes": [
+  "damage as Giant −1 (1-11)",
+  "creation powers; metal ephemeral",
+  "whirlwind; invisibility; gaseous form"
+ ],
+ "related_monsters": [
+  "monster-efreeti",
+  "monster-air-elemental"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-djinni",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p19",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "4dd7907add37215439ed07f4b6ec4b1acc0df3876f660c05333f702425cb2d5d"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

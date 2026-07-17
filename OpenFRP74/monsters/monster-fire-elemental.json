@@ -1,0 +1,75 @@
+{
+ "id": "monster-fire-elemental",
+ "name": "Fire Elementals",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "1",
+ "number_appearing": {
+  "min": 1,
+  "max": 1,
+  "note": null
+ },
+ "armor_class_raw": "2",
+ "armor_class": 2,
+ "move_raw": "12",
+ "move_inches": 12,
+ "fly_inches": null,
+ "hit_dice_raw": "16/12/8",
+ "hit_dice": {
+  "min": 8,
+  "max": 16,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "Nil",
+ "percent_in_lair": null,
+ "treasure_raw": "Nil",
+ "treasure_refs": [],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "Born of great heat — a bonfire, a lava pool — moving up to 12\", never across water. Two dice of damage against all who do not wield fire, one die +1 (2-7) against fire-users; an incendiary wherever it touches the inflammable. All common Elemental rules apply.",
+ "special_notes": [
+  "2d6 vs non-fire-users; 1d6+1 vs fire-users",
+  "incendiary contact",
+  "cannot cross water"
+ ],
+ "related_monsters": [
+  "monster-elemental"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-fire-elemental",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p18",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "43ec52030029610741a6f4a4f65dc9006542cc899fd6ad35740f85237e9d1899"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

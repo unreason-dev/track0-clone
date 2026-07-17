@@ -1,0 +1,68 @@
+{
+ "id": "monster-gray-ooze",
+ "name": "Gray Ooze",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "- - - - - -",
+ "number_appearing": null,
+ "armor_class_raw": "8",
+ "armor_class": 8,
+ "move_raw": "1",
+ "move_inches": 1,
+ "fly_inches": null,
+ "hit_dice_raw": "3",
+ "hit_dice": {
+  "min": 3,
+  "max": 3,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "Nil",
+ "percent_in_lair": null,
+ "treasure_raw": "Nil",
+ "treasure_refs": [],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "A seeping horror like wet stone, hard to spot. Impervious to fire and cold, harmed only by lightning and by cuts and chops. It spares wood and stone but corrodes metal at Black Pudding's pace, and deals two dice per turn to exposed flesh.",
+ "special_notes": [
+  "fire/cold: no effect; lightning/cuts harm",
+  "2d6/turn vs flesh; corrodes metal"
+ ],
+ "related_monsters": [],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-gray-ooze",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p20",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "580973b1da866467623fbb14ce26cb661e0b0e1cf879049fde6e3c4993d94667"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

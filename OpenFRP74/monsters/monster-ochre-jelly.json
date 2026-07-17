@@ -1,0 +1,72 @@
+{
+ "id": "monster-ochre-jelly",
+ "name": "Ochre Jelly",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "1",
+ "number_appearing": {
+  "min": 1,
+  "max": 1,
+  "note": null
+ },
+ "armor_class_raw": "8",
+ "armor_class": 8,
+ "move_raw": "3",
+ "move_inches": 3,
+ "fly_inches": null,
+ "hit_dice_raw": "5",
+ "hit_dice": {
+  "min": 5,
+  "max": 5,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "Nil",
+ "percent_in_lair": null,
+ "treasure_raw": "Nil",
+ "treasure_refs": [],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "First of the clean-up crew: a giant amoeba killed by fire or cold, but merely split into smaller jellies by weapons or lightning bolts. It ignores stone and metal, destroys wood, deals one die per turn to exposed flesh, and seeps through the smallest cracks.",
+ "special_notes": [
+  "weapons/lightning split it; fire/cold kill",
+  "1d6/turn vs flesh; destroys wood"
+ ],
+ "related_monsters": [],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-ochre-jelly",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p19",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "4938f049cfb62a19dcb75b8a048b1b9ee88da8626527364ab9299584696c8e42"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "monster-green-slime",
+ "name": "Green Slime",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "- - - - - -",
+ "number_appearing": null,
+ "armor_class_raw": "---",
+ "armor_class": null,
+ "move_raw": "Nil",
+ "move_inches": null,
+ "fly_inches": null,
+ "hit_dice_raw": "2",
+ "hit_dice": {
+  "min": 2,
+  "max": 2,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "Nil",
+ "percent_in_lair": null,
+ "treasure_raw": "Nil",
+ "treasure_refs": [],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "A non-mobile hazard killed by fire or cold, untouched by lightning or blows. It eats wood and metal but not stone; it sticks to flesh, penetrates in one turn, and turns the flesh to Green Slime. It cannot be scraped off — excise it, discard the item, or kill it with a Cure Disease, which works even on flesh.",
+ "special_notes": [
+  "immune to weapons/lightning; fire/cold/Cure Disease kill",
+  "flesh→slime in one turn"
+ ],
+ "related_monsters": [],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p20",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "184129b05db8a3b24126ad3d9575bc06e934c7247c2ea8bb1c6391644511a0a4"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

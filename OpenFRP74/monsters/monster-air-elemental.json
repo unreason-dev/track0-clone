@@ -1,0 +1,73 @@
+{
+ "id": "monster-air-elemental",
+ "name": "Air Elementals",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "1",
+ "number_appearing": {
+  "min": 1,
+  "max": 1,
+  "note": null
+ },
+ "armor_class_raw": "2",
+ "armor_class": 2,
+ "move_raw": "36 (fly only)",
+ "move_inches": null,
+ "fly_inches": 36,
+ "hit_dice_raw": "16/12/8",
+ "hit_dice": {
+  "min": 8,
+  "max": 16,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "Nil",
+ "percent_in_lair": null,
+ "treasure_raw": "Nil",
+ "treasure_refs": [],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "Flying only, at up to 36\"; in aerial combat +1 to damage, normally one die. It may take a full turn to become a whirlwind (and one to dissolve) — a cone 3\" across at the base, 6\" at the top, as tall in inches as its hit dice — sweeping away all creatures under two hit dice. All common Elemental rules apply.",
+ "special_notes": [
+  "whirlwind sweeps <2 HD creatures"
+ ],
+ "related_monsters": [
+  "monster-elemental"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-air-elemental",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p18",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "35707dc607fd3030b3821daa692aefcc3eab8081e849d013533990a8b1a4eea6"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

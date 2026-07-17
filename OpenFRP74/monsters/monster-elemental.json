@@ -1,0 +1,97 @@
+{
+ "id": "monster-elemental",
+ "name": "Elementals",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "1",
+ "number_appearing": {
+  "min": 1,
+  "max": 1,
+  "note": null
+ },
+ "armor_class_raw": "2",
+ "armor_class": 2,
+ "move_raw": "Variable",
+ "move_inches": null,
+ "fly_inches": null,
+ "hit_dice_raw": "16/12/8",
+ "hit_dice": {
+  "min": 8,
+  "max": 16,
+  "bonus": 0,
+  "note": "by summoning source"
+ },
+ "percent_in_lair_raw": "Nil",
+ "percent_in_lair": null,
+ "treasure_raw": "Nil",
+ "treasure_refs": [],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "Four kinds — Air, Earth, Fire, Water — in three strengths: conjured by spell, 16 hit dice; from devices (medallions, stones, gems, bracelets), 12; from staves, 8. Only one Elemental of each kind can exist per day, whoever calls it. The summoner must hold it in undivided attention; lose control once — by being attacked, moving, or otherwise — and it can never be regained: the Elemental turns and moves straight for its summoner, attacking whatever stands in the path. No normal man can hit an Elemental without magical arms.",
+ "special_notes": [
+  "one per kind per day",
+  "control: undivided attention; loss is permanent",
+  "immune to non-magical weapons"
+ ],
+ "related_monsters": [
+  "monster-air-elemental",
+  "monster-earth-elemental",
+  "monster-fire-elemental",
+  "monster-water-elemental"
+ ],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p18",
+  "blocks": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "content_sha256": [
+   "e7324f426842a1c753a2518e9dc57bedc083b887899ce96fcfa0da9eee5824f9",
+   "c3e21f853faac532375867994537fe06e29c511fedd184f82113e5082ab7c12b",
+   "060cd224f795afe052f05b62f78edbaa18da728030da7a3abb9c41fb4ed6dde8",
+   "012da667ec70b1a3f2a2fc357c807ff09a715578098c315ce66b9d49532d24fe"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p19",
+    "blocks": [
+     1,
+     2
+    ],
+    "content_sha256": [
+     "8282850b01273894e8042f94bf0aac17f9456a429afbad06a3905708045bf20e",
+     "b831fe37693ff1a423d70df026f89a0e014fa3c8e9b0a22955b74c602a09e1df"
+    ],
+    "note": "control rules; magic-weapon immunity"
+   },
+   {
+    "booklet": "v2",
+    "page": "p04",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "47856cfb64ced75d3214b0f00ee3fb605bdc7622b3654c0832417f74a39c0d33"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
