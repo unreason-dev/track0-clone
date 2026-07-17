@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Calls a dead character back — in another body. The new form follows the dead one's alignment: roll on the Character Alignment table, and whatever comes up, that creature the character now is, and so must play. Returned as a man, he rolls class and a six-sided die for level; likewise level is diced for return as an elf or dwarf.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-reincarnate",
  "interpretation_records": [],
  "period_conventions": [
   "\"dependant\" printed; normalized"

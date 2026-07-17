@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Unravels most enchantments (at the referee's option), though not those bound into magical items. Success is proportional: the dispeller's level over the original caster's — a 5th-level Magic-User undoing a 10th-level caster's work succeeds 50% of the time. Duration: 1 turn. Range: 12\".",
  "related_spells": [],
- "counterpart_5_1srd": "spell-dispel-magic",
  "interpretation_records": [],
  "period_conventions": [
   "\"Dispell\" printed throughout; normalized per D-6"

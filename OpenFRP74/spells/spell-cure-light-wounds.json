@@ -19,7 +19,6 @@
  "reversible": true,
  "description": "Over one full turn the Cleric's touch knits wounds: roll a die, add one pip, and remove that many hit points of damage (2-7) from the wounded — elves and dwarves included. Reversed by Anti-Clerics.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-cure-wounds",
  "interpretation_records": [],
  "period_conventions": [
   "healing: 1d6+1"

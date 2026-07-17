@@ -21,7 +21,6 @@
  "related_spells": [
   "spell-slow-spell"
  ],
- "counterpart_5_1srd": "spell-haste",
  "interpretation_records": [],
  "period_conventions": [
   "area/duration/range inherited from Slow Spell"

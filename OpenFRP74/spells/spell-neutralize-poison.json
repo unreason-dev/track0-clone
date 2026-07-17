@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Undoes the working of poison in one object or victim — though it cannot help a character already slain by it. Duration: 1 turn.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-protection-from-poison",
  "interpretation_records": [],
  "period_conventions": [],
  "source": {

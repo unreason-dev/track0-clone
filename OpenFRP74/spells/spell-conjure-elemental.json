@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Summons an Elemental of Air, Water, Fire, or Earth — no more than one of each kind in a day. It remains until dispelled, but the conjurer must hold it in unbroken concentration or it turns on him. Conjured elementals are the strongest of their kind, of 16 hit dice. Range: 24\".",
  "related_spells": [],
- "counterpart_5_1srd": "spell-conjure-elemental",
  "interpretation_records": [],
  "period_conventions": [
   "control/turn rules delegated to CHAINMAIL (external-refs); statline in Vol. II"

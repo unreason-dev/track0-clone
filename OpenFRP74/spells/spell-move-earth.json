@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Above ground, the caster sets the land itself in motion — hills, ridges, and like prominences crawl at 6\" per turn. The spell takes one turn to come into effect. Duration: 6 turns. Range: 24\".",
  "related_spells": [],
- "counterpart_5_1srd": "spell-move-earth",
  "interpretation_records": [],
  "period_conventions": [
   "one-turn onset before movement begins"

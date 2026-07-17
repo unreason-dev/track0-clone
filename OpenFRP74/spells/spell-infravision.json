@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Grants sight in the infra-red, so the recipient sees in total darkness. Duration: 1 day. Range of vision: 40-60 feet.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-darkvision",
  "interpretation_records": [],
  "period_conventions": [
   "\"receipiant\" printed; normalized",

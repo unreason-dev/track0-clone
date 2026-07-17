@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Objects move at the caster's mental command. He may lift a weight of 200 Gold Pieces per level — a 10th-level Necromancer shifts 2,000 Gold Pieces weight. Duration: 6 turns. Range: 12\".",
  "related_spells": [],
- "counterpart_5_1srd": "spell-telekinesis",
  "interpretation_records": [
   "ir-a3-telekinesis-spellings"
  ],

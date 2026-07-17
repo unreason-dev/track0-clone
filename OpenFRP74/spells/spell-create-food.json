@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "The Cleric conjures sustenance for a dozen for one game day; the quantity doubles for each level he holds above the 8th.",
  "related_spells": [],
- "counterpart_5_1srd": null,
  "interpretation_records": [],
  "period_conventions": [
   "\"sustinance\" printed; normalized",

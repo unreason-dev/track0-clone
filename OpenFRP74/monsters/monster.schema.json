@@ -4,50 +4,294 @@
  "description": "Re-projection of the 5.1-srd monster node for the 1974 lineage: the parallel period statline (descending AC, HD grammar, Move in inches, % in Lair, Treasure Type, tri-axis alignment). armor_class semantics are SYSTEM-SCOPED: descending (lower is better) — never compare across systems. Description is original OpenFRP74 wording.",
  "type": "object",
  "additionalProperties": false,
- "required": ["id", "name", "system", "armor_class_raw", "move_raw", "hit_dice_raw", "description", "source"],
+ "required": [
+  "id",
+  "name",
+  "system",
+  "armor_class_raw",
+  "move_raw",
+  "hit_dice_raw",
+  "description",
+  "source"
+ ],
  "properties": {
-  "id": {"type": "string", "pattern": "^monster-[a-z0-9-]+$"},
-  "name": {"type": "string"},
-  "name_raw": {"type": ["string", "null"]},
-  "aliases": {"type": "array", "items": {"type": "string"}},
-  "system": {"const": "openfrp74"},
-  "number_appearing_raw": {"type": ["string", "null"]},
-  "number_appearing": {"type": ["object", "null"], "additionalProperties": false,
-   "properties": {"min": {"type": "number"}, "max": {"type": "number"}, "note": {"type": ["string", "null"]}}},
-  "armor_class_raw": {"type": ["string", "null"]},
-  "armor_class": {"type": ["integer", "null"], "description": "Descending AC (system-scoped semantics)."},
-  "move_raw": {"type": ["string", "null"]},
-  "move_inches": {"type": ["number", "null"]},
-  "fly_inches": {"type": ["number", "null"], "description": "Value after the slash per the table's flying-speed footnote."},
-  "hit_dice_raw": {"type": ["string", "null"]},
-  "hit_dice": {"type": ["object", "null"], "additionalProperties": false,
-   "properties": {"min": {"type": "number"}, "max": {"type": "number"}, "bonus": {"type": "integer"}, "note": {"type": ["string", "null"]}}},
-  "percent_in_lair_raw": {"type": ["string", "null"]},
-  "percent_in_lair": {"type": ["integer", "null"]},
-  "treasure_raw": {"type": ["string", "null"]},
-  "treasure_refs": {"type": "array", "items": {"type": "string"}, "description": "treasure-type-a..i refs and/or typed amounts recorded in treasure_raw."},
-  "alignment": {"type": "array", "items": {"enum": ["law", "neutrality", "chaos"]},
-   "description": "Membership in the v1 p9 alignment lists (errata applied per ir-a13); multi-membership is period-normal."},
-  "description": {"type": "string"},
-  "special_notes": {"type": "array", "items": {"type": "string"}, "description": "Typed one-line specials (immunities, turning, etc.) extracted from prose."},
-  "related_monsters": {"type": "array", "items": {"type": "string"}},
-  "statline_shared_with": {"type": ["string", "null"], "description": "Other monster id when the source prints one slash-pair table row for both."},
-  "counterpart_5_1srd": {"type": ["string", "null"]},
-  "interpretation_records": {"type": "array", "items": {"type": "string"}},
-  "period_conventions": {"type": "array", "items": {"type": "string"}},
-  "external_refs": {"type": "array", "items": {"type": "string"}, "description": "CHAINMAIL/other dependency notes for the external-refs registry."},
-  "source": {"type": "object", "additionalProperties": false,
-   "required": ["work", "booklet", "page", "blocks"],
+  "id": {
+   "type": "string",
+   "pattern": "^monster-[a-z0-9-]+$"
+  },
+  "name": {
+   "type": "string"
+  },
+  "name_raw": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "aliases": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "system": {
+   "const": "openfrp74"
+  },
+  "number_appearing_raw": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "number_appearing": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "additionalProperties": false,
    "properties": {
-    "work": {"const": "OpenFRP74"}, "booklet": {"type": "string"}, "page": {"type": "string"},
-    "blocks": {"type": "array", "items": {"type": "integer"}},
-    "content_sha256": {"type": "array", "items": {"type": "string"}},
-    "also": {"type": "array", "items": {"type": "object", "additionalProperties": false,
-     "required": ["booklet", "page", "blocks"],
-     "properties": {"booklet": {"type": "string"}, "page": {"type": "string"},
-      "blocks": {"type": "array", "items": {"type": "integer"}},
-      "content_sha256": {"type": "array", "items": {"type": "string"}}, "note": {"type": ["string", "null"]}}}}}},
-  "extraction": {"type": "object", "additionalProperties": false,
-   "properties": {"date": {"type": "string"}, "model": {"type": "string"}, "notes": {"type": ["string", "null"]}}}
+    "min": {
+     "type": "number"
+    },
+    "max": {
+     "type": "number"
+    },
+    "note": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   }
+  },
+  "armor_class_raw": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "armor_class": {
+   "type": [
+    "integer",
+    "null"
+   ],
+   "description": "Descending AC (system-scoped semantics)."
+  },
+  "move_raw": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "move_inches": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "fly_inches": {
+   "type": [
+    "number",
+    "null"
+   ],
+   "description": "Value after the slash per the table's flying-speed footnote."
+  },
+  "hit_dice_raw": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "hit_dice": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "additionalProperties": false,
+   "properties": {
+    "min": {
+     "type": "number"
+    },
+    "max": {
+     "type": "number"
+    },
+    "bonus": {
+     "type": "integer"
+    },
+    "note": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   }
+  },
+  "percent_in_lair_raw": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "percent_in_lair": {
+   "type": [
+    "integer",
+    "null"
+   ]
+  },
+  "treasure_raw": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "treasure_refs": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "treasure-type-a..i refs and/or typed amounts recorded in treasure_raw."
+  },
+  "alignment": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "law",
+     "neutrality",
+     "chaos"
+    ]
+   },
+   "description": "Membership in the v1 p9 alignment lists (errata applied per ir-a13); multi-membership is period-normal."
+  },
+  "description": {
+   "type": "string"
+  },
+  "special_notes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "Typed one-line specials (immunities, turning, etc.) extracted from prose."
+  },
+  "related_monsters": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "statline_shared_with": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "description": "Other monster id when the source prints one slash-pair table row for both."
+  },
+  "interpretation_records": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "period_conventions": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "external_refs": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "description": "CHAINMAIL/other dependency notes for the external-refs registry."
+  },
+  "source": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "work",
+    "booklet",
+    "page",
+    "blocks"
+   ],
+   "properties": {
+    "work": {
+     "const": "OpenFRP74"
+    },
+    "booklet": {
+     "type": "string"
+    },
+    "page": {
+     "type": "string"
+    },
+    "blocks": {
+     "type": "array",
+     "items": {
+      "type": "integer"
+     }
+    },
+    "content_sha256": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "also": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "booklet",
+       "page",
+       "blocks"
+      ],
+      "properties": {
+       "booklet": {
+        "type": "string"
+       },
+       "page": {
+        "type": "string"
+       },
+       "blocks": {
+        "type": "array",
+        "items": {
+         "type": "integer"
+        }
+       },
+       "content_sha256": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       },
+       "note": {
+        "type": [
+         "string",
+         "null"
+        ]
+       }
+      }
+     }
+    }
+   }
+  },
+  "extraction": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "date": {
+     "type": "string"
+    },
+    "model": {
+     "type": "string"
+    },
+    "notes": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   }
+  }
  }
 }

@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "The Cleric converses with any animal and understands its answers. Beasts so addressed may render him service, and will never attack his party. Duration: 6 turns. Range: 3\".",
  "related_spells": [],
- "counterpart_5_1srd": "spell-speak-with-animals",
  "interpretation_records": [],
  "period_conventions": [
   "action-probability handling delegated to Vol. II"

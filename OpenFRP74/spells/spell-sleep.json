@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Casts creatures into slumber: 2-16 first-level types (up to 1+1 hit dice), or 2-12 second-level types (up to 2+1 hit dice), or 1-6 third- or fourth-level types (up to 4+1 hit dice). The full number rolled is always affected; if more candidates stand within reach than the dice allow, choose the sleepers at random. Range: 24\".",
  "related_spells": [],
- "counterpart_5_1srd": "spell-sleep",
  "interpretation_records": [],
  "period_conventions": [
   "'effects' printed for 'affects' in source; mechanics unchanged"

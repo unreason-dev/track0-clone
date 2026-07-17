@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Instant transportation to any place, at any distance — if the caster knows where he is going. Blind of the destination, teleportation is 75% uncertain: a percentile roll under 75 is death. Knowing the general topography but not having studied it carefully leaves 10% low and 10% high: low (01-10) is death in solid matter; high (91-100) is a fall of 10-100 feet, possibly fatal. After careful prior study only 1% teleports low and 4% arrives high (a 10-40 foot fall).",
  "related_spells": [],
- "counterpart_5_1srd": null,
  "interpretation_records": [],
  "period_conventions": [
   "percentile bands typed per ir-a11 conventions; source arithmetic example corrected under ir-a4 lives at p18, not here"

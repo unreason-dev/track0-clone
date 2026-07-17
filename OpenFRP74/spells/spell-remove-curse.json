@@ -24,7 +24,6 @@
  "reversible": false,
  "description": "Lifts any one curse or evil sending. Used on a cursed sword, it leaves an ordinary sword — not an enchanted blade. Range: touch (adjacent to the object).",
  "related_spells": [],
- "counterpart_5_1srd": "spell-remove-curse",
  "interpretation_records": [],
  "period_conventions": [],
  "source": {

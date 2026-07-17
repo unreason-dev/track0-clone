@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Sends an invisible scrying eye drifting up to 24\" from the caster, who watches through it without stirring. The eye moves 12\" per turn. Duration: 6 turns.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-arcane-eye",
  "interpretation_records": [],
  "period_conventions": [],
  "source": {

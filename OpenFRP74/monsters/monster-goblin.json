@@ -36,7 +36,6 @@
   "monster-hobgoblin"
  ],
  "statline_shared_with": "monster-kobold",
- "counterpart_5_1srd": "monster-goblin",
  "interpretation_records": [],
  "period_conventions": [
   "table row 'Goblins/Kobolds' split per census; AC 6/7 and HD 1-1/1/2 read as Goblin 6, 1-1; Kobold 7, 1/2"

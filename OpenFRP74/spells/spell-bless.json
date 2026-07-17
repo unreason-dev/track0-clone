@@ -19,7 +19,6 @@
  "reversible": true,
  "description": "Upon comrades not yet in combat the Cleric bestows his benison: morale rises by +1 and attack dice gain +1. The blessing lasts six turns. Reversed by Anti-Clerics.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-bless",
  "interpretation_records": [],
  "period_conventions": [],
  "source": {

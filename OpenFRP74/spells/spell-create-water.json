@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "The Cleric conjures drinkable water enough for a dozen men and their horses for one day; the quantity doubles for each level he holds above the 8th.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-create-or-destroy-water",
  "interpretation_records": [],
  "period_conventions": [
   "quantity formula: base ration ×2 per level above 8th"

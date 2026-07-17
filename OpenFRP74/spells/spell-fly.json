@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "The caster takes wing, flying at up to 12\" per turn. The spell endures for turns equal to the caster's level plus the roll of a six-sided die — a roll the referee makes in secret.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-fly",
  "interpretation_records": [],
  "period_conventions": [
   "referee-secret duration die"

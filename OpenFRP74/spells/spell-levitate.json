@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "The caster rises and descends at will, all magical motion being vertical — though one might drift to a ceiling and pull along it by hand. Upward speed is 6\" per turn. Duration: 6 turns plus the caster's level. Range of levitation: 2\" per level of the caster.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-levitate",
  "interpretation_records": [],
  "period_conventions": [
   "range formula: 2\" × caster level; ascent 6\"/turn"

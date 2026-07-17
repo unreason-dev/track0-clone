@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "A missile springs from the caster's finger and detonates in a 2\" burst radius; in cramped quarters the blast squeezes itself to the shape of the space. Damage scales with the caster: a 6th-level Magic-User hurls a 6-die missile, a 7th an 7-die missile, and so on. (Fire Balls from scrolls and wands are 6-die missiles; from staves, 8-die.) Duration: 1 turn. Range: 24\".",
  "related_spells": [],
- "counterpart_5_1srd": "spell-fireball",
  "interpretation_records": [],
  "period_conventions": [
   "damage formula: 1d6 per caster level"

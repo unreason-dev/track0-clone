@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "An invisible field seals the Magic-User away from all magic: no spell can reach him, and none of his own can pass out through the shell. Duration: 12 turns.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-antimagic-field",
  "interpretation_records": [],
  "period_conventions": [],
  "source": {

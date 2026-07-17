@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Raises skeletons or zombies from remains at hand — it grants no true life. Animate one six-sided die of dead per caster level above the 8th; a 9th-level Sorcerer raises 1-6. The dead serve until dispelled or destroyed.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-animate-dead",
  "interpretation_records": [],
  "period_conventions": [
   "count formula: 1d6 per level above 8th; bodies must be present"

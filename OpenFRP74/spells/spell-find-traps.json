@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Lays bare every trap, mechanical or magical, within a 3\" radius. The spell lasts 2 turns.",
  "related_spells": [],
- "counterpart_5_1srd": "spell-find-traps",
  "interpretation_records": [],
  "period_conventions": [],
  "source": {

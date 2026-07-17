@@ -19,7 +19,6 @@
  "reversible": false,
  "description": "Raises a stone wall two feet thick, its length and height totaling at most 10 square inches. It stands until dispelled, broken down, or battered through like any stone wall. Range: 6\".",
  "related_spells": [],
- "counterpart_5_1srd": "spell-wall-of-stone",
  "interpretation_records": [],
  "period_conventions": [],
  "source": {

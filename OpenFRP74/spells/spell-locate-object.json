@@ -24,7 +24,6 @@
  "reversible": false,
  "description": "Points the caster toward an object — but only one known with certainty: to find a particular magical item its exact nature, dimensions, and coloring must be known, though commonplace things like a flight of stairs leading up can always be sought. The spell gives direction, never distance, and the object must lie within range. Range: 6\" plus 1\" per level, so a 10th-level Necromancer reaches 16\".",
  "related_spells": [],
- "counterpart_5_1srd": "spell-locate-object",
  "interpretation_records": [],
  "period_conventions": [
   "range formula: 6\" + 1\" × caster level"
