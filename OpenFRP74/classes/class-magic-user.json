@@ -266,7 +266,7 @@
   }
  ],
  "progression_beyond": "17th-level Wizard: 6,6,6,5,5,5 spells; 18th: sixes across the board; and so on.",
- "description": "Weak at first and mightiest at last. The whole plethora of enchanted items answers to them save the fighters' arms and armor, and they may carry daggers only. Wizards and above manufacture magic for use or sale — a Scroll of Spells at 100 GP per spell per spell level per week, a Potion of Healing at 250 GP and a week, up to an X-Ray Vision Ring at 50,000 GP and a year — and may research new spells at any level, at a cost and chance set by the spell's level.",
+ "description": "Weak at first and mightiest at last. The whole plethora of enchanted items answers to them save the fighters' arms and armor, and they may carry daggers only. Wizards and above manufacture magic for use or sale — a Scroll of Spells at 100 GP per spell per spell level per week, a Potion of Healing at 250 GP and a week, up to an X-Ray Vision Ring at 50,000 GP and a year — and may research new spells at any level, at cost and chance set by the spell's level.",
  "special_notes": [
   "weapons: daggers only",
   "item manufacture from Wizard (11th)",
@@ -309,12 +309,10 @@
     "booklet": "v1",
     "page": "p16",
     "blocks": [
-     4,
-     5
+     2
     ],
     "content_sha256": [
-     "4dbfad8e546c935b079bb81c9270666836fbe74a6c840d75a191af70cb7b3c52",
-     "725d3c46e467de38aee1e56f33e3abb5a11eeb15af561413481c2eb1abe2d88a"
+     "df7ba2f66e86e061d41a897968490e94848123e38ac7bf1e6d92e75cb54962cd"
     ],
     "note": "levels & XP"
    },

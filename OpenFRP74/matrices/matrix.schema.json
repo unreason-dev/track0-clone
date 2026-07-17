@@ -1,0 +1,105 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "OpenFRP74 matrix",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "name",
+  "system",
+  "row_axis",
+  "col_axis",
+  "rows",
+  "source"
+ ],
+ "properties": {
+  "id": {
+   "type": "string"
+  },
+  "name": {
+   "type": "string"
+  },
+  "system": {
+   "const": "openfrp74"
+  },
+  "die": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "row_axis": {
+   "type": "string"
+  },
+  "col_axis": {
+   "type": "string"
+  },
+  "columns": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "rows": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "label",
+     "cells"
+    ],
+    "properties": {
+     "label": {
+      "type": "string"
+     },
+     "sublabel": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "cells": {
+      "type": "array",
+      "items": {
+       "type": [
+        "string",
+        "null"
+       ]
+      }
+     },
+     "note": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "usage": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "footnotes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "interpretation_records": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "source": {
+   "type": "object"
+  },
+  "extraction": {
+   "type": "object"
+  }
+ }
+}

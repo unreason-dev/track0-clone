@@ -1,0 +1,162 @@
+{
+ "id": "matrix-attack-men",
+ "name": "Attack Matrix I: Men Attacking",
+ "system": "openfrp74",
+ "die": "d20",
+ "row_axis": "target armor class",
+ "col_axis": "attacker level band",
+ "columns": [
+  "1-3",
+  "4-6",
+  "7-9",
+  "10-12",
+  "13-15",
+  "16 & +"
+ ],
+ "rows": [
+  {
+   "label": "2",
+   "sublabel": "Plate Armor & Shield",
+   "cells": [
+    "17",
+    "15",
+    "12",
+    "10",
+    "8",
+    "5"
+   ],
+   "note": null
+  },
+  {
+   "label": "3",
+   "sublabel": "Plate Armor",
+   "cells": [
+    "16",
+    "14",
+    "11",
+    "9",
+    "7",
+    "4"
+   ],
+   "note": null
+  },
+  {
+   "label": "4",
+   "sublabel": "Chain Mail & Shield",
+   "cells": [
+    "15",
+    "13",
+    "10",
+    "8",
+    "6",
+    "3"
+   ],
+   "note": null
+  },
+  {
+   "label": "5",
+   "sublabel": "Chain Mail",
+   "cells": [
+    "14",
+    "12",
+    "9",
+    "7",
+    "5",
+    "2"
+   ],
+   "note": null
+  },
+  {
+   "label": "6",
+   "sublabel": "Leather & Shield",
+   "cells": [
+    "13",
+    "11",
+    "8",
+    "6",
+    "4",
+    "1"
+   ],
+   "note": null
+  },
+  {
+   "label": "7",
+   "sublabel": "Leather Armor",
+   "cells": [
+    "12",
+    "10",
+    "7",
+    "5",
+    "3",
+    "1"
+   ],
+   "note": null
+  },
+  {
+   "label": "8",
+   "sublabel": "Shield Only",
+   "cells": [
+    "11",
+    "9",
+    "6",
+    "4",
+    "2",
+    "1"
+   ],
+   "note": null
+  },
+  {
+   "label": "9",
+   "sublabel": "No Armor or Shield",
+   "cells": [
+    "10",
+    "8",
+    "5",
+    "3",
+    "1",
+    "1"
+   ],
+   "note": null
+  }
+ ],
+ "usage": "Roll d20 ≥ cell to hit. Magic armor and weaponry modify base scores. Missiles use these numbers at long range; Armor Class improves against you by 1 at medium and 1 more at short range.",
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p19",
+  "blocks": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "content_sha256": [
+   "804a8e205c8b96c4007a6601ba5820df5d33f43211019ffed45ce38bff9e001f",
+   "6a788a08edb13ac61797b6e7cab22410ab6063009dda33ec6b23e4fa2c2d50d1",
+   "0dfb30c4be50937e14e5dac0136e4d4a96cf47857500eaad5aeadff888350392",
+   "d956baedf28f363010fbfa9b3cff5f7cc92d59972dea6819934382edee01ad2a",
+   "a3f776ab6a4a18c178f089e848ef8aff6fbb60e7476265ef05a6ede315a07894"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p20",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "8b7a3ab76cbeb4d313e4db2e74d33d8e7bf2895ec68db25bbdae5d247443ba53"
+    ],
+    "note": "magic modifiers; missile range rule"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

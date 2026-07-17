@@ -101,7 +101,7 @@
    "note": "10th-level XP not separately printed"
   }
  ],
- "progression_beyond": "11th: 10+3 dice, fights as 10th; 12th: 11+1 dice, Superhero +2; 13th: 11+3 dice — progression continues in this pattern.",
+ "progression_beyond": "11th: 10+3 dice, fights as 10th; 12th: 11+1 dice, Superhero +2; 13th: 11+3 dice — pattern continues.",
  "description": "The men (and elves, dwarves, even hobbits) of sword and shield. Every magical weapon is theirs, and they take the most hit dice; but non-weapon magic items are largely closed to them and they cast no spells. A Lord or better who builds a castle becomes a Baron, taxing his barony 10 Gold Pieces per inhabitant per game year, with investments to grow it (Vol. III).",
  "special_notes": [
   "all magic weaponry usable",
@@ -129,18 +129,16 @@
     "booklet": "v1",
     "page": "p16",
     "blocks": [
-     0,
      1,
-     2,
-     3
+     4,
+     5
     ],
     "content_sha256": [
-     "1cd4be05c79e1e24f258df0e7a86cdb24fefbbd1f89c416aef4c603a92bd0118",
      "d52348f23bfc970ede61d9cfbc6f81ce0cb4b3cb719faa8d2e0d258c0e9928c3",
-     "df7ba2f66e86e061d41a897968490e94848123e38ac7bf1e6d92e75cb54962cd",
-     "32f85d579cf4e9e3284daa659d5198ad4e0579a74b50ed2c10e466ca281f60dc"
+     "4dbfad8e546c935b079bb81c9270666836fbe74a6c840d75a191af70cb7b3c52",
+     "725d3c46e467de38aee1e56f33e3abb5a11eeb15af561413481c2eb1abe2d88a"
     ],
-    "note": "levels & XP"
+    "note": "levels & XP + elf/dwarf caps"
    },
    {
     "booklet": "v1",
@@ -158,13 +156,11 @@
     "page": "p19",
     "blocks": [
      1,
-     2,
-     3
+     2
     ],
     "content_sha256": [
      "dd04bad53a999acbd51dde7f44a9175ff198f4007f67672a24126547161cef00",
-     "7e1c2353d429c0959c47f6d26e8fa053ea5ac4d0957973d957d1545ab8528fac",
-     "abf312f3e8893c21cff7d71b25dcf1467602f1b151f35e69593cf72b8923160d"
+     "7e1c2353d429c0959c47f6d26e8fa053ea5ac4d0957973d957d1545ab8528fac"
     ],
     "note": "progression-beyond rules"
    }

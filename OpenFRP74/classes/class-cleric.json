@@ -1,0 +1,241 @@
+{
+ "id": "class-cleric",
+ "name": "Clerics",
+ "system": "openfrp74",
+ "prime_requisite": "wisdom",
+ "open_to_races": [
+  "race-human"
+ ],
+ "levels": [
+  {
+   "level": 1,
+   "title": "Acolyte",
+   "xp": 0,
+   "hit_dice": "1",
+   "fighting_capability": "Man",
+   "spells": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 2,
+   "title": "Adept",
+   "xp": 1500,
+   "hit_dice": "2",
+   "fighting_capability": "Man +1",
+   "spells": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 3,
+   "title": "Village Priest",
+   "xp": 3000,
+   "hit_dice": "3",
+   "fighting_capability": "2 Men",
+   "spells": [
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 4,
+   "title": "Vicar",
+   "xp": 6000,
+   "hit_dice": "4",
+   "fighting_capability": "3 Men",
+   "spells": [
+    2,
+    1,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 5,
+   "title": "Curate",
+   "xp": 12000,
+   "hit_dice": "4 + 1",
+   "fighting_capability": "3 Men +1",
+   "spells": [
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 6,
+   "title": "Bishop",
+   "xp": 25000,
+   "hit_dice": "5",
+   "fighting_capability": "Hero - 1",
+   "spells": [
+    2,
+    2,
+    1,
+    1,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 7,
+   "title": "Lama",
+   "xp": 50000,
+   "hit_dice": "6",
+   "fighting_capability": "Hero",
+   "spells": [
+    2,
+    2,
+    2,
+    1,
+    1
+   ],
+   "note": null
+  },
+  {
+   "level": 8,
+   "title": "Patriarch",
+   "xp": 100000,
+   "hit_dice": "7",
+   "fighting_capability": "Hero +1",
+   "spells": [
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "note": null
+  },
+  {
+   "level": 9,
+   "title": "Patriarch, 9th Level",
+   "xp": 100000,
+   "hit_dice": "7 + 1",
+   "fighting_capability": "Superhero - 1",
+   "spells": [
+    3,
+    3,
+    3,
+    2,
+    2
+   ],
+   "note": "XP beyond Patriarch not separately printed"
+  },
+  {
+   "level": 10,
+   "title": "Patriarch, 10th Level",
+   "xp": 100000,
+   "hit_dice": "7 + 2",
+   "fighting_capability": "Superhero - 1",
+   "spells": [
+    3,
+    3,
+    3,
+    3,
+    3
+   ],
+   "note": "XP beyond Patriarch not separately printed"
+  }
+ ],
+ "progression_beyond": "11th-level Patriarch: 4,4,4,3,3 spells; 12th: fours across the board; 13th: 5,5,5,4,4; and so on.",
+ "description": "Part fighter, part mage: magic armor and all non-edged magic weapons (no arrows!), more usable items than the fighter, and spells of their own from 2nd level. A Patriarch who builds a stronghold receives help from above — construction at double value per Gold Piece — and fanatically loyal faithful troops at no cost: 10-60 heavy cavalry, 10-60 horsed crossbowmen, 30-180 heavy foot. Clerics are of Law or of Chaos, sharply divided; a Patriarch who changes sides forfeits every benefit at once. Cleric castles rule a territory like a Barony, tithed at 20 GP per inhabitant per year. Anti-Clerics of Chaos work the reversed forms of the underlined spells.",
+ "special_notes": [
+  "no edged weapons or arrows",
+  "stronghold: double construction value + faithful troops",
+  "tithes 20 GP/inhabitant/year",
+  "Anti-Cleric spell reversal (see spell entries)"
+ ],
+ "related": [
+  "ability-wisdom",
+  "spell-finger-of-death"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p07",
+  "blocks": [
+   4,
+   5,
+   6
+  ],
+  "content_sha256": [
+   "ab48f2cd88be193e4aea402e5d0a06af8b4e7853fc960657a4b550d8c75f7982",
+   "371120771194ea36911c01fc967913c03dca88e204affa8a65e0853921411771",
+   "47c80cc375613d53994e07393de00970fde8f32366e7ed02ee9ad08ed73b1044"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p16",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "32f85d579cf4e9e3284daa659d5198ad4e0579a74b50ed2c10e466ca281f60dc"
+    ],
+    "note": "levels & XP"
+   },
+   {
+    "booklet": "v1",
+    "page": "p18",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "53bdaab3542144e807d87aaddf7ff35d5a7f549e5455e1014e585e28a091e276"
+    ],
+    "note": "stats table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p19",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "abf312f3e8893c21cff7d71b25dcf1467602f1b151f35e69593cf72b8923160d"
+    ],
+    "note": "progression-beyond"
+   },
+   {
+    "booklet": "v1",
+    "page": "p34",
+    "blocks": [
+     9
+    ],
+    "content_sha256": [
+     "31a4e45ef80b66008b7e0cb4e287188863444e02c15f139a283c67a685980c0c"
+    ],
+    "note": "Anti-Cleric note"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

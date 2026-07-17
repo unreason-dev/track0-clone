@@ -1,0 +1,64 @@
+{
+ "id": "race-human",
+ "name": "Men",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "classes_allowed": [
+  {
+   "class": "class-fighting-man",
+   "max_level": null,
+   "max_title": null
+  },
+  {
+   "class": "class-magic-user",
+   "max_level": null,
+   "max_title": null
+  },
+  {
+   "class": "class-cleric",
+   "max_level": null,
+   "max_title": null
+  }
+ ],
+ "description": "The unrestricted default: any class, any height of advancement. Men may change class only with an unmodified 16+ in the new class's prime requisite.",
+ "special_notes": [
+  "class change: unmodified 16+ in target prime requisite"
+ ],
+ "languages": [
+  "common",
+  "alignment tongue"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p06",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "5f0bf0c4b135ada01ba6c1993245a8763ecf58badcff69ca1a1cbf49d37f4c16"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p10",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "f55dc644d380749d0b9a8e1be8a849de07b333e35393a73a27ef3023727597bb"
+    ],
+    "note": "Changing Character Class"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

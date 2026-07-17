@@ -1,0 +1,103 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "OpenFRP74 race",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "name",
+  "system",
+  "classes_allowed",
+  "description",
+  "source"
+ ],
+ "properties": {
+  "id": {
+   "type": "string"
+  },
+  "name": {
+   "type": "string"
+  },
+  "name_raw": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "aliases": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "system": {
+   "const": "openfrp74"
+  },
+  "classes_allowed": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "class"
+    ],
+    "properties": {
+     "class": {
+      "type": "string"
+     },
+     "max_level": {
+      "type": [
+       "integer",
+       "null"
+      ]
+     },
+     "max_title": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "description": {
+   "type": "string"
+  },
+  "special_notes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "languages": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "related": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "interpretation_records": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "external_refs": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "source": {
+   "type": "object"
+  },
+  "extraction": {
+   "type": "object"
+  }
+ }
+}

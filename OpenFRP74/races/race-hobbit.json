@@ -1,0 +1,58 @@
+{
+ "id": "race-hobbit",
+ "name": "Hobbits",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "classes_allowed": [
+  {
+   "class": "class-fighting-man",
+   "max_level": 4,
+   "max_title": "Hero"
+  }
+ ],
+ "description": "Fighting-Men only, to the 4th level — but with a dwarf's magic resistance (four levels added to saving throws) and deadly accuracy with missiles per the source combat rules. Sharp ears too: they detect sounds at doors on 1-2 as elves do.",
+ "special_notes": [
+  "saves at +4 levels",
+  "missile accuracy per CHAINMAIL",
+  "listening 1-2 (Vol. III)"
+ ],
+ "languages": [
+  "common",
+  "alignment tongue"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [
+  "missile accuracy per CHAINMAIL"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p08",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "5f44cfa5302495fc352fd397ad8f1b8e335f7dea6b3cb860f6ddc52471ed8642"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p08",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "2863259d4329edfd3bf351c56f80dbeeb1d0f11f2bfdf89493d6a47ab0982d58"
+    ],
+    "note": "Other Character Types: any monster playable, starting weak"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

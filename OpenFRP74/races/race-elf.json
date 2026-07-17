@@ -1,0 +1,58 @@
+{
+ "id": "race-elf",
+ "name": "Elves",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "classes_allowed": [
+  {
+   "class": "class-fighting-man",
+   "max_level": 4,
+   "max_title": "Hero"
+  },
+  {
+   "class": "class-magic-user",
+   "max_level": 8,
+   "max_title": "Warlock"
+  }
+ ],
+ "description": "Elves begin as Fighting-Men or Magic-Users and choose freshly which to be at the start of each adventure — never mid-game — enjoying both classes' benefits: weapons and spells together, magic armor worn without silencing their magic. Hero caps the sword, Warlock the spell. Keen eyes for secret and hidden doors; the fantastic-foe advantages of the source combat rules; and the tongues of Orcs, Hobgoblins, and Gnolls beside Elvish and the usual.",
+ "special_notes": [
+  "class choice per adventure (ir-a8: race + class-choice feature)",
+  "magic armor + spellcasting combined",
+  "secret-door detection improved"
+ ],
+ "languages": [
+  "common",
+  "alignment tongue",
+  "elvish",
+  "orc",
+  "hobgoblin",
+  "gnoll"
+ ],
+ "related": [
+  "monster-elf"
+ ],
+ "interpretation_records": [
+  "ir-a8-elf-class-model"
+ ],
+ "external_refs": [
+  "fantastic-foe combat advantages per CHAINMAIL"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p08",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "30783cc5c431271c286ece1e6c302717518a435c9d0304097fdb63659183f8fd"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

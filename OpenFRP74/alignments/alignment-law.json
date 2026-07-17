@@ -1,0 +1,64 @@
+{
+ "id": "alignment-law",
+ "name": "Law",
+ "system": "openfrp74",
+ "members": [
+  "Men",
+  "Hobbits",
+  "Patriarchs",
+  "Ents",
+  "Unicorns",
+  "Pegasi",
+  "Hippogriffs",
+  "Elves",
+  "Lycanthropes (Werebears)",
+  "Rocs",
+  "Dwarves/Gnomes",
+  "Centaurs",
+  "Golden Dragons (per Vol. II exception)"
+ ],
+ "description": "The side of order. Underlined names in the printed lists appear under more than one alignment; starred ones may fall anywhere by individual disposition.",
+ "notes": [
+  "Golden Dragon exception recorded in Vol. II but omitted from this table (see monster-golden-dragon)"
+ ],
+ "interpretation_records": [
+  "ir-a13-alignment-list-errata"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p09",
+  "blocks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "content_sha256": [
+   "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+   "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+   "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+   "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     6,
+     7
+    ],
+    "content_sha256": [
+     "7499ec770f791e2d86d58f009a40c29e49e07df388c79f74e492e9974bd08d31",
+     "f3bfcff246a4cc893bbfef7433dde4c20000b0679713aedf56181aa695ce732e"
+    ],
+    "note": "list footnotes"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

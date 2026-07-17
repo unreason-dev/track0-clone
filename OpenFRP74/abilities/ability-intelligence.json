@@ -1,0 +1,76 @@
+{
+ "id": "ability-intelligence",
+ "name": "Intelligence",
+ "system": "openfrp74",
+ "prime_requisite_for": "class-magic-user",
+ "exchange": [
+  "Fighters and Clerics may trade Intelligence 2-for-1 into their own prime requisites"
+ ],
+ "modifiers": [
+  {
+   "condition": "Prime requisite +3 or more",
+   "effect": "Add 10% to earned experience",
+   "note": null
+  },
+  {
+   "condition": "Prime requisite +1 or +2",
+   "effect": "Add 5% to earned experience",
+   "note": null
+  },
+  {
+   "condition": "Prime requisite of 9-12",
+   "effect": "Average, no bonus or penalty",
+   "note": null
+  },
+  {
+   "condition": "Prime requisite -1 or -2",
+   "effect": "Minus 10% from earned experience",
+   "note": null
+  },
+  {
+   "condition": "Prime requisite -3 or more",
+   "effect": "Minus 20% from earned experience",
+   "note": null
+  }
+ ],
+ "description": "Prime requisite of magical types. Sways the referee on what a character would think to do, and grants additional spoken languages.",
+ "related": [
+  "class-magic-user"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p10",
+  "blocks": [
+   2,
+   6
+  ],
+  "content_sha256": [
+   "d46720ffc3ed77aeba139dac24534adbb85f424b3bbb38b6743a5232fe1904b3",
+   "695ec8cd2de9b103d7d07f833526c065a8248add2682a8945199c577aae18083"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p11",
+    "blocks": [
+     6,
+     7,
+     8
+    ],
+    "content_sha256": [
+     "6a1eaa4d40a9d30a4afa28f79ca551020eca0317da3a51fc5a5bc3f0168c889b",
+     "240e65eeea47d4aef624a9dda9f07c81a07a81e4a41770ac24277567bad9c949",
+     "cd51ee719f30234ac6f9c85b9a5e73a079575a8bcbedd64e385185c19f29de64"
+    ],
+    "note": "Bonuses and Penalties table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

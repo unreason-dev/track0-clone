@@ -1,0 +1,176 @@
+{
+ "id": "matrix-turning-undead",
+ "name": "Clerics versus Undead Monsters",
+ "system": "openfrp74",
+ "die": "2d6",
+ "row_axis": "undead type",
+ "col_axis": "cleric level (title)",
+ "columns": [
+  "Acolyte",
+  "Adept",
+  "Village Priest",
+  "Vicar",
+  "Curate",
+  "Bishop",
+  "Lama",
+  "Patriarch"
+ ],
+ "rows": [
+  {
+   "label": "Skeleton",
+   "sublabel": null,
+   "cells": [
+    "7",
+    "T",
+    "T",
+    "D",
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": null
+  },
+  {
+   "label": "Zombie",
+   "sublabel": null,
+   "cells": [
+    "9",
+    "7",
+    "T",
+    "T",
+    "D",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": "Adept cell printed 'T', corrected to 7 by errata"
+  },
+  {
+   "label": "Ghoul",
+   "sublabel": null,
+   "cells": [
+    "11",
+    "9",
+    "7",
+    "T",
+    "T",
+    "D",
+    "D",
+    "D"
+   ],
+   "note": null
+  },
+  {
+   "label": "Wight",
+   "sublabel": null,
+   "cells": [
+    "N",
+    "11",
+    "9",
+    "7",
+    "T",
+    "T",
+    "D",
+    "D"
+   ],
+   "note": null
+  },
+  {
+   "label": "Wraith",
+   "sublabel": null,
+   "cells": [
+    "N",
+    "N",
+    "11",
+    "9",
+    "7",
+    "T",
+    "T",
+    "D"
+   ],
+   "note": null
+  },
+  {
+   "label": "Mummy",
+   "sublabel": null,
+   "cells": [
+    "N",
+    "N",
+    "N",
+    "11",
+    "9",
+    "7",
+    "T",
+    "T"
+   ],
+   "note": null
+  },
+  {
+   "label": "Spectre",
+   "sublabel": null,
+   "cells": [
+    "N",
+    "N",
+    "N",
+    "N",
+    "11",
+    "9",
+    "7",
+    "T"
+   ],
+   "note": null
+  },
+  {
+   "label": "Vampire",
+   "sublabel": null,
+   "cells": [
+    "N",
+    "N",
+    "N",
+    "N",
+    "N",
+    "11",
+    "9",
+    "7"
+   ],
+   "note": null
+  }
+ ],
+ "usage": "Roll 2d6 ≥ the number to turn the undead away; T = automatic turning, D = destroyed, N = no effect possible.",
+ "footnotes": [
+  "Zombie/Adept corrected T→7 per Correction Sheet"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p22",
+  "blocks": [
+   4,
+   5
+  ],
+  "content_sha256": [
+   "4613ac13c6a4bfb417233320f538c4e61d9ed436a7d0d4c575f7ad5e99ef5b77",
+   "4f7d3bc7d03d45dac51b8a9d66c6d17021aa63859f42712b79d62aa8f994e250"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p22",
+    "blocks": [
+     6
+    ],
+    "content_sha256": [
+     "bcf9058467a1a23a9d2a60fd27c918eff9ff03b545da0e679136c38b18abc517"
+    ],
+    "note": "Numbers note"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

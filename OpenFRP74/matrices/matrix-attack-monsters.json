@@ -1,0 +1,163 @@
+{
+ "id": "matrix-attack-monsters",
+ "name": "Attack Matrix II: Monsters Attacking",
+ "system": "openfrp74",
+ "die": "d20",
+ "row_axis": "target armor class",
+ "col_axis": "monster hit dice band",
+ "columns": [
+  "Up to 1",
+  "1+1",
+  "2-3",
+  "3-4",
+  "4-6",
+  "7-8",
+  "9-10",
+  "11 & +"
+ ],
+ "rows": [
+  {
+   "label": "2",
+   "sublabel": null,
+   "cells": [
+    "17",
+    "16",
+    "15",
+    "13",
+    "12",
+    "11",
+    "9",
+    "7"
+   ],
+   "note": null
+  },
+  {
+   "label": "3",
+   "sublabel": null,
+   "cells": [
+    "16",
+    "15",
+    "14",
+    "12",
+    "11",
+    "10",
+    "8",
+    "6"
+   ],
+   "note": null
+  },
+  {
+   "label": "4",
+   "sublabel": null,
+   "cells": [
+    "15",
+    "14",
+    "13",
+    "11",
+    "10",
+    "9",
+    "7",
+    "5"
+   ],
+   "note": null
+  },
+  {
+   "label": "5",
+   "sublabel": null,
+   "cells": [
+    "14",
+    "13",
+    "12",
+    "10",
+    "9",
+    "8",
+    "6",
+    "4"
+   ],
+   "note": null
+  },
+  {
+   "label": "6",
+   "sublabel": null,
+   "cells": [
+    "13",
+    "12",
+    "11",
+    "9",
+    "8",
+    "7",
+    "5",
+    "3"
+   ],
+   "note": null
+  },
+  {
+   "label": "7",
+   "sublabel": null,
+   "cells": [
+    "12",
+    "11",
+    "10",
+    "8",
+    "7",
+    "6",
+    "4",
+    "2"
+   ],
+   "note": null
+  },
+  {
+   "label": "8",
+   "sublabel": null,
+   "cells": [
+    "11",
+    "10",
+    "9",
+    "7",
+    "6",
+    "5",
+    "3",
+    "1"
+   ],
+   "note": null
+  },
+  {
+   "label": "9",
+   "sublabel": null,
+   "cells": [
+    "10",
+    "9",
+    "8",
+    "6",
+    "5",
+    "4",
+    "2",
+    "0"
+   ],
+   "note": null
+  }
+ ],
+ "usage": "Roll d20 ≥ cell to hit; armor class descriptions as in Matrix I.",
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p20",
+  "blocks": [
+   0,
+   1,
+   2
+  ],
+  "content_sha256": [
+   "ae4b91b1b21afaf9bd6b6e8a137e2186b2992c7bbf8bf1bcff59dea74f9c7861",
+   "d956baedf28f363010fbfa9b3cff5f7cc92d59972dea6819934382edee01ad2a",
+   "b8ae976df56e39ce30de4baac4e6c601b13f12ba71822d18be9844fee6ee3839"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

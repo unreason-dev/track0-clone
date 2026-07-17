@@ -1,0 +1,50 @@
+{
+ "id": "race-dwarf",
+ "name": "Dwarves",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "classes_allowed": [
+  {
+   "class": "class-fighting-man",
+   "max_level": 6,
+   "max_title": "Myrmidon"
+  }
+ ],
+ "description": "Fighters only, to the 6th level. In exchange: magic resistance adding four levels to saving throws (a 6th-level dwarf saves as a 10th-level human); sole full mastery of the +3 Magic War Hammer; the knack of noting slanting passages, traps, shifting walls, and new construction underground; and the tongues of Gnomes, Kobolds, and Goblins besides the usual.",
+ "special_notes": [
+  "saves at +4 levels",
+  "+3 War Hammer full use",
+  "underground architecture sense"
+ ],
+ "languages": [
+  "common",
+  "alignment tongue",
+  "dwarvish",
+  "gnome",
+  "kobold",
+  "goblin"
+ ],
+ "related": [
+  "item-magic-war-hammer",
+  "monster-dwarf"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p07",
+  "blocks": [
+   7
+  ],
+  "content_sha256": [
+   "6bd3a02982642eebf0294c97de8d885ad561202b4700ea9b7fd3696238b34036"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

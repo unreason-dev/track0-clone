@@ -1,0 +1,74 @@
+{
+ "id": "ability-constitution",
+ "name": "Constitution",
+ "system": "openfrp74",
+ "prime_requisite_for": null,
+ "exchange": [],
+ "modifiers": [
+  {
+   "condition": "Constitution +3 or more",
+   "effect": "Add +1 to each hit die",
+   "note": null
+  },
+  {
+   "condition": "Constitution +1 or +2",
+   "effect": "Will withstand adversity",
+   "note": null
+  },
+  {
+   "condition": "Constitution of 9-12",
+   "effect": "60% to 90% chance of surviving",
+   "note": null
+  },
+  {
+   "condition": "Constitution -1 or -2",
+   "effect": "40% to 50% chance of survival (errata; printed 30% to 40%)",
+   "note": null
+  },
+  {
+   "condition": "Constitution -3 or more",
+   "effect": "Minus 1 from each hit die",
+   "note": null
+  }
+ ],
+ "description": "Health and endurance together: how many hits can be borne, and whether the character survives paralysis, petrification, and like transmutations (the survival bands above). 'Will withstand adversity' is the referee's to interpret (ir-a7).",
+ "related": [],
+ "interpretation_records": [
+  "ir-a7-constitution-adversity"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p10",
+  "blocks": [
+   2,
+   6
+  ],
+  "content_sha256": [
+   "d46720ffc3ed77aeba139dac24534adbb85f424b3bbb38b6743a5232fe1904b3",
+   "695ec8cd2de9b103d7d07f833526c065a8248add2682a8945199c577aae18083"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p11",
+    "blocks": [
+     6,
+     7,
+     8
+    ],
+    "content_sha256": [
+     "6a1eaa4d40a9d30a4afa28f79ca551020eca0317da3a51fc5a5bc3f0168c889b",
+     "240e65eeea47d4aef624a9dda9f07c81a07a81e4a41770ac24277567bad9c949",
+     "cd51ee719f30234ac6f9c85b9a5e73a079575a8bcbedd64e385185c19f29de64"
+    ],
+    "note": "Bonuses and Penalties table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
