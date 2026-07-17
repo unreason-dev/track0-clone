@@ -1,0 +1,124 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "OpenFRP74 class",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "name",
+  "system",
+  "prime_requisite",
+  "levels",
+  "description",
+  "source"
+ ],
+ "properties": {
+  "id": {
+   "type": "string"
+  },
+  "name": {
+   "type": "string"
+  },
+  "system": {
+   "const": "openfrp74"
+  },
+  "prime_requisite": {
+   "type": "string"
+  },
+  "open_to_races": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "levels": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "level",
+     "title",
+     "xp"
+    ],
+    "properties": {
+     "level": {
+      "type": "integer"
+     },
+     "title": {
+      "type": "string"
+     },
+     "xp": {
+      "type": "integer"
+     },
+     "hit_dice": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "fighting_capability": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "spells": {
+      "type": [
+       "array",
+       "null"
+      ],
+      "items": {
+       "type": "integer"
+      }
+     },
+     "note": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "progression_beyond": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "description": {
+   "type": "string"
+  },
+  "special_notes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "related": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "interpretation_records": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "external_refs": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "source": {
+   "type": "object"
+  },
+  "extraction": {
+   "type": "object"
+  }
+ }
+}

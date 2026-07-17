@@ -1,0 +1,350 @@
+{
+ "id": "class-magic-user",
+ "name": "Magic-Users",
+ "system": "openfrp74",
+ "prime_requisite": "intelligence",
+ "open_to_races": [
+  "race-human",
+  "race-elf"
+ ],
+ "levels": [
+  {
+   "level": 1,
+   "title": "Medium",
+   "xp": 0,
+   "hit_dice": "1",
+   "fighting_capability": "Man",
+   "spells": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 2,
+   "title": "Seer",
+   "xp": 2500,
+   "hit_dice": "1 + 1",
+   "fighting_capability": "Man +1",
+   "spells": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 3,
+   "title": "Conjurer",
+   "xp": 5000,
+   "hit_dice": "2",
+   "fighting_capability": "2 Men",
+   "spells": [
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 4,
+   "title": "Theurgist",
+   "xp": 10000,
+   "hit_dice": "2 + 1",
+   "fighting_capability": "2 Men +1",
+   "spells": [
+    4,
+    2,
+    0,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 5,
+   "title": "Thaumaturgist",
+   "xp": 20000,
+   "hit_dice": "3",
+   "fighting_capability": "3 Men",
+   "spells": [
+    4,
+    2,
+    1,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 6,
+   "title": "Magician",
+   "xp": 35000,
+   "hit_dice": "3 + 1",
+   "fighting_capability": "3 Men +1",
+   "spells": [
+    4,
+    2,
+    2,
+    0,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 7,
+   "title": "Enchanter",
+   "xp": 50000,
+   "hit_dice": "4",
+   "fighting_capability": "Hero -1",
+   "spells": [
+    4,
+    3,
+    2,
+    1,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 8,
+   "title": "Warlock",
+   "xp": 75000,
+   "hit_dice": "5",
+   "fighting_capability": "Hero",
+   "spells": [
+    4,
+    3,
+    3,
+    2,
+    0,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 9,
+   "title": "Sorcerer",
+   "xp": 100000,
+   "hit_dice": "6 + 1",
+   "fighting_capability": "Hero +1",
+   "spells": [
+    4,
+    3,
+    3,
+    2,
+    1,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 10,
+   "title": "Necromancer",
+   "xp": 200000,
+   "hit_dice": "7",
+   "fighting_capability": "Wizard",
+   "spells": [
+    4,
+    4,
+    3,
+    3,
+    2,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 11,
+   "title": "Wizard",
+   "xp": 300000,
+   "hit_dice": "8 + 1",
+   "fighting_capability": "Wizard",
+   "spells": [
+    4,
+    4,
+    4,
+    3,
+    3,
+    0
+   ],
+   "note": null
+  },
+  {
+   "level": 12,
+   "title": "Wizard, 12th Level",
+   "xp": 300000,
+   "hit_dice": "8 + 2",
+   "fighting_capability": "Wizard",
+   "spells": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    1
+   ],
+   "note": "XP beyond Wizard not separately printed"
+  },
+  {
+   "level": 13,
+   "title": "Wizard, 13th Level",
+   "xp": 300000,
+   "hit_dice": "8 + 3",
+   "fighting_capability": "Wizard",
+   "spells": [
+    5,
+    5,
+    5,
+    4,
+    4,
+    2
+   ],
+   "note": "XP beyond Wizard not separately printed"
+  },
+  {
+   "level": 14,
+   "title": "Wizard, 14th Level",
+   "xp": 300000,
+   "hit_dice": "8 + 4",
+   "fighting_capability": "Wizard +1",
+   "spells": [
+    5,
+    5,
+    5,
+    4,
+    4,
+    3
+   ],
+   "note": "XP beyond Wizard not separately printed"
+  },
+  {
+   "level": 15,
+   "title": "Wizard, 15th Level",
+   "xp": 300000,
+   "hit_dice": "9 + 1",
+   "fighting_capability": "Wizard +1",
+   "spells": [
+    5,
+    5,
+    5,
+    4,
+    4,
+    4
+   ],
+   "note": "XP beyond Wizard not separately printed"
+  },
+  {
+   "level": 16,
+   "title": "Wizard, 16th Level",
+   "xp": 300000,
+   "hit_dice": "9 + 2",
+   "fighting_capability": "Wizard +2",
+   "spells": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "note": "XP beyond Wizard not separately printed"
+  }
+ ],
+ "progression_beyond": "17th-level Wizard: 6,6,6,5,5,5 spells; 18th: sixes across the board; and so on.",
+ "description": "Weak at first and mightiest at last. The whole plethora of enchanted items answers to them save the fighters' arms and armor, and they may carry daggers only. Wizards and above manufacture magic for use or sale — a Scroll of Spells at 100 GP per spell per spell level per week, a Potion of Healing at 250 GP and a week, up to an X-Ray Vision Ring at 50,000 GP and a year — and may research new spells at any level, at a cost and chance set by the spell's level.",
+ "special_notes": [
+  "weapons: daggers only",
+  "item manufacture from Wizard (11th)",
+  "spell research at any level"
+ ],
+ "related": [
+  "ability-intelligence"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p06",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "62aeef85554ce0abdce08f53fc8bb55e302e19fce7bfa520dbf3f267386efb86"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p07",
+    "blocks": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "content_sha256": [
+     "e10624244de3b9da863da0c2774de8d072f82b7b97ba29762e7e36ccd198decc",
+     "6d401e414b8151d0cd2c54193656c3c7386c613f3a1f137bc562ef0ea0f39649",
+     "0842252d48b7f25f672c8e18b54558fab527c86d4be31f4aae556d1019ed4fef",
+     "cf15a2d706713e5205ddad4ff8eb8126aeba59d14a26e4dd611ae771c68fd9a6"
+    ],
+    "note": "manufacture costs, research"
+   },
+   {
+    "booklet": "v1",
+    "page": "p16",
+    "blocks": [
+     4,
+     5
+    ],
+    "content_sha256": [
+     "4dbfad8e546c935b079bb81c9270666836fbe74a6c840d75a191af70cb7b3c52",
+     "725d3c46e467de38aee1e56f33e3abb5a11eeb15af561413481c2eb1abe2d88a"
+    ],
+    "note": "levels & XP"
+   },
+   {
+    "booklet": "v1",
+    "page": "p17",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "e2e97ccb842fe49c1a536370f4c6982f5263ca5185971c90cb04ba74e9f5f369"
+    ],
+    "note": "stats table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p19",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "abf312f3e8893c21cff7d71b25dcf1467602f1b151f35e69593cf72b8923160d"
+    ],
+    "note": "progression-beyond"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

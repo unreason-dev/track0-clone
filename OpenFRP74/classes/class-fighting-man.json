@@ -1,0 +1,178 @@
+{
+ "id": "class-fighting-man",
+ "name": "Fighting-Men",
+ "system": "openfrp74",
+ "prime_requisite": "strength",
+ "open_to_races": [
+  "race-human",
+  "race-dwarf",
+  "race-elf",
+  "race-hobbit"
+ ],
+ "levels": [
+  {
+   "level": 1,
+   "title": "Veteran",
+   "xp": 0,
+   "hit_dice": "1 + 1",
+   "fighting_capability": "Man +1",
+   "spells": null,
+   "note": null
+  },
+  {
+   "level": 2,
+   "title": "Warrior",
+   "xp": 2000,
+   "hit_dice": "2",
+   "fighting_capability": "2 Men +1",
+   "spells": null,
+   "note": null
+  },
+  {
+   "level": 3,
+   "title": "Swordsman",
+   "xp": 4000,
+   "hit_dice": "3",
+   "fighting_capability": "3 Men or Hero -1",
+   "spells": null,
+   "note": null
+  },
+  {
+   "level": 4,
+   "title": "Hero",
+   "xp": 8000,
+   "hit_dice": "4",
+   "fighting_capability": "Hero",
+   "spells": null,
+   "note": null
+  },
+  {
+   "level": 5,
+   "title": "Swashbuckler",
+   "xp": 16000,
+   "hit_dice": "5 + 1",
+   "fighting_capability": "Hero +1 or 5 Men",
+   "spells": null,
+   "note": null
+  },
+  {
+   "level": 6,
+   "title": "Myrmidon",
+   "xp": 32000,
+   "hit_dice": "6",
+   "fighting_capability": "Hero +1 or 6 Men",
+   "spells": null,
+   "note": null
+  },
+  {
+   "level": 7,
+   "title": "Champion",
+   "xp": 64000,
+   "hit_dice": "7 + 1",
+   "fighting_capability": "Superhero - 1",
+   "spells": null,
+   "note": null
+  },
+  {
+   "level": 8,
+   "title": "Superhero",
+   "xp": 120000,
+   "hit_dice": "8 + 2",
+   "fighting_capability": "Superhero",
+   "spells": null,
+   "note": null
+  },
+  {
+   "level": 9,
+   "title": "Lord",
+   "xp": 240000,
+   "hit_dice": "9 + 3",
+   "fighting_capability": "Superhero +1",
+   "spells": null,
+   "note": null
+  },
+  {
+   "level": 10,
+   "title": "Lord, 10th Level",
+   "xp": 240000,
+   "hit_dice": "10 + 1",
+   "fighting_capability": "Superhero +1",
+   "spells": null,
+   "note": "10th-level XP not separately printed"
+  }
+ ],
+ "progression_beyond": "11th: 10+3 dice, fights as 10th; 12th: 11+1 dice, Superhero +2; 13th: 11+3 dice — progression continues in this pattern.",
+ "description": "The men (and elves, dwarves, even hobbits) of sword and shield. Every magical weapon is theirs, and they take the most hit dice; but non-weapon magic items are largely closed to them and they cast no spells. A Lord or better who builds a castle becomes a Baron, taxing his barony 10 Gold Pieces per inhabitant per game year, with investments to grow it (Vol. III).",
+ "special_notes": [
+  "all magic weaponry usable",
+  "Baron income: 10 GP/inhabitant/year"
+ ],
+ "related": [
+  "ability-strength"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p06",
+  "blocks": [
+   4,
+   5
+  ],
+  "content_sha256": [
+   "5f0bf0c4b135ada01ba6c1993245a8763ecf58badcff69ca1a1cbf49d37f4c16",
+   "bd83686431c082f2b9f88a5972a58ee3065c6a2624b75b2fcdad1adc03a6467f"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p16",
+    "blocks": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "content_sha256": [
+     "1cd4be05c79e1e24f258df0e7a86cdb24fefbbd1f89c416aef4c603a92bd0118",
+     "d52348f23bfc970ede61d9cfbc6f81ce0cb4b3cb719faa8d2e0d258c0e9928c3",
+     "df7ba2f66e86e061d41a897968490e94848123e38ac7bf1e6d92e75cb54962cd",
+     "32f85d579cf4e9e3284daa659d5198ad4e0579a74b50ed2c10e466ca281f60dc"
+    ],
+    "note": "levels & XP"
+   },
+   {
+    "booklet": "v1",
+    "page": "p17",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "e2e97ccb842fe49c1a536370f4c6982f5263ca5185971c90cb04ba74e9f5f369"
+    ],
+    "note": "stats table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p19",
+    "blocks": [
+     1,
+     2,
+     3
+    ],
+    "content_sha256": [
+     "dd04bad53a999acbd51dde7f44a9175ff198f4007f67672a24126547161cef00",
+     "7e1c2353d429c0959c47f6d26e8fa053ea5ac4d0957973d957d1545ab8528fac",
+     "abf312f3e8893c21cff7d71b25dcf1467602f1b151f35e69593cf72b8923160d"
+    ],
+    "note": "progression-beyond rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
