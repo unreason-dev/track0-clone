@@ -1,0 +1,48 @@
+{
+ "id": "item-staff-of-withering",
+ "name": "Staff of Withering",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "staff",
+ "usable_by": [
+  "cleric"
+ ],
+ "duration_raw": null,
+ "description": "No bonus to hit; a blow deals one die and ages the victim ten years — of lifespan, not maturity. Four such blows leave a man doddering, a beast dead of age. The Undead and the very long-lived shrug it off.",
+ "special_notes": [],
+ "related": [
+  "item-potion-longevity"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p35",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "904dc8bd87098852448cb5214a5fda23083f97edf52650d9025edeca8268b756"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+    ],
+    "note": "wand/staff general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

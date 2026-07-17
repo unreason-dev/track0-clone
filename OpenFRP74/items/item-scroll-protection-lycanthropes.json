@@ -1,0 +1,33 @@
+{
+ "id": "item-scroll-protection-lycanthropes",
+ "name": "Scroll of Protection: Lycanthropes",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "scroll",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": "6 turns",
+ "description": "Readable by any literate character: wards the reader and all within a 1\" radius against 2-12 Lycanthropes for 6 turns.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p32",
+  "blocks": [
+   14
+  ],
+  "content_sha256": [
+   "3dd05e5e8476e4aee3f2437a217507b5667bbba586c86109a558ed65cf752cd8"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

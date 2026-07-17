@@ -1,0 +1,52 @@
+{
+ "id": "item-staff-of-power",
+ "name": "Staff of Power",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "staff",
+ "usable_by": [
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "Cold, Fire Balls, Lightning Bolts, Striking, Continual Light, and Telekinesis in one staff — and, at need, the Final Strike: break it, and 8 × its remaining charges burst as hit points on everything within 3\".",
+ "special_notes": [
+  "Final Strike: 8 × remaining charges, 3\" radius"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p35",
+  "blocks": [
+   7,
+   8,
+   9
+  ],
+  "content_sha256": [
+   "d984464dc08e10ff73e1a93128187557da32843dc57dc8e137b3bcc9d9fd5a49",
+   "92a26b455fda36a266c1c5807d2dd95b2e58619385bfd60afc7ae51c7ba25231",
+   "f45490be064f51cbd22341757e6ba519f236a9dfe9ccc0a7f25b2ef9ff05cd1b"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+    ],
+    "note": "wand/staff general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

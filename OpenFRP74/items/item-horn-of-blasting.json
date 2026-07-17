@@ -1,0 +1,48 @@
+{
+ "id": "item-horn-of-blasting",
+ "name": "Horn of Blasting",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Its blast is a double bombard against walls, gates, and all unliving matter; creatures in the sound's path — a cone 10\" long ending 2\" wide — take two dice and are deafened a turn if they live.",
+ "special_notes": [
+  "bombard effect per Vol. III / CHAINMAIL"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p38",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "61fd8180a85b67a0a1f9abb0d41e972d15fa64570430ca8eb9fb628ae0d6f546"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

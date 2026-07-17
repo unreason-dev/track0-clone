@@ -1,0 +1,52 @@
+{
+ "id": "item-staff-of-wizardry",
+ "name": "Staff of Wizardry",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "staff",
+ "usable_by": [
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "All the Staff of Power's arts, +1 to hit, and more: Paralyzation, Invisibility, Wall of Fire, Passwall, a Djinni's whirlwind, summoned Elementals (d4 for how many and which), and webs — sticky masses filling 1\"×1\"×2\" a turn, burst by Giants in two turns, burned or slashed by flame (a Flaming Sword cuts through in one). Final Strike as the Staff of Power.",
+ "special_notes": [
+  "Final Strike as Staff of Power"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p35",
+  "blocks": [
+   10,
+   11,
+   12
+  ],
+  "content_sha256": [
+   "7e6150ac576ddb76707dcf68157da8dce3e8343ab9a821af74be51c742bc999d",
+   "cd3b485116eb7d565f906ceff74d9771666a8ada91b84fc3e1bf042e2d9d09cd",
+   "d97d5fb91cdf91afcc61e1910038483618d6baf858bbcda8b11a9ee348b96670"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+    ],
+    "note": "wand/staff general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

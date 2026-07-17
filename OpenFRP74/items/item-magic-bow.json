@@ -1,0 +1,35 @@
+{
+ "id": "item-magic-bow",
+ "name": "Magic Bow",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-weapon",
+ "usable_by": [
+  "fighting-man"
+ ],
+ "duration_raw": null,
+ "description": "Grants every arrow +1 to hit, with no damage bonus; a Magic Arrow so shot hits at +2.",
+ "special_notes": [],
+ "related": [
+  "item-magic-arrows"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p31",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "9abf6f731fd62d02c55f4d5de661c95d074a070a37242ce2c018b1a1046f0a8f"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

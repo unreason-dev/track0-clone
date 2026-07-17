@@ -1,0 +1,46 @@
+{
+ "id": "item-bag-of-holding",
+ "name": "Bag of Holding",
+ "name_raw": "Bag ot Holding (table)",
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "A sack that carries 10,000 Gold Pieces as if 300; objects to 10'×5'×3' go in, weighing 600 whatever they truly weigh.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p36",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "d2d1f0c9842c98954191649e1bb0944c8617e69d627c0135b472a1edd21daa6e"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

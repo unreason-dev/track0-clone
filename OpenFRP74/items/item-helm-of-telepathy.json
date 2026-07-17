@@ -1,0 +1,46 @@
+{
+ "id": "item-helm-of-telepathy",
+ "name": "Helm of Telepathy",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Reads thoughts within 9\"; where the wearer's Intelligence exceeds a human or humanoid target's, he may implant suggestions (+2 to be carried out).",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p37",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "dcad79b63bc1d3a6e371dc4f3a3266fe30f3e3d73e5f3e68fac85c7062f855c0"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

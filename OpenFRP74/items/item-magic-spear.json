@@ -1,0 +1,33 @@
+{
+ "id": "item-magic-spear",
+ "name": "Magic Spears",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-weapon",
+ "usable_by": [
+  "fighting-man"
+ ],
+ "duration_raw": null,
+ "description": "+1 to +3, to hit and to damage; may be hurled as Axes and Hammers. Whatever impales itself upon the spear takes double — with force enough, treble — damage.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p31",
+  "blocks": [
+   7
+  ],
+  "content_sha256": [
+   "5e78dc95aef203cade4f79e84d0d9413c216b1c431471984a781f6fbf674d67a"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

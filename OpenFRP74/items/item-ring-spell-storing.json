@@ -1,0 +1,57 @@
+{
+ "id": "item-ring-spell-storing",
+ "name": "Ring of Spell Storing",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "ring",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Holds 1-6 spells of levels 1-6, known telepathically the moment the ring is donned. Any class may wear and discharge it; only a Magic-User or Cleric can refill it. 20% of these rings are Clerical — half of those Chaotic.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p34",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "2d320318cc4625ee06a4fb992ba4703f58f8a374cbff0c29fbe0f4930df328d2"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p33",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "c1134ce09cd8ab5359ca6586a5317aa071e3b16cf6a5964fbe62e0c6a78b7b4b"
+    ],
+    "note": "ring general rules"
+   },
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "d9062c1e159821aadc39eeb15ecc4268e6048c921b28fd75c848e894b460f631"
+    ],
+    "note": "Rings table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

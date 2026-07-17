@@ -1,0 +1,46 @@
+{
+ "id": "item-displacer-cloak",
+ "name": "Displacer Cloak",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Bends light to show the wearer up to 1\" from where he stands: 10% harder to hit by blow or wand (+2 defense and saving throws).",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p36",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "18c7c6287f40f532170c8961516baba9e0dfaa6d14be5ffa36e45b0036bf6e03"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

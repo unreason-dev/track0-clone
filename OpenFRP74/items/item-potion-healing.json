@@ -1,0 +1,59 @@
+{
+ "id": "item-potion-healing",
+ "name": "Potion of Healing",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "potion",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": "6 turns + 1d6 (limited-effect default)",
+ "description": "Repairs one die plus one (2-7) points of damage, as a Cure Light Wounds.",
+ "special_notes": [],
+ "related": [
+  "spell-cure-light-wounds"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p31",
+  "blocks": [
+   15
+  ],
+  "content_sha256": [
+   "cb3e1eee3f7df48209adc6ffab6bf06d6e293b91a60d6532cf6462d4f2728f44"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p31",
+    "blocks": [
+     8
+    ],
+    "content_sha256": [
+     "c3ba729e4e59dc1d58e1aea9451b3721499bb49a7eba8cf091e56794c5b1b3a4"
+    ],
+    "note": "potion general rules"
+   },
+   {
+    "booklet": "v2",
+    "page": "p24",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "930d587be5abe483f3b549d3d56831cd59ab5cf063dbf96ead2b72225caf5170"
+    ],
+    "note": "Potions table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

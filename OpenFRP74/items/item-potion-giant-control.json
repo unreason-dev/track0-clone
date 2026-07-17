@@ -1,0 +1,57 @@
+{
+ "id": "item-potion-giant-control",
+ "name": "Potion of Giant Control",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "potion",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": "6 turns + 1d6 (limited-effect default)",
+ "description": "A Charm Monster against 1-4 Giants, saving throws allowed.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p32",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "d0ca07e4406c5fe0818b402a5cfa113b90affe87e010796233de599529b04d44"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p31",
+    "blocks": [
+     8
+    ],
+    "content_sha256": [
+     "c3ba729e4e59dc1d58e1aea9451b3721499bb49a7eba8cf091e56794c5b1b3a4"
+    ],
+    "note": "potion general rules"
+   },
+   {
+    "booklet": "v2",
+    "page": "p24",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "930d587be5abe483f3b549d3d56831cd59ab5cf063dbf96ead2b72225caf5170"
+    ],
+    "note": "Potions table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "id": "item-ring-x-ray-vision",
+ "name": "Ring of X-Ray Vision",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "ring",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Sight through up to ten feet of rock (or 6\" of iron), seeing 3\" beyond; lead and gold stop it. Hidden doors and traps show themselves in the viewed area — a 1\"×1\" section per turn.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p33",
+  "blocks": [
+   13
+  ],
+  "content_sha256": [
+   "f6d9659e435509e67c1931e514b470a38ea0a0fc2a42779b33095d454dc1ad8c"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p33",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "c1134ce09cd8ab5359ca6586a5317aa071e3b16cf6a5964fbe62e0c6a78b7b4b"
+    ],
+    "note": "ring general rules"
+   },
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "d9062c1e159821aadc39eeb15ecc4268e6048c921b28fd75c848e894b460f631"
+    ],
+    "note": "Rings table"
+   },
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "3d736b3dd3ffc762f5ab39f6a348578f053312e020ba992f5257cf0460e286c4"
+    ],
+    "note": "entry concludes"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

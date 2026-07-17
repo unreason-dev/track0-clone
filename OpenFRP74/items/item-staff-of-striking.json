@@ -1,0 +1,47 @@
+{
+ "id": "item-staff-of-striking",
+ "name": "Staff of Striking",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "staff",
+ "usable_by": [
+  "cleric",
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "No bonus to hit, but the energy in it strikes for two dice.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p35",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "8b004307754c43100074815a44e32921de86e66cdd5720ddd09cc98588106e79"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+    ],
+    "note": "wand/staff general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

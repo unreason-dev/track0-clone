@@ -1,0 +1,46 @@
+{
+ "id": "item-elven-cloak-and-boots",
+ "name": "Elven Cloak and Boots",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "The cloak renders its wearer next to invisible; the boots make his tread wholly silent.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p37",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "dec5fb132aa2c8ba432dfc76a51959cbcd229bfe3808874a4a71b5e5fee97702"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

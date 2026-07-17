@@ -1,0 +1,46 @@
+{
+ "id": "item-boots-of-traveling-and-leaping",
+ "name": "Boots of Traveling and Leaping",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Tireless walking (+1 hex/day outdoors) and, below ground, leaps of 1\" up and 3\" across.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p37",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "d89e2336e37c4b77a4ef3cda68be26664686463e454b431f3967abe9bc8912a9"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

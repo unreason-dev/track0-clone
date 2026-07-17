@@ -1,0 +1,48 @@
+{
+ "id": "item-gauntlets-of-ogre-power",
+ "name": "Gauntlets of Ogre Power",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Hands and arms of Ogre strength: the wearer strikes as an Ogre, though hit probability need not improve.",
+ "special_notes": [],
+ "related": [
+  "monster-ogre"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p38",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "5510069d58e51ff537fb12cbfad65293d9a264230d98bfe9d321836bf51a64bc"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "item-potion-plant-control",
+ "name": "Potion of Plant Control",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "potion",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": "6 turns + 1d6 (limited-effect default)",
+ "description": "Controls 1-6 plants (fungi included), or a 1\"×1\" patch of ground cover, to a reach of 6\".",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p32",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "4468e166cdc17de928a86fef0c80f4cb6fa9db92de250e24ee5af10731301a0a"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p31",
+    "blocks": [
+     8
+    ],
+    "content_sha256": [
+     "c3ba729e4e59dc1d58e1aea9451b3721499bb49a7eba8cf091e56794c5b1b3a4"
+    ],
+    "note": "potion general rules"
+   },
+   {
+    "booklet": "v2",
+    "page": "p24",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "930d587be5abe483f3b549d3d56831cd59ab5cf063dbf96ead2b72225caf5170"
+    ],
+    "note": "Potions table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

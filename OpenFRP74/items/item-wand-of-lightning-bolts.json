@@ -1,0 +1,48 @@
+{
+ "id": "item-wand-of-lightning-bolts",
+ "name": "Wand of Lightning Bolts",
+ "name_raw": "Lightening Bolts",
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "wand",
+ "usable_by": [
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "Projects the Lightning Bolt spell exactly.",
+ "special_notes": [],
+ "related": [
+  "spell-lightning-bolt"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p34",
+  "blocks": [
+   13
+  ],
+  "content_sha256": [
+   "77cafa720b67c5c95c15a113a9ef40943cc4d82160a8fcc760cab5f95a0c9b14"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+    ],
+    "note": "wand/staff general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

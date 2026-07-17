@@ -1,0 +1,46 @@
+{
+ "id": "item-wand-of-polymorph",
+ "name": "Wand of Polymorph",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "wand",
+ "usable_by": [
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "Casts Polymorph — Others or Self — exactly as the spells.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p35",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "cb41bba6c09fa2bc874bd687e0b3dd9a8678d350f08d2830398a583931c08b9a"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+    ],
+    "note": "wand/staff general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

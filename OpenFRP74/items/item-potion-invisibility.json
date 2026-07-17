@@ -1,0 +1,46 @@
+{
+ "id": "item-potion-invisibility",
+ "name": "Potion of Invisibility",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "potion",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": "6 turns + 1d6 (limited-effect default)",
+ "description": "As the spell of the same name, by draught.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p24",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "930d587be5abe483f3b549d3d56831cd59ab5cf063dbf96ead2b72225caf5170"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p31",
+    "blocks": [
+     8
+    ],
+    "content_sha256": [
+     "c3ba729e4e59dc1d58e1aea9451b3721499bb49a7eba8cf091e56794c5b1b3a4"
+    ],
+    "note": "potion general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

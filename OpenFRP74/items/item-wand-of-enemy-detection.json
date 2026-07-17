@@ -1,0 +1,46 @@
+{
+ "id": "item-wand-of-enemy-detection",
+ "name": "Wand of Enemy Detection",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "wand",
+ "usable_by": [
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "Reveals hidden and invisible enemies within 6\" — provided they are aware of the wielder or his fellows, for it reads hostile mental emanations.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p34",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "1e50de6d9979dc988ce60e3fdb2cc5b1072d300f0edca5f1c92dfce2be19fd9e"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+    ],
+    "note": "wand/staff general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

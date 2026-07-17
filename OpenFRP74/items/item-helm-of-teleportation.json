@@ -1,0 +1,48 @@
+{
+ "id": "item-helm-of-teleportation",
+ "name": "Helm of Teleportation",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "With one Teleport spell in mind, the wearing Magic-User teleports himself endlessly about the universe — but teleporting anyone or anything else spends the spell and stills the helm. Non-protective in combat.",
+ "special_notes": [],
+ "related": [
+  "spell-teleport"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p37",
+  "blocks": [
+   7
+  ],
+  "content_sha256": [
+   "669af0d21b33964ccca97df2784e628584530c25ac578ac6675152f4eef8347c"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

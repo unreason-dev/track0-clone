@@ -1,0 +1,57 @@
+{
+ "id": "item-ring-three-wishes",
+ "name": "Ring of Three Wishes",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "ring",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Three wishes — of limited power, in the interest of balance, at the referee's utmost discretion. The greedy who wish for more wishes may find themselves in an endless closed time loop, returned to the moment they first found the ring; wishes for mighty items may be granted... unhelpfully.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p33",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "4d46e4167810296489c74f7cddee895bcfb57de1506af96c55c23673f1a21481"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p33",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "c1134ce09cd8ab5359ca6586a5317aa071e3b16cf6a5964fbe62e0c6a78b7b4b"
+    ],
+    "note": "ring general rules"
+   },
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "d9062c1e159821aadc39eeb15ecc4268e6048c921b28fd75c848e894b460f631"
+    ],
+    "note": "Rings table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

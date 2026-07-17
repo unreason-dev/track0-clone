@@ -1,0 +1,59 @@
+{
+ "id": "item-ring-weakness",
+ "name": "Ring of Weakness",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "ring",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Once donned it will not come off without a Cleric's Remove Curse, draining strength at 10% per turn to a floor of half — felt in attack and defense alike.",
+ "special_notes": [],
+ "related": [
+  "spell-remove-curse"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p33",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "e1c9ad3150001dbb5e3de1adb8fb74537fa1901b1b20a341a652f83abde7fed0"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p33",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "c1134ce09cd8ab5359ca6586a5317aa071e3b16cf6a5964fbe62e0c6a78b7b4b"
+    ],
+    "note": "ring general rules"
+   },
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "d9062c1e159821aadc39eeb15ecc4268e6048c921b28fd75c848e894b460f631"
+    ],
+    "note": "Rings table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

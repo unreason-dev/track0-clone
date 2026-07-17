@@ -1,0 +1,57 @@
+{
+ "id": "item-potion-growth",
+ "name": "Potion of Growth",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "potion",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": "6 turns + 1d6 (limited-effect default)",
+ "description": "Drunk whole, it raises the drinker to 30 feet; lesser draughts grow proportionately less.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p31",
+  "blocks": [
+   9
+  ],
+  "content_sha256": [
+   "ab66df57aa0a03c1c83f3557efe0936c439c04d8711ab5b7b681639b3c471c3d"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p31",
+    "blocks": [
+     8
+    ],
+    "content_sha256": [
+     "c3ba729e4e59dc1d58e1aea9451b3721499bb49a7eba8cf091e56794c5b1b3a4"
+    ],
+    "note": "potion general rules"
+   },
+   {
+    "booklet": "v2",
+    "page": "p24",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "930d587be5abe483f3b549d3d56831cd59ab5cf063dbf96ead2b72225caf5170"
+    ],
+    "note": "Potions table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

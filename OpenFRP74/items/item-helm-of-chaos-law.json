@@ -1,0 +1,48 @@
+{
+ "id": "item-helm-of-chaos-law",
+ "name": "Helm of Chaos (Law)",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Whoever dons it swaps alignment (the Neutral fall to Chaos or Law). Only Dispel Magic gets it off — and the wearer will fight to keep it on.",
+ "special_notes": [],
+ "related": [
+  "spell-dispel-magic"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p37",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "c900d252cfb9a7729a39e70680382888b7f156597a89109878053a61e200fa9a"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

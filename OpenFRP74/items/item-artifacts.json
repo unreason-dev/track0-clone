@@ -1,0 +1,54 @@
+{
+ "id": "item-artifacts",
+ "name": "Artifacts",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Beyond all listed magic stand the Artifacts of Law and Chaos — Teleportation Machine; the Crowns, Orbs, and Scepters of Fighter, Magic-User, and Cleric; Stone Crystallization Projector, and the like — super-powerful items wholly in the referee's hands. Any Neutral or opposed character who touches one should suffer terribly: instant death, paralysis until freed, loss of six or four energy levels, a month's insanity, or 10 dice of damage; saving throws, if allowed at all, should be slim and dear.",
+ "special_notes": [
+  "referee-adjudicated; not on any table"
+ ],
+ "related": [],
+ "interpretation_records": [
+  "ir-a14-scepter-sceptre"
+ ],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p38",
+  "blocks": [
+   10
+  ],
+  "content_sha256": [
+   "edb9d38b04d57e7cf439133c1252eafb91dc0051ec82940232b6e7708602e625"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p39",
+    "blocks": [
+     0,
+     1,
+     2
+    ],
+    "content_sha256": [
+     "85455c3544150c03d9788fc3924f88a8bd3e33041bde590f15abf09b16cb2aab",
+     "daa202949fb45637a20abf4b5cf505e6801fa88dae6ceb079d8fd8e75ac95b5f",
+     "2eafaaef334ed16c2d9b0cf4174a8269293c6847d0854aea5da7a61e2bba6345"
+    ],
+    "note": "entry concludes; harm list"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

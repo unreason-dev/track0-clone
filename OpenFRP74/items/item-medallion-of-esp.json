@@ -1,0 +1,48 @@
+{
+ "id": "item-medallion-of-esp",
+ "name": "Medallion of ESP",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "ESP on a chain — 3\" or 9\" range by the table — usable by all, Dwarves included; on any d6 roll of 6 in use, it malfunctions.",
+ "special_notes": [],
+ "related": [
+  "spell-esp"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p36",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "6914422f0e446eb573ec9bf025884558be5f327053634405de7351a6c0ee77f7"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "item-helm-of-reading-magic-and-languages",
+ "name": "Helm of Reading Magic and Languages",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Any script, any magical writing, readable at a glance. No protection: in combat, any hit has 10% to strike and smash it.",
+ "special_notes": [
+  "fragile in combat: 10% smash per hit taken"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p37",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "84a5852b7ecf795235b09b223f1df407cad15c893b7fe0ce3f2ec056e5f2d8fe"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

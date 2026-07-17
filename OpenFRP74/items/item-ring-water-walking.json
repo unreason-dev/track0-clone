@@ -1,0 +1,46 @@
+{
+ "id": "item-ring-water-walking",
+ "name": "Ring of Water Walking",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "ring",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "As the name: the wearer treads water's surface, unlimited while worn.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p25",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "d9062c1e159821aadc39eeb15ecc4268e6048c921b28fd75c848e894b460f631"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p33",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "c1134ce09cd8ab5359ca6586a5317aa071e3b16cf6a5964fbe62e0c6a78b7b4b"
+    ],
+    "note": "ring general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

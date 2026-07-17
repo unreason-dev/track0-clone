@@ -1,0 +1,57 @@
+{
+ "id": "item-ring-spell-turning",
+ "name": "Ring of Spell Turning",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "ring",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Any spoken spell aimed straight at the wearer — Dragons' and Clerics' included, the Finger of Death excepted — is split by percentile roll: that share rebounds on the caster, the rest lands on the wearer. Useless against Wands and Staves.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p34",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "447184e6fc4b59061b0f58a85f5c84a3f66af3406d9294350dd4a058c8cef36f"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p33",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "c1134ce09cd8ab5359ca6586a5317aa071e3b16cf6a5964fbe62e0c6a78b7b4b"
+    ],
+    "note": "ring general rules"
+   },
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "d9062c1e159821aadc39eeb15ecc4268e6048c921b28fd75c848e894b460f631"
+    ],
+    "note": "Rings table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

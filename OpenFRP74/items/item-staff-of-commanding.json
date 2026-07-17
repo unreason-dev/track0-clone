@@ -1,0 +1,47 @@
+{
+ "id": "item-staff-of-commanding",
+ "name": "Staff of Commanding",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "staff",
+ "usable_by": [
+  "cleric",
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "Animal, Plant, and Human Control in one staff.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p35",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "b7b0208472b8f0502201949e5c8942034157fb51abe933a2aad19b9d80ff97f7"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+    ],
+    "note": "wand/staff general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

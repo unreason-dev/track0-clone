@@ -1,0 +1,49 @@
+{
+ "id": "item-magic-dagger",
+ "name": "Magic Daggers",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-weapon",
+ "usable_by": [
+  "fighting-man",
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "Daggers enchanted against the small folk: +1 vs man-sized opponents and +2 vs Goblins and Kobolds, or the greater +2/+3 (adding Orcs). Bonuses apply to hit and to damage per the miscellaneous-weapon rule.",
+ "special_notes": [],
+ "related": [
+  "table-miscellaneous-weapons"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p24",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "72937a1d107e08c75c5d7f5bff496eb270fca8fee0d09e7f40dffbf2b9ac9f7c"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p31",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "f73b96913df0bdb9bbe24ffba57c67584a9f2515bf9f3f6ed3e0d44ea121d7f4"
+    ],
+    "note": "bonus rule"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "id": "item-drums-of-panic",
+ "name": "Drums of Panic",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Kettle drums whose beating routs all who fail morale (save vs magic); animals under 5 Hit Dice flee automatically, as do larger herbivores. May be played from cart or steed on the move. The ground immediately about the drums (1\") is untouched. Range 24\".",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p37",
+  "blocks": [
+   10
+  ],
+  "content_sha256": [
+   "bccbe17e472321a3fbd91b3be3f4e3ee4312d5c676cc8d4bdc16acab2e7ddcfc"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

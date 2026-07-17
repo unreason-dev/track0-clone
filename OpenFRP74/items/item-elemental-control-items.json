@@ -1,0 +1,48 @@
+{
+ "id": "item-elemental-control-items",
+ "name": "Elemental Control Items",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Censer (Air), Stone (Earth), Brazier (Fire), Bowl (Water): each summons its 12-Hit-Dice Elemental in one turn, no spell needed, for its owner alone. Bulky — a turn to set up or stow on the march.",
+ "special_notes": [],
+ "related": [
+  "monster-elemental"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p36",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "80f88069f019c09e76d8641d4d241e5280d348ab3255640057b468ca9beb9909"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

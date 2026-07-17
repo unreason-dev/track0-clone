@@ -1,0 +1,48 @@
+{
+ "id": "item-girdle-of-giant-strength",
+ "name": "Girdle of Giant Strength",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "The strength — and hit probability, if better than his own — of a Hill Giant.",
+ "special_notes": [],
+ "related": [
+  "monster-giant"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p38",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "7f4f22329e18c3d44ab488ebf7f8c8d96c88d2fb23568efdbe495239ef0caa20"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

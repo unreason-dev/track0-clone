@@ -1,0 +1,48 @@
+{
+ "id": "item-flying-carpet",
+ "name": "Flying Carpet",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Bears three at 18\"/turn or one at 30\"; otherwise in all respects a Broom of Flying.",
+ "special_notes": [],
+ "related": [
+  "item-broom-of-flying"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p37",
+  "blocks": [
+   9
+  ],
+  "content_sha256": [
+   "ea6797ab83faa9ab419ce9a4a66c7ccd20de279a688162f85fffb5adbf3aa7b5"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

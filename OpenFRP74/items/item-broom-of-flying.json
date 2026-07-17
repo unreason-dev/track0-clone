@@ -1,0 +1,46 @@
+{
+ "id": "item-broom-of-flying",
+ "name": "Broom of Flying",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "Flies at Dragon speed (24\"/turn) for whoever knows its Word of Command, and comes when summoned from up to 24\". Two may ride at three-quarters speed.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p37",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "c884515ef7f8c895aad7439102b17a4c3c8c1d8f73f25688aa28b6261059d4f9"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

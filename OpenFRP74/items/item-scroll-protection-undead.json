@@ -1,0 +1,48 @@
+{
+ "id": "item-scroll-protection-undead",
+ "name": "Scroll of Protection: Undead",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "scroll",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": "6 turns",
+ "description": "As the Lycanthrope ward, against the Undead by their strength: 2-24 of 1-3 Hit Dice, 2-12 of 4-5, or 1-6 of 6 or more. 6 turns.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p32",
+  "blocks": [
+   15
+  ],
+  "content_sha256": [
+   "bf656547d21c4eba23a6212a6562d5150ae21b5bc431b3cd4243816320f46b28"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p33",
+    "blocks": [
+     0,
+     1
+    ],
+    "content_sha256": [
+     "24b70e9dc28eab82ed72dd44165bb683407c6f36007aa444c17dc07cd8c07e14",
+     "3d7c589b3378f5ae8b569c368e380def31390812e06118df206fc5a7e3f78514"
+    ],
+    "note": "hit-dice table, duration"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

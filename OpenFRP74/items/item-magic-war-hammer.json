@@ -1,0 +1,35 @@
+{
+ "id": "item-magic-war-hammer",
+ "name": "Magic War Hammers",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-weapon",
+ "usable_by": [
+  "fighting-man"
+ ],
+ "duration_raw": null,
+ "description": "Hammers +1 and +2 may be hurled as Axes are. The Hammer +3 is a Dwarf's weapon: in a Dwarf's hand it doubles its range to 6\", returns to the thrower, strikes for two dice, and gains +3 damage against Giants (5-15 points); in any other hand it throws as a lesser hammer and does not return.",
+ "special_notes": [
+  "+3 hammer: full powers Dwarf-only"
+ ],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p31",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "c3175b752f1944e17ddfe4779cf5b442d77a05a877630953ec4c6a63dd6862d5"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

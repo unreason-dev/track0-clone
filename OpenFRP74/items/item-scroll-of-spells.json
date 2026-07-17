@@ -1,0 +1,52 @@
+{
+ "id": "item-scroll-of-spells",
+ "name": "Scrolls of Spells",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "scroll",
+ "usable_by": [
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "Magic-User spells set to parchment — 1, 2, 3, or 7 of them by the Scroll table — usable by any Magic-User who can read them, whatever the spell's level. Scroll spells work at the 6th level (or the minimum level needed, if higher). Roll a d6 per spell for its level, then dice among that level's spells. Per the errata: 25% of spell scrolls found contain spells usable by Clerics; and after a spell is read from a scroll the writing vanishes — each is usable once only.",
+ "special_notes": [
+  "errata: 25% clerical; single-use writing"
+ ],
+ "related": [
+  "table-scrolls"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p32",
+  "blocks": [
+   12,
+   13
+  ],
+  "content_sha256": [
+   "7160d58571395c2ea5d9359363b20f789fd13268b0a65bbf36506ab70ff91ec1",
+   "22c00477ab1ad3548573acde507f4fdb46dc74ae57982ec8fc3163381de51fea"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p24",
+    "blocks": [
+     5
+    ],
+    "content_sha256": [
+     "07b859bf827c2e3829cfce479ffc3e2dbb540152cfc3ea33e46415ecdf0e7d30"
+    ],
+    "note": "Scrolls table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

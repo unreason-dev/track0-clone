@@ -1,0 +1,50 @@
+{
+ "id": "item-curse-scroll",
+ "name": "Curse Scroll",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "scroll",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": null,
+ "description": "It strikes the moment it is read — no protective preamble. Effects per the curse table: a monster of the referee's choice, fatal 3-turn disease, insect polymorph, or transportation 1,000 miles or to another planet. The referee should present all scrolls so as to dupe the unwary.",
+ "special_notes": [],
+ "related": [
+  "table-curse-scroll"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p24",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "07b859bf827c2e3829cfce479ffc3e2dbb540152cfc3ea33e46415ecdf0e7d30"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     0,
+     1
+    ],
+    "content_sha256": [
+     "db0f1ab6b7a050f3109d251762115948aba1a682aafafb0e70632aa15c40faae",
+     "afebf6483501c84d205d1d4b6a05314ef50e550edf2dbcd0418a15637edaa60e"
+    ],
+    "note": "curse handling + table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

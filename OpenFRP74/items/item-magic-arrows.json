@@ -1,0 +1,36 @@
+{
+ "id": "item-magic-arrows",
+ "name": "Magic Arrows",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-weapon",
+ "usable_by": [
+  "fighting-man"
+ ],
+ "duration_raw": null,
+ "description": "+1 to hit and +1 damage (2-7 points on a hit) unless the target monster says otherwise. From a Magic Bow the hit bonus becomes +2.",
+ "special_notes": [],
+ "related": [
+  "item-magic-bow",
+  "table-miscellaneous-weapons"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p31",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "2d0de9ca37d0eac52574a4caa0c9c8fa1171d801b5012ed37825f10493c54b22"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

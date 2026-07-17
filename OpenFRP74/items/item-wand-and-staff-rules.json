@@ -1,0 +1,35 @@
+{
+ "id": "item-wand-and-staff-rules",
+ "name": "Wands and Staves (general)",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "wand",
+ "usable_by": [
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "Wands strike with 6th-level force (six dice); Staves with 8th (eight dice). Wands hold 100 charges, Staves 200 — save the detectors and touch-staves, which are not charged projectors. All wands are Magic-User-only.",
+ "special_notes": [],
+ "related": [
+  "table-wands-and-staves"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p34",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

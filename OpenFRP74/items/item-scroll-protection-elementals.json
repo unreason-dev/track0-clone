@@ -1,0 +1,33 @@
+{
+ "id": "item-scroll-protection-elementals",
+ "name": "Scroll of Protection: Elementals",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "scroll",
+ "usable_by": [
+  "all"
+ ],
+ "duration_raw": "4 turns",
+ "description": "As the Lycanthrope ward, but against a single Elemental, for 4 turns.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p33",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "b659e86e6aa500b24e9155ce67e77a8ba495bb08962ebbf0e239e98381f36d00"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,57 @@
+{
+ "id": "item-mirror-of-life-trapping",
+ "name": "Mirror of Life Trapping",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "A buckler-sized mirror that swallows the life-force of any human (Elves, Dwarves, Gnomes included) who looks in — body vanishing, spirit held until the owning Magic-User calls it forth or the glass breaks and frees all. It holds up to 20 lives; openly displayed, 90% that an unsuspecting viewer is caught.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p38",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "a027721ac55244523cccd8459744165b577b952d4068416b80c7a8152c1aef67"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   },
+   {
+    "booklet": "v2",
+    "page": "p38",
+    "blocks": [
+     9
+    ],
+    "content_sha256": [
+     "9d8041b8a3474b9064638e598b989ee9ba42d8cc2e725f8b11a3937156d0c69e"
+    ],
+    "note": "capacity/openly-displayed clause"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

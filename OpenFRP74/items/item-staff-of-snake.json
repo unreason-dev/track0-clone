@@ -1,0 +1,46 @@
+{
+ "id": "item-staff-of-snake",
+ "name": "Snake Staff",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "staff",
+ "usable_by": [
+  "cleric"
+ ],
+ "duration_raw": null,
+ "description": "+1 to hit and +1 damage (2-7); at the Cleric's word it twines about a struck opponent — a man-sized foe helpless, a larger one unable to counterattack — for 1-4 turns, then crawls home.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p35",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "30a32ea63555755135e01e8037978f49f90f9a29e4520a9e76058773fdba4228"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+    ],
+    "note": "wand/staff general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

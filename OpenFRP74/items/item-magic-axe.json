@@ -1,0 +1,33 @@
+{
+ "id": "item-magic-axe",
+ "name": "Magic Axe",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-weapon",
+ "usable_by": [
+  "fighting-man"
+ ],
+ "duration_raw": null,
+ "description": "+1 to hit and damage; usable in hand or thrown 3\", every target counting as medium range — this weapon knows neither short nor long.",
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p31",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "167c9f25c24fe78a535a3a3948fca997672c7c38e2d9759d4978be1bc92706b1"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "id": "item-staff-of-healing",
+ "name": "Staff of Healing",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "staff",
+ "usable_by": [
+  "cleric"
+ ],
+ "duration_raw": null,
+ "description": "A Cure Light Wounds (2-7 restored) at a touch — any number of persons a day, but each person once.",
+ "special_notes": [],
+ "related": [
+  "spell-cure-light-wounds"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p35",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "2d3a3bd778a42fc25ddbaa0acfa6670bc70556662678f77baa239b3862f51a5c"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p34",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "5b236c46bc15cc70e35f0dab7087c0b3a9020f9efa47efd16691a79628fb9515"
+    ],
+    "note": "wand/staff general rules"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

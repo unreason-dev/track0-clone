@@ -1,0 +1,49 @@
+{
+ "id": "item-crystal-ball",
+ "name": "Crystal Ball",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "misc-magic",
+ "usable_by": [
+  "magic-user"
+ ],
+ "duration_raw": null,
+ "description": "The Magic-User's scrying glass. Distance, an ill-known subject, counter-spells, or interposed lead all cloud it; under such strain only three attempts a day, on pain of madness, and long use demands rest. Variants exist with Clairaudience or ESP joined to the vision.",
+ "special_notes": [],
+ "related": [
+  "spell-clairaudience",
+  "spell-esp"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p36",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "2a95dcd9bed51c8995b6422b9ebdfc830b53a4f4c4a753933ed1596c2fde593b"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p25",
+    "blocks": [
+     7
+    ],
+    "content_sha256": [
+     "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+    ],
+    "note": "Miscellaneous Magic table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

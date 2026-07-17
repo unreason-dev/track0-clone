@@ -1,0 +1,36 @@
+{
+ "id": "item-magic-armor",
+ "name": "Magic Armor & Shields",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "armor",
+ "usable_by": [
+  "fighting-man",
+  "cleric"
+ ],
+ "duration_raw": null,
+ "description": "Armor proper subtracts its bonus from the hit dice of the wearer's opponents. When a shield's bonus exceeds the armor's, there is a one-third chance a blow is caught on the shield, granting the larger subtraction. Variants per the Armor table: Shield +1/+2/+3, Armor +1/+2, Armor & Shield +1/+2.",
+ "special_notes": [],
+ "related": [
+  "table-armor"
+ ],
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p31",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "7970a83176da06e78f1a8a31a602e488b94921449b133d05b10df66ec85ed19f"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
