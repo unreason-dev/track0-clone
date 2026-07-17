@@ -1,0 +1,65 @@
+{
+ "id": "spell-speak-with-plants",
+ "name": "Speak with Plants",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "cleric",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": "3\"",
+ "range_inches": 3,
+ "duration_raw": "6 turns",
+ "duration_turns": 6,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "The Cleric converses with all plant life and understands its answers. Plants obey him — parting to open a path, and the like — though this gives no power to command trees as Ents do. Duration: 6 turns. Range: 3\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-speak-with-plants",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p33",
+  "blocks": [
+   17
+  ],
+  "content_sha256": [
+   "e9b12ac6256758b74a4bb8e5f863a2a31d8fe2c0f7a503ad0b2e3c8171ef5fb4"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p34",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "178300dca732e47735813988e8bb11b8dc2b858e52adc89e3abaae3025bf986e"
+    ],
+    "note": "entry concludes"
+   },
+   {
+    "booklet": "v1",
+    "page": "p22",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "ca01bf1b7ef45b812256356168f1c9122b8a0e7a067fb7a56b78965367e9476f"
+    ],
+    "note": "Clerics spells table 4th-5th"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

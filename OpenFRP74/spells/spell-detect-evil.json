@@ -12,7 +12,7 @@
   {
    "class": "cleric",
    "level": 1,
-   "note": null
+   "note": "Cleric variant: duration 6 turns, range 12\"; Anti-Cleric-reversible"
   }
  ],
  "range_raw": "6\"",
@@ -21,12 +21,14 @@
  "duration_turns": 2,
  "duration_dice": null,
  "duration_formula": null,
- "reversible": false,
+ "reversible": true,
  "description": "Senses evil intent in creatures, or evil enchantment in objects. Mere danger does not register — poison, for example, is neither good nor evil. Duration: 2 turns. Range: 6\".",
  "related_spells": [],
  "counterpart_5_1srd": "spell-detect-evil-and-good",
  "interpretation_records": [],
- "period_conventions": [],
+ "period_conventions": [
+  "reversibility applies to the Cleric form (v1-p22 underline; v1-p32 block 8 variant)"
+ ],
  "source": {
   "work": "OpenFRP74",
   "booklet": "v1",

@@ -12,7 +12,7 @@
   {
    "class": "cleric",
    "level": 2,
-   "note": null
+   "note": "Cleric variant: duration 9 turns, range 18\" (v1-p33 block 4)"
   }
  ],
  "range_raw": "12\"",

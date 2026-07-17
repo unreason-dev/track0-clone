@@ -12,7 +12,7 @@
   {
    "class": "cleric",
    "level": 3,
-   "note": null
+   "note": "Cleric variant: light equals full daylight (v1-p33 block 11); Anti-Cleric-reversible"
   }
  ],
  "range_raw": "12\"",
@@ -21,7 +21,7 @@
  "duration_turns": null,
  "duration_dice": null,
  "duration_formula": null,
- "reversible": false,
+ "reversible": true,
  "description": "Kindles a lasting radiance wherever the caster wishes — a circle of illumination 24\" across, short of true daylight, burning until dispelled. Range: 12\".",
  "related_spells": [
   "spell-light"

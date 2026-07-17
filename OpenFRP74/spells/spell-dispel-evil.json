@@ -1,0 +1,56 @@
+{
+ "id": "spell-dispel-evil",
+ "name": "Dispel Evil",
+ "name_raw": "Dispell Evil",
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "cleric",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": "3\" radius",
+ "range_inches": 3,
+ "duration_raw": "1 turn",
+ "duration_turns": 1,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": true,
+ "description": "As Dispel Magic against the wicked: any evil sending or spell within a 3\" radius is undone at once. Duration: 1 turn. Reversed by Anti-Clerics.",
+ "related_spells": [
+  "spell-dispel-magic"
+ ],
+ "counterpart_5_1srd": "spell-dispel-evil-and-good",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p34",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "3d5dd5c121063e89b8cf7551e1e692db3dce2c2d572fc0ebbea1e09f76bf2af8"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p22",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "ca01bf1b7ef45b812256356168f1c9122b8a0e7a067fb7a56b78965367e9476f"
+    ],
+    "note": "Clerics spells table 4th-5th"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

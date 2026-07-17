@@ -1,0 +1,54 @@
+{
+ "id": "spell-turn-sticks-to-snakes",
+ "name": "Turn Sticks to Snakes",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "cleric",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": "12\"",
+ "range_inches": 12,
+ "duration_raw": "6 turns",
+ "duration_turns": 6,
+ "duration_dice": "2d8",
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Wherever sticks lie near, the Cleric makes serpents of them — 2-16 snakes (roll two eight-sided dice), each with a 50% chance of being venomous — and they obey his commands. Duration: 6 turns. Range: 12\".",
+ "related_spells": [],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p33",
+  "blocks": [
+   16
+  ],
+  "content_sha256": [
+   "f3d3b2cab593344e864d20b564a4006c0b94ab707ed445369a80ef9401f5a343"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p22",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "ca01bf1b7ef45b812256356168f1c9122b8a0e7a067fb7a56b78965367e9476f"
+    ],
+    "note": "Clerics spells table 4th-5th"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

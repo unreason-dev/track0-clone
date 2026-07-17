@@ -12,7 +12,7 @@
   {
    "class": "cleric",
    "level": 4,
-   "note": null
+   "note": "Anti-Cleric-reversible"
   }
  ],
  "range_raw": null,
@@ -21,7 +21,7 @@
  "duration_turns": 12,
  "duration_dice": null,
  "duration_formula": null,
- "reversible": false,
+ "reversible": true,
  "description": "A Protection from Evil spread to a circle about the caster, sheltering those within; it holds for 12 turns rather than 6.",
  "related_spells": [
   "spell-protection-from-evil"

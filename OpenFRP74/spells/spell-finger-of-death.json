@@ -1,0 +1,67 @@
+{
+ "id": "spell-finger-of-death",
+ "name": "The Finger of Death",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "cleric",
+   "level": 5,
+   "note": "Anti-Cleric form of Raise Dead"
+  }
+ ],
+ "range_raw": "12\"",
+ "range_inches": 12,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "The reverse of Raise Dead: a death ray that slays any creature failing its saving throw (where one applies). A true Cleric may loose it only in a life-or-death strait — misuse turns him instantly into an Anti-Cleric. Range: 12\".",
+ "related_spells": [
+  "spell-raise-dead"
+ ],
+ "counterpart_5_1srd": "spell-finger-of-death",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p34",
+  "blocks": [
+   10
+  ],
+  "content_sha256": [
+   "306bdaaabe9f00cf7f117275c1c1cce1808abc9da21a13053f0aab22acc30076"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p34",
+    "blocks": [
+     9
+    ],
+    "content_sha256": [
+     "31a4e45ef80b66008b7e0cb4e287188863444e02c15f139a283c67a685980c0c"
+    ],
+    "note": "Anti-Cleric reversal note"
+   },
+   {
+    "booklet": "v1",
+    "page": "p22",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "ca01bf1b7ef45b812256356168f1c9122b8a0e7a067fb7a56b78965367e9476f"
+    ],
+    "note": "Clerics spells table 4th-5th"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

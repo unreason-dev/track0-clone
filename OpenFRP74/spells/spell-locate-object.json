@@ -8,6 +8,11 @@
    "class": "magic-user",
    "level": 2,
    "note": null
+  },
+  {
+   "class": "cleric",
+   "level": 3,
+   "note": "Cleric variant: base range 9\" (v1-p33 block 10)"
   }
  ],
  "range_raw": "6\" + 1\"/level of the Magic-User",

@@ -1,0 +1,54 @@
+{
+ "id": "spell-cure-disease",
+ "name": "Cure Disease",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "cleric",
+   "level": 3,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": true,
+ "description": "Cures any disease — and is the only cure for sickness laid by a curse. Reversed by Anti-Clerics.",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-lesser-restoration",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p33",
+  "blocks": [
+   9
+  ],
+  "content_sha256": [
+   "4e26cbf7d0f70b39ed514c9954cf308be55146fbf5960728635e28160cae6630"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p22",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "461d00deb7a28f570fac2ad2436f1739c7e0f7a5743ebcd7467cdd3a88c14ab2"
+    ],
+    "note": "Clerics spells table 1st-3rd (underlines mark Anti-Cleric-reversible)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

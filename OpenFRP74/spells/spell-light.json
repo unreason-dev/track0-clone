@@ -12,7 +12,7 @@
   {
    "class": "cleric",
    "level": 1,
-   "note": null
+   "note": "Anti-Cleric-reversible"
   }
  ],
  "range_raw": null,
@@ -21,7 +21,7 @@
  "duration_turns": null,
  "duration_dice": null,
  "duration_formula": "6 + caster level",
- "reversible": false,
+ "reversible": true,
  "description": "Conjures light — dimmer than daylight — in a circle 3\" across. It burns for 6 turns plus one per level of the caster, so a 7th-level Magic-User's light lasts 13 turns.",
  "related_spells": [
   "spell-continual-light"
@@ -29,7 +29,8 @@
  "counterpart_5_1srd": "spell-light",
  "interpretation_records": [],
  "period_conventions": [
-  "3\" diameter in tabletop inches; underworld conversion 1\" = 10 feet"
+  "3\" diameter in tabletop inches; underworld conversion 1\" = 10 feet",
+  "reversibility applies to the Cleric form (v1-p22 underline)"
  ],
  "source": {
   "work": "OpenFRP74",

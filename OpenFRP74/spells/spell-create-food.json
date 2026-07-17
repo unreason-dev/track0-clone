@@ -1,0 +1,57 @@
+{
+ "id": "spell-create-food",
+ "name": "Create Food",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "cleric",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "The Cleric conjures sustenance for a dozen for one game day; the quantity doubles for each level he holds above the 8th.",
+ "related_spells": [],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [
+  "\"sustinance\" printed; normalized",
+  "quantity formula: base ration ×2 per level above 8th"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p34",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "b58385539df80b403127453d00fade69256ade6c85cb44436f2e59c7d40339bc"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p22",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "ca01bf1b7ef45b812256356168f1c9122b8a0e7a067fb7a56b78965367e9476f"
+    ],
+    "note": "Clerics spells table 4th-5th"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

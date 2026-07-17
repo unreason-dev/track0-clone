@@ -1,0 +1,58 @@
+{
+ "id": "spell-raise-dead",
+ "name": "Raise Dead",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "cleric",
+   "level": 5,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": true,
+ "description": "The Cleric points, speaks the word, and the dead rise — men, elves, and dwarves only. An 8th-level Cleric raises the four-days dead; each level beyond stretches the limit another four days. The weak of Constitution cannot be recalled at all, and all who return spend two game weeks recovering. For Anti-Clerics the spell reverses into The Finger of Death.",
+ "related_spells": [
+  "spell-finger-of-death"
+ ],
+ "counterpart_5_1srd": "spell-raise-dead",
+ "interpretation_records": [],
+ "period_conventions": [
+  "time-limit formula: 4 days + 4 per level above 8th"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p34",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "c8b97b8ac6b08c86f8c14d8cba0fd8ef9b7aac83976d19b2c71d390260f0796b"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p22",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "ca01bf1b7ef45b812256356168f1c9122b8a0e7a067fb7a56b78965367e9476f"
+    ],
+    "note": "Clerics spells table 4th-5th"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

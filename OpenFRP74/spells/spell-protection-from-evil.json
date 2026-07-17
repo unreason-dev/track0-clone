@@ -12,7 +12,7 @@
   {
    "class": "cleric",
    "level": 1,
-   "note": null
+   "note": "Anti-Cleric-reversible"
   }
  ],
  "range_raw": null,
@@ -21,14 +21,16 @@
  "duration_turns": 6,
  "duration_dice": null,
  "duration_formula": null,
- "reversible": false,
+ "reversible": true,
  "description": "A magic circle hedges the caster about, barring attacks from enchanted monsters and serving as armor against evil assaults: the caster gains +1 on all saving throws, and evil opponents subtract 1 from their hit dice against him. The bonus does not stack with magic armor or rings, though the circle still keeps enchanted monsters out.",
  "related_spells": [
   "spell-protection-from-evil-10-foot-radius"
  ],
  "counterpart_5_1srd": "spell-protection-from-evil-and-good",
  "interpretation_records": [],
- "period_conventions": [],
+ "period_conventions": [
+  "reversibility applies to the Cleric form (v1-p22 underline)"
+ ],
  "source": {
   "work": "OpenFRP74",
   "booklet": "v1",
