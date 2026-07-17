@@ -1,0 +1,125 @@
+{
+ "id": "etable-monster-level-5",
+ "name": "Monster Level Table 5",
+ "system": "openfrp74",
+ "die_sides": 12,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 1,
+   "result": "Trolls",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "result": "Superheroes",
+   "result_raw": "Superheros",
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "result": "Wyverns",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "result": "Spectres",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "result": "Mummies",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "Minotaurs",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "Manticores",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "Cockatrices",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "result": "Sorcerers",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "result": "Wyverns",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "result": "Hydra (6-8 heads)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "result": "Medusae",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "Wyverns at both 3 and 10 as printed"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p11",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "7e7dd845467b616e1447f4f90e09533e58ee5fca67d7fa42488ca25d137c1528"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

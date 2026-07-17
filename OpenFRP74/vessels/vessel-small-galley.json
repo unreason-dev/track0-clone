@@ -1,0 +1,60 @@
+{
+ "id": "vessel-small-galley",
+ "name": "Small Galley",
+ "system": "openfrp74",
+ "oared_slow": 15,
+ "oared_cruise": 20,
+ "oared_fast": 30,
+ "sail_running": "25/30",
+ "sail_broad_reaching": "20/25",
+ "sail_quarter_reaching": "15/20",
+ "sail_beating": null,
+ "crew": "50 Rowers, 20 Marines, 10 Sailors",
+ "hit_points": "9-15 (small ship)",
+ "description": "The lighter galley; catapult fore.",
+ "notes": [
+  "no open seas (oar-pierced hull)"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p28",
+  "blocks": [
+   7
+  ],
+  "content_sha256": [
+   "02ae9e56c2dd21fa8f92baf594875562fb4906a1f81b2ac361b18f1dd88fdb83"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p33",
+    "blocks": [
+     12,
+     13
+    ],
+    "content_sha256": [
+     "168de4ddb00406d49e9a5990844ae1401f368d0b1842c33124eba432525c82cd",
+     "253e001740b3502ac375a83652e04aa1cc172471a8edb20cfdfbaf412c33a245"
+    ],
+    "note": "crew numbers + catapult footnotes"
+   },
+   {
+    "booklet": "v3",
+    "page": "p30",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "0602b91795f21a74e8dda7633948984310dc1818a5122a8368da00cec68d2175"
+    ],
+    "note": "hit points by size"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

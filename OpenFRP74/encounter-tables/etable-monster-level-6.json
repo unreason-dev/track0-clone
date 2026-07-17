@@ -1,0 +1,126 @@
+{
+ "id": "etable-monster-level-6",
+ "name": "Monster Level Table 6",
+ "system": "openfrp74",
+ "die_sides": 12,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 1,
+   "result": "Giants",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "result": "Hydra (9-12 heads)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "result": "Dragons",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "result": "Basilisks",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "result": "Gorgons",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "Chimeras",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "Vampires",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "Lords",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "result": "Balrogs",
+   "result_raw": "8",
+   "refs": [],
+   "note": "errata: printed 8 (duplicate with Lords), corrected to 9"
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "result": "Wizards",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "result": "Evil High Priests",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "result": "Purple Worms",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "Wizards/Evil High Priests carry a starred footnote on the page (chance of magical accoutrements)",
+  "Balrog die corrected by Correction Sheet"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p11",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "c47d97234997c12b08eef8e88415eb22ae40cb7788fcced6e0680526244e523a"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

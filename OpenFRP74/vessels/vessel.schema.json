@@ -1,0 +1,93 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "OpenFRP74 vessel",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "name",
+  "system",
+  "description",
+  "source"
+ ],
+ "properties": {
+  "id": {
+   "type": "string"
+  },
+  "name": {
+   "type": "string"
+  },
+  "system": {
+   "const": "openfrp74"
+  },
+  "oared_slow": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "oared_cruise": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "oared_fast": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "sail_running": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "sail_broad_reaching": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "sail_quarter_reaching": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "sail_beating": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "crew": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "hit_points": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "description": {
+   "type": "string"
+  },
+  "notes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "source": {
+   "type": "object"
+  },
+  "extraction": {
+   "type": "object"
+  }
+ }
+}
