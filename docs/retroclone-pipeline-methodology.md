@@ -186,7 +186,7 @@ Status: OPEN / RATIFIED.
 | D-3 | Disagreement adjudication autonomy: charter says numeric disagreements get a "human-eyes check"; amended for the autonomy goal — an agent-vision re-read adjudicates first, and only residues genuinely confusing after re-read escalate to the operator | RATIFIED 2026-07-17 ("yes, do d-3 - only surface things that are genuinely confusing to me") | Executed same day: 65/65 queue entries adjudicated pass-1-artifact (verdicts in digitization/transcripts/adjudication-log.json); one residue surfaced (v3-p24 ink dropout, both passes blind) |
 | D-4 | ~~API credential provisioning~~ | RETIRED 2026-07-16 | Operator-corrected: pass 2 runs in-session (the worker agent reads pages directly, per standing Track 0 practice). No credential needed. |
 | D-5 | Node graph ratification (74/76/77b/79a…) | OPEN | Charter §11.1; needed before any second node, not before pilot completion |
-| D-6 | Fidelity policy for source typos (record-don't-correct posture assumed from 3.5 charter precedent) | OPEN | Register seeded in source-disposition memo §5 |
+| D-6 | Fidelity policy for source typos and errata | RATIFIED 2026-07-17 ("we are going to fix typos and apply errata") | Two-layer posture: the pass-2 intermediate stays verbatim (typos preserved, [illegible] where the copy fails); the NORMALIZED layer corrects typos and applies the Correction Sheet. The v3-p24 missing word resolved this way — it is a printing omission the errata itself corrects ("Page 24, line 16: The missing word is ten."), operator-confirmed; external-witness question mooted (nothing in this source needs an outside witness) |
 
 ## Autonomy ledger
 
