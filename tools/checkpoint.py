@@ -9,8 +9,12 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PAGES = ROOT / "OpenFRP74" / "digitization" / "pages"
-TRANS = ROOT / "OpenFRP74" / "digitization" / "transcripts"
+import argparse
+_ap = argparse.ArgumentParser()
+_ap.add_argument("--work", default="OpenFRP74")
+_ARGS, _ = _ap.parse_known_args()
+PAGES = ROOT / _ARGS.work / "digitization" / "pages"
+TRANS = ROOT / _ARGS.work / "digitization" / "transcripts"
 
 
 def main() -> int:
