@@ -25,8 +25,12 @@ import hashlib
 import json
 from pathlib import Path
 
+import argparse
+_ap = argparse.ArgumentParser()
+_ap.add_argument("--work", default="OpenFRP74")
+_ARGS, _ = _ap.parse_known_args()
 ROOT = Path(__file__).resolve().parent.parent
-TRANSCRIPTS = ROOT / "OpenFRP74" / "digitization" / "transcripts"
+TRANSCRIPTS = ROOT / _ARGS.work / "digitization" / "transcripts"
 OUT = TRANSCRIPTS / "block-hashes.json"
 
 CONTENT_FIELDS = ("type", "text", "level", "underlined", "items", "columns", "caption", "rows")
