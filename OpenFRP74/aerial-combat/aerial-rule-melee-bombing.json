@@ -1,0 +1,47 @@
+{
+ "id": "aerial-rule-melee-bombing",
+ "name": "Aerial Melee, Crash, and Bombing",
+ "system": "openfrp74",
+ "category": "aerial-combat",
+ "description": "Melee at 3\": as on land, position permitting. Bombing (if allowed): the largest flyers carry a large catapult's missile, runs straight for the whole turn though diving is allowed; 2d6, 7 is a direct hit, each point off is a die of inches astray (d6 for bearing: 1-2 left/right, 3-4 also short/long, 5-6 short/long). Carrying a bomb costs a third of movement.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p27",
+  "blocks": [
+   10
+  ],
+  "content_sha256": [
+   "aa64086e470746b17c2517c1df0094cf5d9176a9a3a91de0fbad28953a8a1aa1"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p28",
+    "blocks": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "content_sha256": [
+     "b526c37839328417db943f05ae67dd73f3e3d05296913dfda52cca0a67514cab",
+     "03deef5fcb506d26a138991fca4b41ef2024004ae92288ef7a7b8a49854062f0",
+     "e2cbfc21971060aaeaae9e8899406ddf59ac7b4aca6b709d96c71810119e8aa1",
+     "9cb367326d88305bc043b293d6beb890f0ff5ab6215ce7511bfb808d0d9d60f5"
+    ],
+    "note": "bombing scatter, penalty, melee"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

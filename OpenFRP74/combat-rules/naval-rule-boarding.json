@@ -1,0 +1,82 @@
+{
+ "id": "naval-rule-boarding",
+ "name": "Grappling, Boarding, and Naval Melee",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Within 1\" ships may grapple, 20% per try, three tries a turn (and as many cuts, also 20%), one man to a grapple; grappled ships lie dead in the water and may be boarded — one man per turn per three feet of parallel deck, swimmers climbing aboard fighting beneath their foe. Melee is CHAINMAIL man-to-man on deck plans scaled to the figures. Command control reaches the leader's Charisma in inches (two lieutenants at one inch less; halved in melee; +1\" per 10' of height; meleed men obey on 1-4 checked each turn); the unled do not respond — monsters always do. Forced back without room: overboard, off the deck, or surrender; falls save one-in-six per level fallen, damage a die per level (per two levels into water). Breaking doors, chopping decks, cutting rigging scale by strength — a giant tears what costs ten men a turn. A ship is captured when its crew's morale breaks or all defenders are dead or overboard.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [
+  "man-to-man melee per CHAINMAIL"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p31",
+  "blocks": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "content_sha256": [
+   "4028237275abefddda4a2d52d23bc4eb9e508f8c160faf66cf30f3978c1b0399",
+   "b2d00d327cb18c9aea25820a657ddf7e6b0882a34ce3f581ac10a564698dfe1e",
+   "f114585c903c9983be7d32b5785ccd750bd7d1d67169c3326cb823e8bdabe6f1",
+   "0373ed072cfc62f5c104d5f8e832a1fb57030edec05b6fa4d40d5a46c51f8b59",
+   "60ad2a81050047958b90ff1b33957d62a404afb3fc063b6e5f0c8ea0a2196281",
+   "7c6a4ca6cbea40ffc472fbf9d49aa469923411f42e2305a2bd034b1185c7767a",
+   "99f37111d76271f53ee6dd15c0a82aeb1efed7335d5294e71634d8386ec12b79",
+   "e2cbfc21971060aaeaae9e8899406ddf59ac7b4aca6b709d96c71810119e8aa1",
+   "416acf07792f4f9523452822516e4036eb5c8e5f00e196797a29dc36d6048f4b",
+   "f910456d9932d9898c43936d9faf5e518a55a72c9dec6e96aec13f90f959feb1",
+   "af0fe370ce7f00bbfef9a3f0aaa4397f4acc1cb192a6f726549400e8c9a84db2"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p32",
+    "blocks": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "content_sha256": [
+     "2de19379b32e656fbcf3b35330541257b67c3abb5feeff9c76da152884554da6",
+     "a8e4ff0200e1094814fb33c3aac800df851d09cd57442d6851a3cf0c3c0705ff",
+     "0611434c442ba7a3a743890c885bb41192b99dbd4421d0c202ac74feef88254a",
+     "5f81be391776735b5fc01a3a18f6f544101d9b2ddc2224343497cffb46f79000"
+    ],
+    "note": "command control, giant example"
+   },
+   {
+    "booklet": "v3",
+    "page": "p33",
+    "blocks": [
+     8,
+     9
+    ],
+    "content_sha256": [
+     "0ccf4e4df220888ce03e4c09a7b09a846477b215fcd2571e52e58e07fffd2d20",
+     "4827ff64c27a3c73c37a28df52ccdb48e9257285aacfa877fcd75d336e2a1274"
+    ],
+    "note": "ship capture"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

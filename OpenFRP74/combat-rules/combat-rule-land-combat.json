@@ -1,0 +1,57 @@
+{
+ "id": "combat-rule-land-combat",
+ "name": "Land Combat",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "The base system is CHAINMAIL, one figure to one man or creature; melee may instead use the Alternative Combat System matrices (Vol. I), CHAINMAIL kill/drive-back scores counting as a single hit. Mass battles run at 20:1, single fantastic types fighting 1:1 or against one 20:1 figure. Melee runs ten rounds to the turn; invisible attackers cannot stay so and strike.",
+ "data": null,
+ "special_notes": [],
+ "related": [
+  "matrix-attack-men",
+  "matrix-attack-monsters"
+ ],
+ "interpretation_records": [],
+ "external_refs": [
+  "base melee per CHAINMAIL"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p25",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "48666db0866683672d975444535f41a7c300abd2d0ce4cfb08dbbc7039091b47"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p08",
+    "blocks": [
+     9
+    ],
+    "content_sha256": [
+     "5cf63e8956f9157394c6e1562d72419b1e4991962faa16bfb03bc6f8c4a8cd80"
+    ],
+    "note": "ten rounds/turn"
+   },
+   {
+    "booklet": "v2",
+    "page": "p05",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "baf3cf37b58b304fdd57a9520b2083cd079d2f386092e8311b0c000cba9def80"
+    ],
+    "note": "attack/defense: one roll per hit die"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

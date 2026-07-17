@@ -1,0 +1,66 @@
+{
+ "id": "naval-rule-sea-monsters",
+ "name": "Monsters in Naval Adventures",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Mermen swim 15\", 10% per 10 of grappling a ship within 1\" (surfaced to do it; submerged their moves are written; surfaced they draw missile fire); each grapple slows a ship 2\". Nixies (fresh water, 9\") need 40 for a grappling attempt. The Dragon Turtle — most fearsome of the waters — lifts ships on its back, moves 9\" (3\" ashore), breathes steam as a Red Dragon's fire, HD 11-13, otherwise a flightless dragon. Water Elementals stop ships and overturn small ones; Giant Leeches, Snakes, Octopi, Squids, Crabs, and Fish per their entries; and if the monsters don't get a ship, perhaps it will sail off the edge of the world!",
+ "data": null,
+ "special_notes": [],
+ "related": [
+  "monster-merman",
+  "monster-nixie",
+  "monster-dragon-turtle",
+  "monster-water-elemental"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p34",
+  "blocks": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "content_sha256": [
+   "03dbaa1da13d70ccc9878a372fe49f60c470ab3904a4ec12dcfbbfd3e9291da5",
+   "5f343f4864bd6e6fa98c368c0b400441130b6bf541a5d297dd13adac513c72de",
+   "c3442a0b754ffe0636bcd4a74be52cc2053fdbb979367910de84ba35a917ac76",
+   "2c31023fe584a847db17447e7feec3ce7d1e414c92e385576deb3fd5533e2312"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p35",
+    "blocks": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "content_sha256": [
+     "21d3a36380e0ffba64756298b1ec079cc34d2ce817d5d2355e4591fbfe46fe59",
+     "75f50f0eafcc9dbdec791b063eaa1de4bb584b6dd8655381da9c42df9f93162d",
+     "fb96ed77b4602fb3e09cceae4f368a377b4ec0ca620c31f1525a5ae0a543c0a9",
+     "e32e8ee089c44ec00f56cd422108a903f96d0b0a252f14137a46f800c0f0d7a8",
+     "ec07f194f1cd8e71f6d6849a741dd630bfeb8dda69bd62be9b1c5e5302371f88",
+     "0bb812cb5f971ea64dead538979cc122611744862dd45d76d8e8f88da1b3fd8c",
+     "3c4ca705e5ea63afdb3b1e16b9e700ab111c20fc97fa9c55f7ff45024a3a74dc",
+     "9445d1c4683bd01949d16338e014e45d97acf8f6861bad75b540f4638feb175c"
+    ],
+    "note": "remaining naval monsters, final note"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

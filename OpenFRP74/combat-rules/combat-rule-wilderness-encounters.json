@@ -1,0 +1,50 @@
+{
+ "id": "combat-rule-wilderness-encounters",
+ "name": "Wilderness Sighting, Surprise, and Wandering Monsters",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Wilderness sighting runs 40-240 yards (inches are tens of yards above ground); surprise as below ground but at 10-30 yards, three or more monsters ringing the party, those at 10 yards attacking at once. Daily at day's end check the lost/encounter matrix by terrain; afloat or aloft roll twice — 5 for a midday waterborne/aerial adventure, 6 for a normal one (ships continually at sea: a single daily roll, encountering on 6).",
+ "data": null,
+ "special_notes": [],
+ "related": [
+  "matrix-wilderness-lost-encounter",
+  "matrix-wilderness-encounter-type"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p17",
+  "blocks": [
+   5,
+   6,
+   7,
+   10
+  ],
+  "content_sha256": [
+   "6294b1791921017964a3966d4ca3ffdd35402dff3df1b6ef8fb05778e99fe69e",
+   "ce0fb14ecf5555b4b6c78a77e1cd79156d4858463c80a1bf19fc39c1326c28c7",
+   "c8a28b51a1182bd94c672d99a10a1b3d7cdf384de6c0a6850ce3d5ec76c57d98",
+   "ef0e16fc0e51a4c48dac673e4c6ef38563838ff6d3d00ae2c7a007ce73f1a67c"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p18",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "9cc1d36c97d26b897520f11abfe5e818789d152e4bfce26ad746f9a3da9d133f"
+    ],
+    "note": "afloat/aloft rolls"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

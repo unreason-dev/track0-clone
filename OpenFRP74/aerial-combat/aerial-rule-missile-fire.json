@@ -1,0 +1,100 @@
+{
+ "id": "aerial-rule-missile-fire",
+ "name": "Aerial Missile Fire and Critical Hits",
+ "system": "openfrp74",
+ "category": "aerial-combat",
+ "description": "Air-to-air is normal missile fire plus the hit-location and critical tables. Air-to-ground bars ordinary catapult fire: sling-ended catapults shotgun small stones, apex at half range, height equal to full range (counterpoised) or half; tension catapults dart straight up to full range with no minimum; use a spherical hit area. On a hit, location by attack aspect (d10, 0 = 10): rider, head, wing, body, tail; riderless hits become body hits. Critical chances by location (rider 25% — including all NPCs under 3rd level — head/wing 20%, body 10%, tail nil) force speed halved, dive-and-land, withdrawal, or death in the air per the matrix; a crash costs the rider one die per 1\" of height.",
+ "data": {
+  "columns": [
+   "Aspect",
+   "Rider",
+   "Head",
+   "Wing",
+   "Body",
+   "Tail"
+  ],
+  "rows": [
+   [
+    "Front",
+    "1-2",
+    "3-4",
+    "5-6",
+    "7-10",
+    "---"
+   ],
+   [
+    "Side",
+    "1",
+    "2-3",
+    "4-5",
+    "6-9",
+    "10"
+   ],
+   [
+    "Top",
+    "1",
+    "2-3",
+    "4-7",
+    "8-9",
+    "10"
+   ],
+   [
+    "Bottom",
+    "---",
+    "1-2",
+    "3-5",
+    "6-9",
+    "10"
+   ],
+   [
+    "Tail",
+    "1-2",
+    "3",
+    "4-5",
+    "6-8",
+    "9-10"
+   ]
+  ],
+  "note": "critical matrix: Rider 25%→withdraw 100%; Head 20%→10/30/40/20; Wing 20%→50/20/30/—; Body 10%→30/30/30/10; Tail nil"
+ },
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [
+  "ir-a11-die-range-zero"
+ ],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p27",
+  "blocks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "content_sha256": [
+   "d12684a172ea1baa83c3d0564d3b2a46732699eb82f3f2a0bce913465163e11e",
+   "1a934ba7fd6f142023c6aff37964c34f4264339e8c5abb62c74434a21957c40c",
+   "08fc610169422865cfae36d07f06b47e6dd8ea853cbf4d82f64580f4ed20d66b",
+   "2cfface90da885757ecc59d06bc0ac4dfb5f268c185380b7ed922b3331d4afd7",
+   "d7c9ca6ea4a44a116b8f883883067160497a249f48973278cbd1c15f4a10dcac",
+   "bc319ae901c161133dd30e4226045ef5c7bc0e7de039785ebfd7a94cc4a0d505",
+   "276909376f503d8f57816a4c0583e94aba09d503a68f1581ab9505d32bdefdfe",
+   "0821b823221c30a856145afccd33429e050f632b889b4cda3dbbda87c6d4e57f",
+   "3344ca962f2a53e579af6c2ad17f1d14aa88262f9c96a165f9d2f83f332846bf",
+   "12513f7eb73671ba13ae61bd5d08f8dde4016274ad6de45dd56a664029e63289"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

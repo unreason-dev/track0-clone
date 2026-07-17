@@ -1,0 +1,42 @@
+{
+ "id": "naval-rule-crew-tasks",
+ "name": "Crew Numbers and Tasks",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Crews per vessel entries. Rowing: each oarsman short slows proportionately (about 5% losses tell); stepping/unstepping masts is Galley/Longship work, ten crew and three turns; making or taking in sail, three crewmen rowed, six sailed.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p33",
+  "blocks": [
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "content_sha256": [
+   "f35d7c8444e6297e584f04a3ddf8a81561a7f3c7ec37ceef0ae51ed0f95da94f",
+   "322ba17eca8d7446a4d369c36a0bce7a7b6b4c11771bd940502f92afc372824a",
+   "168de4ddb00406d49e9a5990844ae1401f368d0b1842c33124eba432525c82cd",
+   "253e001740b3502ac375a83652e04aa1cc172471a8edb20cfdfbaf412c33a245",
+   "82dff12014cb57221c694cf41bf200097e0f182c879d5d6b437a1c976eba3847",
+   "38e21967923c3c056a39ba23926f6d1d27232035be6e088cadb4e19bdd5b1907",
+   "78bdb02ccf6f7848d92f2a58ee4cd6c783780f28e485195a70113b9a621e36ce",
+   "9b0babe73a0768bc50e890ff91e4ac58df9c14dda2d840ca8fe2a5957e0868b8"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

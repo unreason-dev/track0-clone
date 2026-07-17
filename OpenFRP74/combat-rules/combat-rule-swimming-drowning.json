@@ -1,0 +1,42 @@
+{
+ "id": "combat-rule-swimming-drowning",
+ "name": "Swimming and Drowning",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Men in metal must shed armor or drown: plate 100%, chain 80% (must remove), leather 20% (need not), none 05% if thrown overboard; gale or storm drowns any man in the water 50% per turn. Half of all sailors swim. Swimming is 3\"/turn; the swimmer may be picked up by any ship at slow oars or under 15\"/turn — if he consents. Only daggers and buoyant wood (club, quarterstaff, spear) can be carried swimming.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p33",
+  "blocks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "content_sha256": [
+   "b0306c50e0fcb5f11e185981df4fcbafb53390b3c752734e693195292f38890d",
+   "488a9ed5c589cfe3323e6f080da710f651d2303d99c079d118e25db3f4a5b917",
+   "48dd13b598ae8a7228f523c1451a7385a5bdfb36d0a78e098c6db36af9b3f9dd",
+   "3fbbf2858480753dcf7d19bbc3d960abfb6b35dca5fcff94a0682c504bec8815",
+   "a02c6f677c8fb4c9702f77eaa798dd1ddb625d4d9486f5e1817ba000cf6d65c7",
+   "680fccb95ca53b27226102c6a637def2a7b380b2bc1a76b4700046afbfa7c368",
+   "db45c1b53a26123da03f8a4cf267b98af94196b0b54b48db3d3da4ed98955756",
+   "f6540a86c47d67e4ad1cbc0ff19a8077ddc12464247f188a980d3807c2006519"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "id": "combat-rule-underworld-wandering-monsters",
+ "name": "Underworld Wandering Monsters",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Each turn's end the referee rolls d6: a 6 brings a wandering monster, direction by the possible entries, kind by the determination matrix. Number appearing: if dungeon level matches monster level, use the listed number; adjust by the mismatch otherwise (referee's discretion for high-level monsters on low levels and vice versa).",
+ "data": null,
+ "special_notes": [],
+ "related": [
+  "matrix-underworld-monster-determination"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p10",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "f2bec364d5f8b5b90ec96f355e47737f35348984ba9cf4971a52fbf4a5ddd56b"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p11",
+    "blocks": [
+     5
+    ],
+    "content_sha256": [
+     "8afb94a7fdedc9d6c8c2b575febcdc96c2e74870ca5ebbf9f01f8d5d1b0e93da"
+    ],
+    "note": "Number Appearing rule"
+   },
+   {
+    "booklet": "v3",
+    "page": "p11",
+    "blocks": [
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "b026a761d14c20e8ef7760ec93c02e1277e5473134f072c5fc8dd7455184c2d1",
+     "a9086201352bb64d60bcf1e9e3bdddc2de0e0582dc5ef81bedbcba733141724d",
+     "0cc790718a0444f710a0c346cd825e97905aa1044bd8de90df6daafd7cea2e35"
+    ],
+    "note": "guards footnote; underwater additions"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

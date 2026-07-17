@@ -1,0 +1,86 @@
+{
+ "id": "aerial-rule-movement",
+ "name": "Aerial Movement",
+ "system": "openfrp74",
+ "category": "aerial-combat",
+ "description": "Straight ahead at the creature's rate; turns by size class per the turn table (Sprite 5 turns/1\" spacing … Giant Reptile 2/6\"). Diving loses at most half total move unless a Sharp Dive (ir-a5): +50% distance, straight only, 1\" lost per 10\" dived. Climbing costs twice the height gained plus the spaces-between-turns figure. All else is the referee's discretion.",
+ "data": {
+  "columns": [
+   "Category",
+   "Turns/Move",
+   "Spaces between Turns"
+  ],
+  "rows": [
+   [
+    "Sprite, Large Bird, Large Insect",
+    "5",
+    "1"
+   ],
+   [
+    "Man, Flying Broom, Undead flyer",
+    "4",
+    "2"
+   ],
+   [
+    "Balrog, Cockatrice, Gargoyle",
+    "3",
+    "3"
+   ],
+   [
+    "Pegasus, Hippogriff, Air Elemental",
+    "6",
+    "3"
+   ],
+   [
+    "Flying Carpet, Manticore, Wyvern",
+    "4",
+    "4"
+   ],
+   [
+    "Chimera, Dragon, Roc, Giant Insect",
+    "3",
+    "5"
+   ],
+   [
+    "Giant Reptile",
+    "2",
+    "6"
+   ]
+  ],
+  "note": null
+ },
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [
+  "ir-a5-sharp-drive"
+ ],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p26",
+  "blocks": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "content_sha256": [
+   "1f9906aadbfea2cd1512b8d5464db1ebae6f13a20d5037fcde93416b244c761c",
+   "bdaefeb3a28fae3fd6d749dcc0c083e8d9820f7ea55be45879105e05b1e38932",
+   "46bd3868fd614c88cdbd8e77a3e3235376bfe8d7fdcae16e30072f463528e772",
+   "95163d6ae6b47d1c60ed8e65c0ba27156d8ce2522f71f820409d8b54985dc593",
+   "7f732aef7c5d16c4f1a6fcce56d2b0efa36ed6ede5db97a1044289917966142f",
+   "2f70b76189037fbd04b9319645acb37774aa4634ed410203e8cc86d5675d68ae",
+   "82a0893f4f0f2d4629608ba21359ba9bf3ca4c1b4e64be7846274296c2e17a70"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

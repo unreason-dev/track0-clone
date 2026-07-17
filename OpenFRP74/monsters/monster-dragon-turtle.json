@@ -1,0 +1,59 @@
+{
+ "id": "monster-dragon-turtle",
+ "name": "Dragon Turtle",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": null,
+ "number_appearing": null,
+ "armor_class_raw": "as Dragons (2)",
+ "armor_class": 2,
+ "move_raw": "9\" swimming / 3\" on land",
+ "move_inches": 9,
+ "fly_inches": null,
+ "hit_dice_raw": "11 - 13",
+ "hit_dice": {
+  "min": 11,
+  "max": 13,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": null,
+ "percent_in_lair": null,
+ "treasure_raw": "as Dragons (Type H)",
+ "treasure_refs": [
+  "treasure-type-h"
+ ],
+ "alignment": [
+  "neutrality"
+ ],
+ "description": "The most fearsome monster of the waters, dwelling in great rivers, lakes, and the ocean — strong enough to lift a ship on its back if it surfaces beneath one. It moves only 9\" per turn (3\" ashore), breathes steam in the area of a Red Dragon's fire, and is in all other respects a dragon that cannot fly.",
+ "special_notes": [
+  "capsizes ships from below",
+  "steam breath as Red Dragon fire area"
+ ],
+ "related_monsters": [
+  "monster-dragon",
+  "monster-red-dragon"
+ ],
+ "statline_shared_with": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p34",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "2c31023fe584a847db17447e7feec3ce7d1e414c92e385576deb3fd5533e2312"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

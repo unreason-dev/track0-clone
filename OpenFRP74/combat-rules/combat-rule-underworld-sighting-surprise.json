@@ -1,0 +1,45 @@
+{
+ "id": "combat-rule-underworld-sighting-surprise",
+ "name": "Underworld Sighting and Surprise",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Monsters are seen at 20-80 feet (2d4 × 10) unless surprise intervenes: where either side could be unaware (no light, noise, or ESP), each rolls d6, surprised on 1-2, distance then 10-30 feet. Surprise grants a free move segment — flee, cast, or close; surprising monsters attack or close unless intelligent and outmatched.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p09",
+  "blocks": [
+   6,
+   7,
+   8
+  ],
+  "content_sha256": [
+   "db22e76b7bcfcdbf50c322c3eac4c132d954ec23ce2505a8b72c39da95090092",
+   "795751ae081dbe9a505983bebd969da80685386a2d4c173e20c3e3349396ec46",
+   "16fd79a4d0a00ce00bd571ecacb5b18af556d75b853b375a62524edd73ced8b9"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p10",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "48bd7fafcde6e59760fceb17987cb333d949a795a869fc04ae1869923d9ae158"
+    ],
+    "note": "example concludes"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

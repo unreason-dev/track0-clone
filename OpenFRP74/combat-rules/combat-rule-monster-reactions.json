@@ -1,0 +1,32 @@
+{
+ "id": "combat-rule-monster-reactions",
+ "name": "Random Monster Actions",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Outside pursuit, intelligent monsters act by 2d6 — 2-5 negative, 6-8 uncertain, 9-12 positive — modified by bribes, fear, alignment, and the like.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p12",
+  "blocks": [
+   6,
+   7,
+   8
+  ],
+  "content_sha256": [
+   "3eac627373b5a11642c988457aa463c3eb1e6489a4e5d8de9d85a2eab226e05e",
+   "ac85adfa3d64857908b105ab45bd6e89110f70ca562462d161da980bf40825d7",
+   "18abe63b851979b2afe13c63837ab8a8dc0dabfa9b5376a93ece49f82d0c2767"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "id": "naval-rule-movement",
+ "name": "Naval Movement",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Vessel speeds by oar (slow/cruise/fast on fatigue: fresh crews 30 factors, Vikings 40; rest regains 1, slow spends 2, cruise 3, fast 10) and by sail (paired figures: light-moderate / fresh-strong breeze). Speed changes are stepwise (fast→slow→stop→back...); current adds or costs 5\"; backing is half; rivers halve sailing. Wind: 2d6 — 2-3 calm (oars only), 4-8 light-moderate, 9-11 fresh-strong (galleys ship water 10%/turn, −25% speed each time, sinking at −75%), 12 gale (run before it at 3\"; galleys may founder). Wind direction d8 by compass point. Turning: 45° per 10\" rowed, 30° per 12\" sailed. Galleys shun open ocean; longships alone among the oar-pierced keep the seas.",
+ "data": null,
+ "special_notes": [],
+ "related": [
+  "vessel-large-galley",
+  "vessel-longship"
+ ],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p28",
+  "blocks": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "content_sha256": [
+   "02ae9e56c2dd21fa8f92baf594875562fb4906a1f81b2ac361b18f1dd88fdb83",
+   "ddc258165a334a75298b6726d7506f6188ef4aa9e4a55c76ed374a8b737d8626",
+   "a2e16541ef06a85eabe38fb59bccff17fbe02e7dbbfbb278ceeeebf7d4fe4754",
+   "85d8a9f6d1e22756522d8b0f479f7d3819cc0c644a9c17f3d49707b6b613b3ab",
+   "616a10ad89f2dba36c9eef14ecaa218fcfed18c9941bba634a3dac9bd3e683b3",
+   "fc0d5985c1ced56593b5d2a884b1c64d6a0a34cf7a2e11e88d08952a729526db"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p29",
+    "blocks": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "content_sha256": [
+     "6000ad1f592d7df892230995b65215997bd5f6e63e3a6ed8eddb1a10e1566536",
+     "60aef74f2d8f53f0e95617468b8125f596a9417340def61dac940f386f4fcb3e",
+     "a5e97c056e567607c28260e53e4f15f11898c5e9cd89d11ae3d9c909f17920d3",
+     "4c5d7b3949a41f63bc95f9e5c3505f681599a1855fdcbce858f4b29c5dab9d4c",
+     "d2d8b5456e13ac8fefb89fee50fed8682f343b7a8a305e54fe3dd4c52435c47c",
+     "1c0d8a61c61174fbc6a33f192077d404f032e5710a343bf6039264316ea272d1",
+     "7eef348513607e4a0941c6ed942bcaa3c3caeb93e1d5f1a7a45c86987c3fd5c3",
+     "051f8f0bca72ead711d5cda8e7cb835a95de18239036ecca1a7c49d7a472e71a",
+     "f0e5d3063c6dc11bfbf82981bc1f7f01500b3e6e4b51d5f52ca6bd688ddc3199",
+     "93112d9babef5f67354728a06c163c66fed35798c584370f3716fb72fb13a0b9",
+     "2dfd3742b870938a7d1196cd313e2e3350f33306610e5983cf597d6461e9e93e",
+     "c391b4a95a9ef4da8958dd62c410a223e0b60a4705231e5d40a85c2139b74145",
+     "2e8d02a1a63baab60f2cfb67a9c33a158ff90f15743c11d3e10d939c53af4946"
+    ],
+    "note": "speed steps, wind, turning, open seas"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

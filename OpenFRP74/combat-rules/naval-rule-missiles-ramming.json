@@ -1,0 +1,55 @@
+{
+ "id": "naval-rule-missiles-ramming",
+ "name": "Naval Missiles, Ramming, and Shearing",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Missile and catapult fire as CHAINMAIL; catapult hits wear ships down — large ships take 18-24 points, small 9-15, boats 3 — and sink them at zero. Rams (mast lowered, Fast speed, backing oars after striking) deal 10-60% damage with 25% to hole below the waterline (sink in 3-18 turns unless patched: 5 turns × 10 men, 25% to fail and need 5 more); side rams kill 20% of crew (15% rowers), bow or stern 5% (no rowers); ramming leaves grappling intact. Passing alongside shears oars — half the rowers on that side die, mutually for two rowed ships unless oars are shipped by order; sheared ships lie dead 3 turns then at half speed, twice sheared they row no more.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [
+  "missile fire per CHAINMAIL"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p30",
+  "blocks": [
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "content_sha256": [
+   "d12684a172ea1baa83c3d0564d3b2a46732699eb82f3f2a0bce913465163e11e",
+   "0602b91795f21a74e8dda7633948984310dc1818a5122a8368da00cec68d2175",
+   "ac637fbe95f55c791b5eb21f5ee60da0def44e9b231654de0c5cade674a86146",
+   "8e584c6c21f957ab93753e66000e4d49a1d365c626444053e7c2d733498d26e6",
+   "a29e76695d9eaf7c4604838166ff1d6f6738be6f4502df16cfc255663930c851"
+  ],
+  "also": [
+   {
+    "booklet": "v3",
+    "page": "p31",
+    "blocks": [
+     0,
+     1,
+     2
+    ],
+    "content_sha256": [
+     "938d5ebe749c8e247a409633b1cb3b7601b85102f39e3130ddcd408f921f09c3",
+     "4542d9e2e9aaf39825a663c8ef6036dc36a8481376a5854c1ff79e88380910ba",
+     "33c989213455e8238a79250b89aea47597c4deabb59b6cd196b892418a62752d"
+    ],
+    "note": "shearing"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

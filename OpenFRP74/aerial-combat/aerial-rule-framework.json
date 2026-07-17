@@ -1,0 +1,39 @@
+{
+ "id": "aerial-rule-framework",
+ "name": "Battle in the Skies (BITS)",
+ "system": "openfrp74",
+ "category": "aerial-combat",
+ "description": "Aerial battles — offered with no apologies to Mike Carr, creator of Fight in the Skies — resolve firing and melee by CHAINMAIL. Play on hex or staggered-square boards at least 48 × 48 with paper counters (6' × 6' for figures), height tracked by numbered counters in 1\" increments. Orders are written for simultaneous movement: direction, length, altitude change only — firing at turn's end is always allowed unless meleed.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [
+  "firing/melee per CHAINMAIL",
+  "credit: Fight in the Skies (Mike Carr)"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p25",
+  "blocks": [
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "content_sha256": [
+   "5d241e52be12f73bf2aa19cb7481b050a8d51bcb7cd7e57e566256a625472bd2",
+   "dfa02fd9a343ab95b325443de1dc4f29cb17db6a51a08ed70b72254dd069c3a4",
+   "77e4c9ac424573b4183115355c8a551c6315bc92846fe0f9a5dde3bcaad536aa",
+   "fa386a3d4cb09a18900cb206488b088154cc898e1bea4ff0f4a90614c0203063",
+   "e60ea8d633a862c2949ef671b4cbf8d631ca5ea59d37c313cb99cfe08ceda57c"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

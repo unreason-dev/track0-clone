@@ -1,0 +1,36 @@
+{
+ "id": "combat-rule-avoiding-monsters",
+ "name": "Avoiding and Distracting Monsters",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Monsters attack or pursue whatever they see, save the intelligent avoiding superior force; no avoiding a surprising monster within 20 feet. Flight: pursuit continues straight while within 90 feet; corners, doors, and stairs shake pursuit except on 1-2 (secret doors: only on 1). Speed differences open or close the gap (encumbrance vs the Monster Table); dropping treasure, weapons, or shields lightens the load. A surprised character drops an item 25% of the time. Burning oil deters many pursuers; food distracts the unintelligent 90%, semi-intelligent 50%, intelligent 10% — treasure the reverse.",
+ "data": null,
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p12",
+  "blocks": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "content_sha256": [
+   "82710789610fef2abcdccc785ed0d31eb4d6b4cbdd74f8efb8dc92df81abef30",
+   "ca0147ab4a2609b0a6ccf5d23c117465f5ae545d5148b809b63d84938268d809",
+   "9acf4282071960f7c13a2396150e13156d53863d0939ebf0ab1d3c243f93826e",
+   "a597bbcb3407b39009a81d924d70cd7ae4c8498eb5d65970a235c3b00fa66ed0",
+   "1e745bcd74e4163eefc153164ec5b1b9cddb1eb2df289952b3662200183f6fbc"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

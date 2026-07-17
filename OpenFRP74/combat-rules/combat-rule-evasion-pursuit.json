@@ -1,0 +1,73 @@
+{
+ "id": "combat-rule-evasion-pursuit",
+ "name": "Wilderness Evasion and Pursuit",
+ "system": "openfrp74",
+ "category": "combat-rules",
+ "description": "Castle folk pursue on 1-3 hostile, 1 neutral. Evasion odds run from 90% (tiny party, monsters few) to 05% (great party, monsters many) per the table; party surprise doubles them, monster surprise voids them but for magic or woods (+25%, and 10% even surprised); double speed shifts them 25% either way. Pursuit moves in a random direction each hex; a faster monster catches on 50% each hex (woods or swamp −25%), until escape or melee. Each pursuit hex costs half a day's rest after, wandering monsters checked with two dice on rest days.",
+ "data": {
+  "columns": [
+   "Party Size",
+   "Monsters vs possible #",
+   "Evasion"
+  ],
+  "rows": [
+   [
+    "1-3",
+    "≤25% / 26-60% / >60%",
+    "50% / 70% / 90%"
+   ],
+   [
+    "4-9",
+    "same bands",
+    "30% / 50% / 70%"
+   ],
+   [
+    "10-24",
+    "same bands",
+    "15% / 30% / 50%"
+   ],
+   [
+    "25+",
+    "same bands",
+    "05% / 20% / 35%"
+   ]
+  ],
+  "note": null
+ },
+ "special_notes": [],
+ "related": [],
+ "interpretation_records": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v3",
+  "page": "p20",
+  "blocks": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "content_sha256": [
+   "047653149255e4d16031d481ffa7045acbec7d61334871c7bf955558bf20e571",
+   "b461f194e51d30c0195979515992e342681c4ffb3f540f025d42939779a8f7bb",
+   "2a3c8b4b23564d5c72f139cfc9202d85e2ed03ccd7f802412894bc5c7add67b2",
+   "d6c283c29a49c0d36a2557a0ca1614020046b5c30f84b62d66799367b55070f9",
+   "201906681bd6086d69f01a1705bea93aee5eb820a63266171bd65b3886876ee2",
+   "ef73ef937f546b20853088abd1afedfd8b483953865d93b964578bc687ad587f",
+   "6050860e5bf139f4d2ee19eb1f473f78b9be79447a7c6c0ede2c118325fc119c",
+   "535a5facc729a8d7d4dcde73090c777dc2384b9e2a44257757bbf670d4bf2bc0",
+   "c31b0d7faa5e649180f6327971af066817bf2ad4471341bf266176f304c13fda"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
