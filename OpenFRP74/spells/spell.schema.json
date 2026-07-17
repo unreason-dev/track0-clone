@@ -1,0 +1,59 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "OpenFRP74 spell",
+ "description": "Re-projection of the 5.1-srd spell node for the 1974 lineage. Typed fields carry extracted mechanics (unprotectable); description is original OpenFRP74 wording (CC-BY-4.0). Verbatim source text lives only in the local digitization intermediate; source.blocks + content hashes anchor provenance.",
+ "type": "object",
+ "additionalProperties": false,
+ "required": ["id", "name", "system", "available_to", "range_raw", "duration_raw", "description", "source"],
+ "properties": {
+  "id": {"type": "string", "pattern": "^spell-[a-z0-9-]+$"},
+  "name": {"type": "string", "description": "D-6-normalized name (typos fixed); names otherwise as printed per D-7."},
+  "name_raw": {"type": ["string", "null"], "description": "Printed form when it differs from name (e.g. 'Dispell Magic')."},
+  "aliases": {"type": "array", "items": {"type": "string"}},
+  "system": {"const": "openfrp74"},
+  "available_to": {
+   "type": "array", "minItems": 1,
+   "items": {
+    "type": "object", "additionalProperties": false,
+    "required": ["class", "level"],
+    "properties": {
+     "class": {"enum": ["magic-user", "cleric"]},
+     "level": {"type": "integer", "minimum": 1, "maximum": 6},
+     "note": {"type": ["string", "null"]}
+    }
+   }
+  },
+  "range_raw": {"type": ["string", "null"], "description": "As stated, period units (inches); null when the text states none."},
+  "range_inches": {"type": ["number", "null"]},
+  "duration_raw": {"type": ["string", "null"]},
+  "duration_turns": {"type": ["number", "null"], "description": "Fixed duration in turns when the text gives one."},
+  "duration_dice": {"type": ["string", "null"], "description": "Dice expression when duration is rolled (e.g. '2d6')."},
+  "duration_formula": {"type": ["string", "null"], "description": "Level-dependent formula when stated (e.g. '6 + caster level')."},
+  "reversible": {"type": "boolean", "description": "Text states the spell may be reversed."},
+  "description": {"type": "string", "description": "Original OpenFRP74 wording. Never source-verbatim."},
+  "related_spells": {"type": "array", "items": {"type": "string"}},
+  "counterpart_5_1srd": {"type": ["string", "null"], "description": "5.1-srd descendant id. Equal to id for direct name-mates (shared-ID convention); the renamed descendant otherwise (e.g. spell-arcane-lock); null when 5.1 has no counterpart."},
+  "interpretation_records": {"type": "array", "items": {"type": "string"}},
+  "period_conventions": {"type": "array", "items": {"type": "string"}, "description": "Convention notes: inches scale (underworld 1\"=10 ft), turn scale, etc."},
+  "source": {
+   "type": "object", "additionalProperties": false,
+   "required": ["work", "booklet", "page", "blocks"],
+   "properties": {
+    "work": {"const": "OpenFRP74"},
+    "booklet": {"type": "string"},
+    "page": {"type": "string"},
+    "blocks": {"type": "array", "items": {"type": "integer"}},
+    "content_sha256": {"type": "array", "items": {"type": "string"}},
+    "also": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["booklet", "page", "blocks"], "properties": {"booklet": {"type": "string"}, "page": {"type": "string"}, "blocks": {"type": "array", "items": {"type": "integer"}}, "content_sha256": {"type": "array", "items": {"type": "string"}}, "note": {"type": ["string", "null"]}}}, "description": "Secondary sites (index tables, cross-references)."}
+   }
+  },
+  "extraction": {
+   "type": "object", "additionalProperties": false,
+   "properties": {
+    "date": {"type": "string"},
+    "model": {"type": "string"},
+    "notes": {"type": ["string", "null"]}
+   }
+  }
+ }
+}

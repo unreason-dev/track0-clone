@@ -1,0 +1,56 @@
+{
+ "id": "spell-sleep",
+ "name": "Sleep",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 1,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Casts creatures into slumber: 2-16 first-level types (up to 1+1 hit dice), or 2-12 second-level types (up to 2+1 hit dice), or 1-6 third- or fourth-level types (up to 4+1 hit dice). The full number rolled is always affected; if more candidates stand within reach than the dice allow, choose the sleepers at random. Range: 24\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-sleep",
+ "interpretation_records": [],
+ "period_conventions": [
+  "'effects' printed for 'affects' in source; mechanics unchanged"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p23",
+  "blocks": [
+   10
+  ],
+  "content_sha256": [
+   "4ae9165500d23ce7d69d3bba827fd6f2501863be36c2ee8ba223f97c14694535"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-fable-5",
+  "notes": null
+ }
+}

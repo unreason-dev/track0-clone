@@ -1,0 +1,54 @@
+{
+ "id": "spell-read-magic",
+ "name": "Read Magic",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 1,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": "one or two readings",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Deciphers magical incantations on items and scrolls — without this spell or an equivalent device, even a Magic-User finds such writing unintelligible. The effect is brief, usually spent after one or two readings.",
+ "related_spells": [],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p23",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "d674807f9cfe2d6c29eee2a55542102488c37c393677259cd64c66a41df5bea0"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-fable-5",
+  "notes": null
+ }
+}

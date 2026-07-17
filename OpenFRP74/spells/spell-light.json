@@ -1,0 +1,63 @@
+{
+ "id": "spell-light",
+ "name": "Light",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 1,
+   "note": null
+  },
+  {
+   "class": "cleric",
+   "level": 1,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": "6 + the number of levels of the user turns",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": "6 + caster level",
+ "reversible": false,
+ "description": "Conjures light — dimmer than daylight — in a circle 3\" across. It burns for 6 turns plus one per level of the caster, so a 7th-level Magic-User's light lasts 13 turns.",
+ "related_spells": [
+  "spell-continual-light"
+ ],
+ "counterpart_5_1srd": "spell-light",
+ "interpretation_records": [],
+ "period_conventions": [
+  "3\" diameter in tabletop inches; underworld conversion 1\" = 10 feet"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p23",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "4c2a7109ae74385535622c9db450d5e83eb4c22edaa1844504b5d1b11a6c2e25"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-fable-5",
+  "notes": null
+ }
+}

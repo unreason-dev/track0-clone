@@ -1,0 +1,75 @@
+{
+ "id": "spell-detect-magic",
+ "name": "Detect Magic",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 1,
+   "note": null
+  },
+  {
+   "class": "cleric",
+   "level": 1,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "The caster senses whether an enchantment rests on a person, place, or thing — revealing, for instance, that an item bears magic or that a door is held or wizard-locked. The spell reaches only a limited distance and fades quickly.",
+ "related_spells": [
+  "spell-hold-portal",
+  "spell-wizard-lock"
+ ],
+ "counterpart_5_1srd": "spell-detect-magic",
+ "interpretation_records": [],
+ "period_conventions": [
+  "range and duration stated only qualitatively (limited range, short duration)"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p23",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "cce0e9d7b4216877d5e200c219c4878171bda566db3a4088091895907ff5d0bb"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   },
+   {
+    "booklet": "v1",
+    "page": "p32",
+    "blocks": [
+     6
+    ],
+    "content_sha256": [
+     "c4e85e352dda1503a23295ae1c8aa9572e91fee4527e88e82edc056438b3f2c2"
+    ],
+    "note": "Cleric list entry (same as Magic-User)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-fable-5",
+  "notes": null
+ }
+}

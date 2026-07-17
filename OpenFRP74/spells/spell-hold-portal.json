@@ -1,0 +1,60 @@
+{
+ "id": "spell-hold-portal",
+ "name": "Hold Portal",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 1,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": "two dice ... turns",
+ "duration_turns": null,
+ "duration_dice": "2d6",
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Magically bars a door, gate, or similar portal, like a temporary locking spell. Roll two six-sided dice for the number of turns it holds. Dispel Magic ends it at once, a Knock opens it, and a strongly anti-magical creature (a Balrog, for example) simply shatters it.",
+ "related_spells": [
+  "spell-dispel-magic",
+  "spell-knock",
+  "spell-wizard-lock"
+ ],
+ "counterpart_5_1srd": "spell-arcane-lock",
+ "interpretation_records": [],
+ "period_conventions": [
+  "'two dice' read as 2d6 per the booklets' default die"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p23",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "014e480797b6d2e620d766c88a56189e1e07131b30085a131e6beb22f5be830e"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-fable-5",
+  "notes": null
+ }
+}

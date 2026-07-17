@@ -1,0 +1,57 @@
+{
+ "id": "spell-charm-person",
+ "name": "Charm Person",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 1,
+   "note": null
+  }
+ ],
+ "range_raw": "12\"",
+ "range_inches": 12,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Bends one two-legged, roughly man-sized mammalian creature to the caster's will — the kinship extends to Sprites, Pixies, Nixies, Kobolds, Goblins, Orcs, Hobgoblins, and Gnolls, but never to the Undead. A charmed victim serves the Magic-User utterly until the charm is dispelled. Range: 12\".",
+ "related_spells": [
+  "spell-dispel-magic",
+  "spell-charm-monster"
+ ],
+ "counterpart_5_1srd": "spell-charm-person",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p23",
+  "blocks": [
+   9
+  ],
+  "content_sha256": [
+   "5ae996031edb399dc59992a2c4f637be2956fd742e288a8930bbb7183c60c906"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-fable-5",
+  "notes": null
+ }
+}
