@@ -1,0 +1,67 @@
+{
+ "id": "table-map-magic",
+ "name": "Magic Map",
+ "system": "openfrp74",
+ "die_sides": 8,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 3,
+   "result": "Any 1 Item",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 5,
+   "result": "Any 2 Items",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "3 Items, No Swords",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "4 Items, 1 a Potion",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "5 Items, 1 a Scroll & 1 a Potion",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p26",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "4fcdde43c947b53dcd26695f8b490f99d938f5d4de4d8543e3f717d1cd4de3e8"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

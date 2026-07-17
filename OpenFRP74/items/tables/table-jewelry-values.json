@@ -1,0 +1,57 @@
+{
+ "id": "table-jewelry-values",
+ "name": "Jewelry Base Values",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": "Fire melts metal to lumps and devalues jewelry 25%; lightning destroys gems (fire only 10% optionally), also -25% jewelry.",
+ "rows": [
+  {
+   "min": 1,
+   "max": 20,
+   "result": "3d6 x 100 Gold Pieces",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 21,
+   "max": 80,
+   "result": "1d6 x 1,000 Gold Pieces",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 81,
+   "max": 100,
+   "result": "1d10 x 1,000 Gold Pieces",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p40",
+  "blocks": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "content_sha256": [
+   "6beca2fbd1e97b29a7159cfe70ba2d5239456fad39a4050e7cdbac351a97a68c",
+   "a1f6015307f1f569051c5a26af920f87589abf8386f919da263670132f190b01",
+   "814b20d2a57d381fe8fc2b2b68284e38f2aa0cafd8f23f3dee112696b3438c65",
+   "8fba7acdd607df71f303e6e03771eed4c1609238288ddd52cacfa70649fb83f4"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

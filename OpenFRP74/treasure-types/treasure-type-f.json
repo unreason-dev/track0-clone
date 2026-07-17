@@ -1,0 +1,120 @@
+{
+ "id": "treasure-type-f",
+ "name": "Treasure Type F",
+ "system": "openfrp74",
+ "variants": [
+  {
+   "name": null,
+   "rows": [
+    {
+     "category": "copper",
+     "raw": "Nil",
+     "chance_percent": null,
+     "amount_min": null,
+     "amount_max": null,
+     "multiplier": null,
+     "grants": null,
+     "note": null
+    },
+    {
+     "category": "silver",
+     "raw": "2-20:10%",
+     "chance_percent": 10,
+     "amount_min": 2,
+     "amount_max": 20,
+     "multiplier": 1000,
+     "grants": null,
+     "note": null
+    },
+    {
+     "category": "gold",
+     "raw": "1-12:45%",
+     "chance_percent": 45,
+     "amount_min": 1,
+     "amount_max": 12,
+     "multiplier": 1000,
+     "grants": null,
+     "note": null
+    },
+    {
+     "category": "gems",
+     "raw": "2-24:20%",
+     "chance_percent": 20,
+     "amount_min": 2,
+     "amount_max": 24,
+     "multiplier": 1,
+     "grants": null,
+     "note": null
+    },
+    {
+     "category": "jewelry",
+     "raw": "1-12:10%",
+     "chance_percent": 10,
+     "amount_min": 1,
+     "amount_max": 12,
+     "multiplier": 1,
+     "grants": null,
+     "note": null
+    },
+    {
+     "category": "magic_or_map",
+     "raw": "35%: no weapons, any other 3 + 1 Potion and 1 Scroll",
+     "chance_percent": 35,
+     "amount_min": null,
+     "amount_max": null,
+     "multiplier": null,
+     "grants": {
+      "any_items": 3,
+      "magic_items": null,
+      "maps": null,
+      "potions": 1,
+      "scrolls": 1,
+      "exclude": [
+       "weapons"
+      ],
+      "note": null
+     },
+     "note": null
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p22",
+  "blocks": [
+   2,
+   3
+  ],
+  "content_sha256": [
+   "b4f0b3eb8aa1d32ea0ad21c10f8aac0c874f901c851272285a6c5df0dc37379f",
+   "09a10373b5310afa1f7b2f700d9619dbe6379d87aa9a60578963e4c19c4d2135"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p23",
+    "blocks": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "content_sha256": [
+     "50083a98cec7661c6a4ea54f503689bc4393f4ec7e305307019fea6616e5bf62",
+     "70322347009fd1e6682d60093e70d7df57809d134cbcfa57917deeeacee88230",
+     "98e0b208466ffe518c7304106c4d68cc2c339f6a06ce57436970d6313bd7501e",
+     "8cdbd30e99349ac451b278246af1be8b7b907bcca0678510db6034d55802a73e"
+    ],
+    "note": "Men-type prisoner/pocket-treasure footnotes; lair-only rule"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

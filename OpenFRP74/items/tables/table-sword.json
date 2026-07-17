@@ -1,0 +1,131 @@
+{
+ "id": "table-sword",
+ "name": "Sword",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": "All swords roll Intelligence/Egoism per the sword system (item-magic-sword).",
+ "rows": [
+  {
+   "min": 1,
+   "max": 35,
+   "result": "Sword +1",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "result": "Sword +1, +2 vs. Lycanthropes",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "result": "Sword +1, +2 vs. Magic-Users and Enchanted Monsters",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "result": "Sword +1, Locating Objects Ability",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "result": "Sword +1, +3 vs. Trolls (Clerics)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "result": "Sword, Flaming: +1; +2 vs. Trolls (Pegasi, Hippogriffs, + Rocs); +3 vs. Undead (Ents)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "result": "Sword +1, Wishes Included (2-8 Wishes)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 71,
+   "max": 75,
+   "result": "Sword +1, +3 vs. Dragons",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 76,
+   "max": 78,
+   "result": "Sword +2",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 79,
+   "max": 80,
+   "result": "Sword +2, Charm Person Ability",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 81,
+   "max": 82,
+   "result": "Sword +3",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 83,
+   "max": 83,
+   "result": "Sword, One Life Energy Draining Ability",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 84,
+   "max": 100,
+   "result": "Sword -2 (Cursed Sword)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p23",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "3e9c81bf31750167b80e0575cb7840b4fec54643038aa09ec944c9737739a0db"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

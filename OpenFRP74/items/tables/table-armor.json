@@ -1,0 +1,83 @@
+{
+ "id": "table-armor",
+ "name": "Armor",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 30,
+   "result": "Shield +1",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 31,
+   "max": 60,
+   "result": "Armor +1",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 61,
+   "max": 75,
+   "result": "Armor & Shield +1",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 76,
+   "max": 83,
+   "result": "Shield +2",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 84,
+   "max": 90,
+   "result": "Armor +2",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 91,
+   "max": 97,
+   "result": "Armor & Shield +2",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 98,
+   "max": 100,
+   "result": "Shield +3",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p24",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "4fb370456014b2ff95cc0a5ad0eac2ef8c42e0a80f7217eac4c0cb0a89013316"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "id": "table-miscellaneous-magic",
+ "name": "Miscellaneous Magic",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 4,
+   "result": "Crystal Ball",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 6,
+   "result": "Crystal Ball with Clairaudience",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "Crystal Ball with E S P",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 12,
+   "result": "Medallion of E S P, 3\" Range",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 13,
+   "max": 15,
+   "result": "Medallion of E S P, 9\" Range",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 16,
+   "max": 18,
+   "result": "Amulet vs. Crystal Balls and E S P",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 19,
+   "max": 24,
+   "result": "Scarab of Protection from Evil High Priests",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 25,
+   "max": 29,
+   "result": "Bag of Holding",
+   "result_raw": "Bag ot Holding",
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 30,
+   "max": 30,
+   "result": "Censer Controlling Air Elementals",
+   "result_raw": "Censor Controlling Air Elementals",
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 31,
+   "max": 31,
+   "result": "Stone Controlling Earth Elementals",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 32,
+   "max": 32,
+   "result": "Brazier Commanding Fire Elementals",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 33,
+   "max": 33,
+   "result": "Bowl Commanding Water Elementals",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 34,
+   "max": 35,
+   "result": "Efreet Bottle",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 36,
+   "max": 38,
+   "result": "Displacer Cloak",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 39,
+   "max": 47,
+   "result": "Elven Cloak and Boots",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 48,
+   "max": 52,
+   "result": "Boots of Speed",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 53,
+   "max": 57,
+   "result": "Boots of Levitation",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 58,
+   "max": 62,
+   "result": "Boots of Traveling and Leaping",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 63,
+   "max": 67,
+   "result": "Broom of Flying",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 68,
+   "max": 72,
+   "result": "Helm of Reading Magic and Languages",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 73,
+   "max": 75,
+   "result": "Helm of Telepathy",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 76,
+   "max": 76,
+   "result": "Helm of Teleportation",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 77,
+   "max": 87,
+   "result": "Helm of Chaos (Law)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 88,
+   "max": 88,
+   "result": "Flying Carpet",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 89,
+   "max": 89,
+   "result": "Drums of Panic, 24\" Range",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "result": "Horn of Blasting, 10\" Range",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 91,
+   "max": 97,
+   "result": "Gauntlets of Ogre Power",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 98,
+   "max": 99,
+   "result": "Girdle of Giant Strength",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "result": "Mirror of Life Trapping",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "Starred entries usable by all classes (source footnote)"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p25",
+  "blocks": [
+   7
+  ],
+  "content_sha256": [
+   "a33cb6996445520166a3068d1688cfbaa4937cfdab4112d9021ab04649496b1b"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

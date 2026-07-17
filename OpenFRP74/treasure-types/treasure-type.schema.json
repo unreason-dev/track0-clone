@@ -1,0 +1,167 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "OpenFRP74 treasure type",
+ "description": "Rollable treasure type: each row is an independent roll \u2014 chance_percent to be present, then amount min-max (\u00d7 multiplier). Two-line Gems/Jewelry cells split per the printed footnote (single line = same roll for each category).",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "name",
+  "system",
+  "variants",
+  "source"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^treasure-type-[a-z]$"
+  },
+  "name": {
+   "type": "string"
+  },
+  "system": {
+   "const": "openfrp74"
+  },
+  "variants": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "name",
+     "rows"
+    ],
+    "properties": {
+     "name": {
+      "type": [
+       "string",
+       "null"
+      ],
+      "description": "Terrain variant (Land/Desert/Water) or null for the single default."
+     },
+     "rows": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "additionalProperties": false,
+       "required": [
+        "category",
+        "raw",
+        "chance_percent"
+       ],
+       "properties": {
+        "category": {
+         "enum": [
+          "copper",
+          "silver",
+          "gold",
+          "gems",
+          "jewelry",
+          "magic_or_map"
+         ]
+        },
+        "raw": {
+         "type": "string"
+        },
+        "chance_percent": {
+         "type": [
+          "integer",
+          "null"
+         ]
+        },
+        "amount_min": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "amount_max": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "multiplier": {
+         "type": [
+          "integer",
+          "null"
+         ]
+        },
+        "grants": {
+         "type": [
+          "object",
+          "null"
+         ],
+         "additionalProperties": false,
+         "properties": {
+          "any_items": {
+           "type": [
+            "integer",
+            "null"
+           ]
+          },
+          "magic_items": {
+           "type": [
+            "integer",
+            "null"
+           ]
+          },
+          "maps": {
+           "type": [
+            "integer",
+            "null"
+           ]
+          },
+          "potions": {
+           "type": [
+            "integer",
+            "null"
+           ]
+          },
+          "scrolls": {
+           "type": [
+            "integer",
+            "null"
+           ]
+          },
+          "exclude": {
+           "type": "array",
+           "items": {
+            "type": "string"
+           }
+          },
+          "note": {
+           "type": [
+            "string",
+            "null"
+           ]
+          }
+         }
+        },
+        "note": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "notes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "source": {
+   "type": "object"
+  },
+  "extraction": {
+   "type": "object"
+  }
+ }
+}

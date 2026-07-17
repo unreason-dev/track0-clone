@@ -1,0 +1,244 @@
+{
+ "id": "table-potions",
+ "name": "Potions",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 4,
+   "result": "Growth",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 8,
+   "result": "Diminution",
+   "result_raw": "Dimenuation",
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 9,
+   "max": 12,
+   "result": "Giant Strength",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 13,
+   "max": 16,
+   "result": "Invisibility",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 17,
+   "max": 20,
+   "result": "Gaseous Form",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 21,
+   "max": 24,
+   "result": "Polymorph (Self)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 25,
+   "max": 28,
+   "result": "Speed",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 29,
+   "max": 32,
+   "result": "Levitation",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 33,
+   "max": 36,
+   "result": "Flying",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 37,
+   "max": 38,
+   "result": "E S P",
+   "result_raw": "37 - 40",
+   "refs": [],
+   "note": "range per ir-a1 split"
+  },
+  {
+   "min": 39,
+   "max": 40,
+   "result": "Delusion",
+   "result_raw": "38 - 40",
+   "refs": [],
+   "note": "range per ir-a1 split"
+  },
+  {
+   "min": 41,
+   "max": 44,
+   "result": "Healing",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 45,
+   "max": 48,
+   "result": "Longevity",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 49,
+   "max": 52,
+   "result": "Clairvoyance",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 53,
+   "max": 55,
+   "result": "Clairaudience",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "result": "Animal Control",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 61,
+   "max": 64,
+   "result": "Undead Control",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 65,
+   "max": 68,
+   "result": "Plant Control",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 69,
+   "max": 72,
+   "result": "Human Control",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 73,
+   "max": 76,
+   "result": "Giant Control",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 77,
+   "max": 80,
+   "result": "Dragon Control",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 81,
+   "max": 84,
+   "result": "Poison",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 85,
+   "max": 88,
+   "result": "Invulnerability",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 89,
+   "max": 92,
+   "result": "Fire Resistance",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 93,
+   "max": 96,
+   "result": "Treasure Finding",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 97,
+   "max": 100,
+   "result": "Heroism",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "Dragon Control: referee rolls which of the six Dragon types",
+  "Poison: referee misleads by naming another Potion, but gives a singular feature on careful questioning"
+ ],
+ "interpretation_records": [
+  "ir-a1-potion-esp-delusion-overlap"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p24",
+  "blocks": [
+   2,
+   3,
+   4
+  ],
+  "content_sha256": [
+   "930d587be5abe483f3b549d3d56831cd59ab5cf063dbf96ead2b72225caf5170",
+   "6d2b09d108f0050e0522c980e9d61bee517caafe1be615908d2c2c5edc935f3d",
+   "5a5c879f87cd21c41e82cdf8b96d7a75632c6f3714bcf6e7bad2c50abaf4d804"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

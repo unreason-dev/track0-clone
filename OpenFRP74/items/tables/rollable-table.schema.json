@@ -1,0 +1,94 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "OpenFRP74 rollable table",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "name",
+  "system",
+  "die_sides",
+  "rows",
+  "source"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^table-[a-z0-9-]+$"
+  },
+  "name": {
+   "type": "string"
+  },
+  "system": {
+   "const": "openfrp74"
+  },
+  "die_sides": {
+   "type": "integer"
+  },
+  "usage": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "rows": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "min",
+     "max",
+     "result"
+    ],
+    "properties": {
+     "min": {
+      "type": "integer"
+     },
+     "max": {
+      "type": "integer"
+     },
+     "result": {
+      "type": "string"
+     },
+     "result_raw": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "refs": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "note": {
+      "type": [
+       "string",
+       "null"
+      ]
+     }
+    }
+   }
+  },
+  "footnotes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "interpretation_records": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "source": {
+   "type": "object"
+  },
+  "extraction": {
+   "type": "object"
+  }
+ }
+}

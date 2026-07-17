@@ -1,0 +1,107 @@
+{
+ "id": "table-magic-item-category",
+ "name": "Magic Items",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 20,
+   "result": "Swords",
+   "result_raw": null,
+   "refs": [
+    "table-sword"
+   ],
+   "note": null
+  },
+  {
+   "min": 21,
+   "max": 35,
+   "result": "Armor",
+   "result_raw": null,
+   "refs": [
+    "table-armor"
+   ],
+   "note": null
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "result": "Misc. Weapons",
+   "result_raw": null,
+   "refs": [
+    "table-miscellaneous-weapons"
+   ],
+   "note": null
+  },
+  {
+   "min": 41,
+   "max": 65,
+   "result": "Potions",
+   "result_raw": null,
+   "refs": [
+    "table-potions"
+   ],
+   "note": null
+  },
+  {
+   "min": 66,
+   "max": 85,
+   "result": "Scrolls",
+   "result_raw": null,
+   "refs": [
+    "table-scrolls"
+   ],
+   "note": null
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "result": "Rings",
+   "result_raw": null,
+   "refs": [
+    "table-rings"
+   ],
+   "note": null
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "result": "Wands/Staves",
+   "result_raw": null,
+   "refs": [
+    "table-wands-and-staves"
+   ],
+   "note": null
+  },
+  {
+   "min": 96,
+   "max": 100,
+   "result": "Misc. Magic",
+   "result_raw": null,
+   "refs": [
+    "table-miscellaneous-magic"
+   ],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p23",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "8dfebfd2d3bd2d0805909e05ad197cd47350033d3042a4687b9074e7451f5d65"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

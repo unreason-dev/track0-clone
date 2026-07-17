@@ -1,0 +1,58 @@
+{
+ "id": "table-map-category",
+ "name": "Maps",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 60,
+   "result": "Treasure Map",
+   "result_raw": null,
+   "refs": [
+    "table-map-treasure"
+   ],
+   "note": null
+  },
+  {
+   "min": 61,
+   "max": 90,
+   "result": "Magic Map",
+   "result_raw": null,
+   "refs": [
+    "table-map-magic"
+   ],
+   "note": null
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "result": "Magic & Treasure Map",
+   "result_raw": null,
+   "refs": [
+    "table-map-treasure",
+    "table-map-magic"
+   ],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p23",
+  "blocks": [
+   7
+  ],
+  "content_sha256": [
+   "896dc97fdb6204e3d1896a1fc47dd630381fd6313e94576e07325c77764f3cef"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

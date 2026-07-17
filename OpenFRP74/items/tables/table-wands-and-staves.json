@@ -1,0 +1,185 @@
+{
+ "id": "table-wands-and-staves",
+ "name": "Wands and Staves",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": "All wands usable by Magic-Users only.",
+ "rows": [
+  {
+   "min": 1,
+   "max": 15,
+   "result": "Wand of Metal Detection",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 16,
+   "max": 20,
+   "result": "Wand of Enemy Detection",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 21,
+   "max": 25,
+   "result": "Wand of Magic Detection",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 26,
+   "max": 30,
+   "result": "Wand of Secret Doors & Traps Detection",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 31,
+   "max": 35,
+   "result": "Wand of Illusion",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 36,
+   "max": 40,
+   "result": "Wand of Fear",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 41,
+   "max": 45,
+   "result": "Wand of Cold",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "result": "Wand of Paralyzation",
+   "result_raw": "Paralization",
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 51,
+   "max": 55,
+   "result": "Wand of Fire Balls",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "result": "Wand of Lightning Bolts",
+   "result_raw": "Lightening Bolts",
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "result": "Wand of Polymorph",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "result": "Wand of Negation",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "result": "Staff of Healing",
+   "result_raw": null,
+   "refs": [],
+   "note": "Clerics only"
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "result": "Staff of Commanding",
+   "result_raw": null,
+   "refs": [],
+   "note": "Clerics and Magic-Users"
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "result": "Snake Staff",
+   "result_raw": null,
+   "refs": [],
+   "note": "Clerics only"
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "result": "Staff of Striking",
+   "result_raw": null,
+   "refs": [],
+   "note": "Clerics and Magic-Users"
+  },
+  {
+   "min": 96,
+   "max": 97,
+   "result": "Staff of Withering",
+   "result_raw": null,
+   "refs": [],
+   "note": "Clerics only"
+  },
+  {
+   "min": 98,
+   "max": 99,
+   "result": "Staff of Power",
+   "result_raw": null,
+   "refs": [],
+   "note": "Magic-Users only"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "result": "Staff of Wizardry",
+   "result_raw": null,
+   "refs": [],
+   "note": "Magic-Users only"
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p25",
+  "blocks": [
+   3,
+   4,
+   5,
+   6
+  ],
+  "content_sha256": [
+   "89fdae08f1c2ba5831673232c0523d4d1d014a5b90147ad89d2694cb5deac589",
+   "035a3cd18dd102e8cef9fc8ad0a13dab9faefcc1a5de3ed73fb54c4ef14b6562",
+   "51d0d8dd8ee08f144e57d1634d6fc2dfab3f88f38cca863672d9e85956ee4d3e",
+   "5f5c5d84a42fac38ddc88d314355307c0ce3787358307844cd493ac7bfc0e4c1"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "id": "table-magic-or-map",
+ "name": "Magic/Maps Determination",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": "Roll for each item found.",
+ "rows": [
+  {
+   "min": 1,
+   "max": 75,
+   "result": "Magic",
+   "result_raw": null,
+   "refs": [
+    "table-magic-item-category"
+   ],
+   "note": null
+  },
+  {
+   "min": 76,
+   "max": 100,
+   "result": "Map",
+   "result_raw": null,
+   "refs": [
+    "table-map-category"
+   ],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p23",
+  "blocks": [
+   4,
+   5
+  ],
+  "content_sha256": [
+   "534ff0813a8fd24b57f26a49bb1b1c39031e46b2f17c5b6daf1b4aaee73c0b1e",
+   "b136bc82f83f6167a1d9f44e9758aa527b9e3cf5404821c5a23a200c20e46ca4"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

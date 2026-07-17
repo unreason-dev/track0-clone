@@ -1,0 +1,103 @@
+{
+ "id": "table-scrolls",
+ "name": "Scrolls",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 20,
+   "result": "1 Spell",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 21,
+   "max": 35,
+   "result": "2 Spells",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 36,
+   "max": 45,
+   "result": "3 Spells",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 46,
+   "max": 50,
+   "result": "7 Spells",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "result": "1 Curse",
+   "result_raw": null,
+   "refs": [
+    "table-curse-scroll"
+   ],
+   "note": null
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "result": "Protection: Lycanthropes",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "result": "Protection: Undead",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "result": "Protection: Elementals",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "result": "Protection: Magic",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "Curse scrolls take effect immediately upon reading; the referee should handle all scrolls so as to dupe the unwary"
+ ],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p24",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "07b859bf827c2e3829cfce479ffc3e2dbb540152cfc3ea33e46415ecdf0e7d30"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

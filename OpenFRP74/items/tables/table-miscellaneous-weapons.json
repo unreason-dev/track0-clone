@@ -1,0 +1,131 @@
+{
+ "id": "table-miscellaneous-weapons",
+ "name": "Miscellaneous Weapons",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 25,
+   "result": "10 Magic Arrows",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 26,
+   "max": 40,
+   "result": "3 - 30 Magic Arrows",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 41,
+   "max": 55,
+   "result": "Dagger +1 vs. Man-Sized Opponents, +2 vs. Goblins and Kobolds",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 56,
+   "max": 60,
+   "result": "Dagger +2 vs. Man-Sized Opponents, +3 vs. Orcs, Goblins and Kobolds",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 61,
+   "max": 65,
+   "result": "Magic Bow",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 66,
+   "max": 70,
+   "result": "Axe +1",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "result": "Mace +2",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "result": "War Hammer +1",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 86,
+   "max": 89,
+   "result": "War Hammer +2",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 90,
+   "max": 90,
+   "result": "War Hammer +3, 6\" Throwing Range with Return",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 91,
+   "max": 96,
+   "result": "Spear +1",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 97,
+   "max": 99,
+   "result": "Spear +2",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "result": "Spear +3",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p24",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "72937a1d107e08c75c5d7f5bff496eb270fca8fee0d09e7f40dffbf2b9ac9f7c"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

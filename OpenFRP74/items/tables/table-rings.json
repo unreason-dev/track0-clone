@@ -1,0 +1,165 @@
+{
+ "id": "table-rings",
+ "name": "Rings",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 9,
+   "result": "Invisibility",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 10,
+   "max": 15,
+   "result": "Mammal Control",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 16,
+   "max": 21,
+   "result": "Human Control",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 22,
+   "max": 30,
+   "result": "Weakness",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 31,
+   "max": 39,
+   "result": "Protection",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 40,
+   "max": 49,
+   "result": "Three Wishes",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 50,
+   "max": 60,
+   "result": "Delusion",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "result": "Water Walking",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "result": "Fire Resistance",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 81,
+   "max": 85,
+   "result": "Protection, 5' r.",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 86,
+   "max": 90,
+   "result": "Regeneration",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 91,
+   "max": 92,
+   "result": "Djinn Summoning",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 93,
+   "max": 94,
+   "result": "Telekinesis",
+   "result_raw": "Telekenisis",
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 95,
+   "max": 96,
+   "result": "X-Ray Vision",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 97,
+   "max": 98,
+   "result": "Spell Turning",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 99,
+   "max": 99,
+   "result": "Spell Storing",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "result": "Many Wishes (4-24)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [
+  "ir-a3-telekinesis-spellings"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p25",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "d9062c1e159821aadc39eeb15ecc4268e6048c921b28fd75c848e894b460f631"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

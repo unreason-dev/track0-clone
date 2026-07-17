@@ -1,0 +1,93 @@
+{
+ "id": "table-map-treasure",
+ "name": "Treasure Map",
+ "system": "openfrp74",
+ "die_sides": 8,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 1,
+   "result": "10,000-40,000 Silver",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 2,
+   "result": "5,000-30,000 Gold",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 3,
+   "max": 3,
+   "result": "1 & 2 above",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 4,
+   "max": 4,
+   "result": "1 above + 2-20 Gems",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 5,
+   "max": 5,
+   "result": "2 above + 5-30 Gems",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 6,
+   "max": 6,
+   "result": "3 above + 1-100 Gems",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "10-60 Gems, 2-20 Jewelry",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "3 & 7 above",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p26",
+  "blocks": [
+   2,
+   3
+  ],
+  "content_sha256": [
+   "556e18f0bd0ac0ae7e1966cc1a911d2cbf057429aade333e9a634261113a42cf",
+   "4542d0c0f4397b0a1f5c3330beffcd7c83a75005e16045ed5e10f45d66ccb9ce"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

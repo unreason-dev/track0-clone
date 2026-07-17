@@ -1,0 +1,73 @@
+{
+ "id": "table-gem-values",
+ "name": "Gem Base Values",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": "Then roll d6 per gem (or per group of 5-10): each 1 bumps the gem one category higher; above 1,000 the ladder runs 5,000; 10,000; 25,000; 50,000; 100,000; 500,000.",
+ "rows": [
+  {
+   "min": 1,
+   "max": 10,
+   "result": "10 Gold Pieces",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 11,
+   "max": 25,
+   "result": "50 Gold Pieces",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 26,
+   "max": 75,
+   "result": "100 Gold Pieces",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 76,
+   "max": 90,
+   "result": "500 Gold Pieces",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 91,
+   "max": 100,
+   "result": "1,000 Gold Pieces",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p40",
+  "blocks": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "content_sha256": [
+   "63e01e6f99d39dc990a7f19a6a18e49cb0ca566c1117cb684cd8e69073920283",
+   "28f610c3905e1acdd4aec38b95b402bcb29b94df66ee3fa82027f3d3071993f9",
+   "ea49c6ec699c1f1140170cb30aa57d5b37113dba0296da9e759c2f0e5ad10a05",
+   "e2810d22faff77986ca9552022a0ad248fd6d7766e0986fd56b8e415e5031e45"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
