@@ -1,0 +1,73 @@
+{
+ "id": "monster-zombie",
+ "name": "Zombies",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "3 - 30",
+ "number_appearing": {
+  "min": 3,
+  "max": 30,
+  "note": "shared table row with Skeletons"
+ },
+ "armor_class_raw": "8",
+ "armor_class": 8,
+ "move_raw": "6",
+ "move_inches": 6,
+ "fly_inches": null,
+ "hit_dice_raw": "1",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": 0,
+  "note": "errata: pair reads 1/2/1"
+ },
+ "percent_in_lair_raw": "Nil",
+ "percent_in_lair": null,
+ "treasure_raw": "Nil",
+ "treasure_refs": [],
+ "alignment": [
+  "chaos"
+ ],
+ "description": "As Skeletons: mindless dead under their motivator's instruction, never checking morale, fighting until wiped out.",
+ "special_notes": [
+  "no morale checks"
+ ],
+ "related_monsters": [
+  "monster-skeleton"
+ ],
+ "statline_shared_with": "monster-skeleton",
+ "counterpart_5_1srd": "monster-zombie",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p09",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "7f4b77c22647d2ab6e4719c3bb8242fd3af47a4d57a651e8ef8a555c04ea4d4f"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "id": "monster-hobgoblin",
+ "name": "Hobgoblins",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "20 - 200",
+ "number_appearing": {
+  "min": 20,
+  "max": 200,
+  "note": "shared table row with Gnolls"
+ },
+ "armor_class_raw": "5",
+ "armor_class": 5,
+ "move_raw": "9",
+ "move_inches": 9,
+ "fly_inches": null,
+ "hit_dice_raw": "1+1",
+ "hit_dice": {
+  "min": 1,
+  "max": 1,
+  "bonus": 1,
+  "note": null
+ },
+ "percent_in_lair_raw": "30%",
+ "percent_in_lair": 30,
+ "treasure_raw": "Type D",
+ "treasure_refs": [
+  "treasure-type-d"
+ ],
+ "alignment": [
+  "chaos"
+ ],
+ "description": "Large and fearless Goblins, +1 morale. The Hobgoblin king fights as an Ogre, as does his bodyguard of 1-4.",
+ "special_notes": [],
+ "related_monsters": [
+  "monster-goblin",
+  "monster-ogre"
+ ],
+ "statline_shared_with": "monster-gnoll",
+ "counterpart_5_1srd": "monster-hobgoblin",
+ "interpretation_records": [],
+ "period_conventions": [
+  "row 'Hobgoblins/Gnolls' HD 1+1/2 read as Hobgoblin 1+1, Gnoll 2"
+ ],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p08",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "eb5c99f060bec06e3bd1c79ba8c067c44a57c9d9fdf1c6e7d862533d3ad8be4a"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

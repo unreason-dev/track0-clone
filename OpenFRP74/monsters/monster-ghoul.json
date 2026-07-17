@@ -1,0 +1,93 @@
+{
+ "id": "monster-ghoul",
+ "name": "Ghouls",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "2 - 24",
+ "number_appearing": {
+  "min": 2,
+  "max": 24,
+  "note": null
+ },
+ "armor_class_raw": "6",
+ "armor_class": 6,
+ "move_raw": "9",
+ "move_inches": 9,
+ "fly_inches": null,
+ "hit_dice_raw": "2",
+ "hit_dice": {
+  "min": 2,
+  "max": 2,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "20%",
+ "percent_in_lair": 20,
+ "treasure_raw": "Type B",
+ "treasure_refs": [
+  "treasure-type-b"
+ ],
+ "alignment": [
+  "chaos"
+ ],
+ "description": "Their touch paralyzes any normal figure save Elves; otherwise they melee normally and can be shot at. Any man-type a Ghoul kills rises as one.",
+ "special_notes": [
+  "paralysis by touch (Elves immune)",
+  "victims become Ghouls"
+ ],
+ "related_monsters": [],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-ghoul",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [
+  "paralysis mechanic per CHAINMAIL Wights"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p09",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "d4ce1d9078c0f20644a7983cbf355ea4750d7c554c2f6fea7a955b3266623108"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

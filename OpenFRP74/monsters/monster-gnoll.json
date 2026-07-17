@@ -1,0 +1,91 @@
+{
+ "id": "monster-gnoll",
+ "name": "Gnolls",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "20 - 200",
+ "number_appearing": {
+  "min": 20,
+  "max": 200,
+  "note": "shared table row with Hobgoblins"
+ },
+ "armor_class_raw": "5",
+ "armor_class": 5,
+ "move_raw": "9",
+ "move_inches": 9,
+ "fly_inches": null,
+ "hit_dice_raw": "2",
+ "hit_dice": {
+  "min": 2,
+  "max": 2,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "30%",
+ "percent_in_lair": 30,
+ "treasure_raw": "Type D",
+ "treasure_refs": [
+  "treasure-type-d"
+ ],
+ "alignment": [
+  "chaos"
+ ],
+ "description": "A cross between Gnomes and Trolls (perhaps — Lord Dunsany never made it quite clear), +2 morale, otherwise as Hobgoblins. The Gnoll king and his bodyguard of 1-4 fight as Trolls, though without the regeneration.",
+ "special_notes": [],
+ "related_monsters": [
+  "monster-hobgoblin",
+  "monster-troll"
+ ],
+ "statline_shared_with": "monster-hobgoblin",
+ "counterpart_5_1srd": "monster-gnoll",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p08",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "b9162c337e198826bb62aff1185abb426ad5e07457a291e7fcd8ada0aba03a61"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "id": "monster-wight",
+ "name": "Wights",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "number_appearing_raw": "2 - 24",
+ "number_appearing": {
+  "min": 2,
+  "max": 24,
+  "note": null
+ },
+ "armor_class_raw": "5",
+ "armor_class": 5,
+ "move_raw": "9",
+ "move_inches": 9,
+ "fly_inches": null,
+ "hit_dice_raw": "3",
+ "hit_dice": {
+  "min": 3,
+  "max": 3,
+  "bonus": 0,
+  "note": null
+ },
+ "percent_in_lair_raw": "60%",
+ "percent_in_lair": 60,
+ "treasure_raw": "Type B",
+ "treasure_refs": [
+  "treasure-type-b"
+ ],
+ "alignment": [
+  "chaos"
+ ],
+ "description": "Barrow Wights drain a life energy level with every melee hit — hit points and level together, a 9th-level fighter falling to 8th. Normal missiles cannot touch them; silver-tipped arrows score normal damage, magic arrows double. Magical weapons hit fully, their bonus added to the damage. Whoever they kill — or drain to nothing — becomes a Wight.",
+ "special_notes": [
+  "energy drain: 1 level/hit",
+  "immune to normal missiles; silver normal, magic arrows ×2",
+  "victims become Wights"
+ ],
+ "related_monsters": [],
+ "statline_shared_with": null,
+ "counterpart_5_1srd": "monster-wight",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "external_refs": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p09",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "88f60182b013a6e3904c0c2dd022d12e8ece9c10859961d45bf27a0e761ea34a"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p03",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "00ce7196ca798dc5c5a582d93bbf74875152461c6716377cd1b06df00155b12f"
+    ],
+    "note": "monster reference table"
+   },
+   {
+    "booklet": "v1",
+    "page": "p09",
+    "blocks": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "17a081de19c97c9f20f6d6754b61c088cc50397b6b43b039b88e4c43a6fa2f73",
+     "d3b4f366e3f383ed39ac69f3cf1fa887eeb862045bc5bd1672d8970a1d85d96f",
+     "0ce11842d10f5a62253c44c16872d3b3df8c23b2346d9fe7ec0607f7d80b31ac",
+     "91363b8eebe4676b3aedc305798799be8645b73482ed46001c582319903c5d4c"
+    ],
+    "note": "alignment lists (errata applied per ir-a13)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
