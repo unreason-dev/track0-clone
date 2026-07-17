@@ -1,0 +1,56 @@
+{
+ "id": "spell-slow-spell",
+ "name": "Slow Spell",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 3,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "3 turns",
+ "duration_turns": 3,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "A broad enchantment of sluggishness catching up to 24 creatures within an area no larger than 6\" × 12\". Duration: 3 turns. Range: 24\".",
+ "related_spells": [
+  "spell-haste-spell"
+ ],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p26",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "a4ae12ac07a9b4a8218babb0134f69d818d4cc69345a54b1fa33d7d16e306629"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

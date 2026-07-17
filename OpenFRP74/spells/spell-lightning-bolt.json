@@ -1,0 +1,70 @@
+{
+ "id": "spell-lightning-bolt",
+ "name": "Lightning Bolt",
+ "name_raw": "Lightening Bolt",
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 3,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "A stroke of lightning 6\" long and up to 3/4\" wide leaps forth. If the space cannot hold its full length, the bolt doubles back to reach its 6\" — possibly striking its own creator. Otherwise as Fire Ball, though the head of the missile never extends beyond the 24\" range.",
+ "related_spells": [
+  "spell-fire-ball"
+ ],
+ "counterpart_5_1srd": "spell-lightning-bolt",
+ "interpretation_records": [],
+ "period_conventions": [
+  "\"Lightening\" printed; normalized per D-6",
+  "damage as Fire Ball: 1d6 per caster level"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p25",
+  "blocks": [
+   11
+  ],
+  "content_sha256": [
+   "8af90581da24dc1b73f326fd57d48ce9639df50a6a06d87363b4a88a2726b061"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p26",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "0182b30f9db1358edc9fc9ce3b276fbaf0974bf46c8404b5621a896485e33047"
+    ],
+    "note": "entry concludes"
+   },
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

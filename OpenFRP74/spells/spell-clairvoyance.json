@@ -1,0 +1,58 @@
+{
+ "id": "spell-clairvoyance",
+ "name": "Clairvoyance",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 3,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "As ESP, but the caster sees rather than merely picking up thoughts.",
+ "related_spells": [
+  "spell-esp"
+ ],
+ "counterpart_5_1srd": "spell-clairvoyance",
+ "interpretation_records": [],
+ "period_conventions": [
+  "range/duration inherited from ESP: 12 turns, 6\""
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p25",
+  "blocks": [
+   8
+  ],
+  "content_sha256": [
+   "43b65928d7dd01afccab8f18652ee284e42b34692e0af222558ff0de9b0d8018"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

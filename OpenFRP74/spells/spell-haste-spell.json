@@ -1,0 +1,58 @@
+{
+ "id": "spell-haste-spell",
+ "name": "Haste Spell",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 3,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "3 turns",
+ "duration_turns": 3,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "The exact opposite of a Slow Spell but otherwise like it; each counters the other.",
+ "related_spells": [
+  "spell-slow-spell"
+ ],
+ "counterpart_5_1srd": "spell-haste",
+ "interpretation_records": [],
+ "period_conventions": [
+  "area/duration/range inherited from Slow Spell"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p26",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "7045c4afd834b2c8709f7d7d725645454651bc8c55a3c94dc1ccd2c8d71ca0cc"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

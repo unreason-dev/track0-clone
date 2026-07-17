@@ -1,0 +1,72 @@
+{
+ "id": "spell-hold-person",
+ "name": "Hold Person",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 3,
+   "note": null
+  },
+  {
+   "class": "cleric",
+   "level": 2,
+   "note": null
+  }
+ ],
+ "range_raw": "12\"",
+ "range_inches": 12,
+ "duration_raw": "6 turns + level of the caster",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": "6 + caster level",
+ "reversible": false,
+ "description": "Like Charm Person but briefer and stronger, gripping 1-4 persons fast. Aimed at a single person, it bites deeper still: the target saves against magic at -2. Duration: 6 turns plus the caster's level. Range: 12\".",
+ "related_spells": [
+  "spell-charm-person"
+ ],
+ "counterpart_5_1srd": "spell-hold-person",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p25",
+  "blocks": [
+   6
+  ],
+  "content_sha256": [
+   "64f790a25fdc68aec8d45fae99bc82d18b870bb71f95c0c41c156ccf0875bc81"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   },
+   {
+    "booklet": "v1",
+    "page": "p33",
+    "blocks": [
+     1
+    ],
+    "content_sha256": [
+     "90e3ab71dfc8d2a43102947990b3df0e81e4a46cd6892cf1185f2e631b2607c1"
+    ],
+    "note": "Cleric list entry"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

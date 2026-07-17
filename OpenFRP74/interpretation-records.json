@@ -253,6 +253,24 @@
    "status": "ruled",
    "ruled_by": "census (mechanical), operator batch-confirmed",
    "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a15-invisibility-radius-units",
+   "site": {
+    "booklet": "v1",
+    "page": "p26",
+    "block": 2
+   },
+   "ambiguity": "Explanation heading prints 'Invisibility, 10\" Radius' (inches) but the spells table prints 'Invisibility, 10' r.' (feet).",
+   "candidates": [
+    "inches (explanation)",
+    "feet (table; parallel with Protection from Evil, 10' Radius)"
+   ],
+   "chosen": "feet — 10' Radius",
+   "rationale": "Parallel construction with the Protection spell and the table reading; \"/' typo class under D-6.",
+   "status": "provisional — extraction call, flagged for operator review",
+   "ruled_by": "extraction",
+   "date": "2026-07-17"
   }
  ]
 }

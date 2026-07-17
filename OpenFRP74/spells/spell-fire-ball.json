@@ -1,0 +1,56 @@
+{
+ "id": "spell-fire-ball",
+ "name": "Fire Ball",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 3,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "1 turn",
+ "duration_turns": 1,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "A missile springs from the caster's finger and detonates in a 2\" burst radius; in cramped quarters the blast squeezes itself to the shape of the space. Damage scales with the caster: a 6th-level Magic-User hurls a 6-die missile, a 7th an 7-die missile, and so on. (Fire Balls from scrolls and wands are 6-die missiles; from staves, 8-die.) Duration: 1 turn. Range: 24\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-fireball",
+ "interpretation_records": [],
+ "period_conventions": [
+  "damage formula: 1d6 per caster level"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p25",
+  "blocks": [
+   10
+  ],
+  "content_sha256": [
+   "0c06cbd37e326f6d98295f06203d08c123126eadc58c0bcad338ace5cda4a4f8"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     3
+    ],
+    "content_sha256": [
+     "b9b827b4e796b36350a95094a371243893c3aa2e9a40232aa15ef0330b54681c"
+    ],
+    "note": "Magic-Users spells table (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
