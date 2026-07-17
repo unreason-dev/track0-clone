@@ -1,0 +1,258 @@
+{
+ "work": "OpenFRP74",
+ "note": "Interpretation records per charter §10. Chosen readings apply to the NORMALIZED layer; the pass-2 verbatim intermediate is never altered. Sites reference transcript block indices; block content hashes in digitization/transcripts/block-hashes.json (local) anchor provenance.",
+ "records": [
+  {
+   "id": "ir-a1-potion-esp-delusion-overlap",
+   "site": {
+    "booklet": "v2",
+    "page": "p24",
+    "block": 4
+   },
+   "ambiguity": "Potions table prints E S P 37-40 and Delusion 38-40 — overlapping percentile ranges.",
+   "candidates": [
+    "keep overlap with note",
+    "split into contiguous non-overlapping ranges"
+   ],
+   "chosen": "E S P 37-38, Delusion 39-40",
+   "rationale": "Operator: overlap is a typo; split is contiguous with Flying 33-36 and Healing 41-44.",
+   "status": "ruled",
+   "ruled_by": "operator",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a2-sword-languages-overlap",
+   "site": {
+    "booklet": "v2",
+    "page": "p28",
+    "block": 4
+   },
+   "ambiguity": "Languages Spoken table prints Four 86-95 and Five 90-99 — overlapping.",
+   "candidates": [
+    "keep overlap with note",
+    "fix Five's lower bound"
+   ],
+   "chosen": "Four 86-95 (as printed), Five 96-99",
+   "rationale": "Operator: typo. Three ends at 85 so Four stands; printed '90' on Five is a 6/0 typo for 96.",
+   "status": "ruled",
+   "ruled_by": "operator",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a3-telekinesis-spellings",
+   "site": {
+    "booklet": "v1/v2",
+    "page": "multiple",
+    "block": null
+   },
+   "ambiguity": "Three spellings across occurrences: Telekenesis, Telekenisis, Telekensis.",
+   "candidates": [
+    "preserve variants",
+    "collapse to one normalized spell"
+   ],
+   "chosen": "single spell-telekinesis; variants recorded here",
+   "rationale": "D-6 typo normalization; 5.1 shared ID.",
+   "status": "ruled",
+   "ruled_by": "operator (via D-6)",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a4-xp-example-arithmetic",
+   "site": {
+    "booklet": "v1",
+    "page": "p18",
+    "block": 1
+   },
+   "ambiguity": "Printed worked example: '962.5 x 7 = 6,037.5' — true product is 6,737.5.",
+   "candidates": [
+    "keep printed number",
+    "fix arithmetic in normalized layer"
+   ],
+   "chosen": "fix to 6,737.5",
+   "rationale": "Operator: fix. The stated rule (7/8 proration) is unambiguous; a wrong worked example misleads consumers. Verbatim layer keeps 6,037.5.",
+   "status": "ruled",
+   "ruled_by": "operator",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a5-sharp-drive",
+   "site": {
+    "booklet": "v3",
+    "page": "p26",
+    "block": 4
+   },
+   "ambiguity": "Heading-form '__Sharp Drive__' vs same-sentence 'sharp dive'.",
+   "candidates": [
+    "keep Drive",
+    "normalize to Dive"
+   ],
+   "chosen": "Sharp Dive",
+   "rationale": "D-6 typo normalization; internal text settles intent.",
+   "status": "ruled",
+   "ruled_by": "operator (via D-6)",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a6-errata-each-east",
+   "site": {
+    "booklet": "v1",
+    "page": "p28",
+    "block": 1
+   },
+   "ambiguity": "Errata: Page 28 line 9 'each' should be 'east'. Line-9 count did not obviously land on an 'each'.",
+   "candidates": [
+    "apply to Dimension Door '32\" each'",
+    "record as inapplicable to this printing"
+   ],
+   "chosen": "apply: Dimension Door example reads '...12\" upwards, 32\" east, etc.'",
+   "rationale": "Operator confirmed the target: the only '32\" each' on the page, in the Dimension Door entry; earlier 'join anomaly' was a line-counting artifact.",
+   "status": "ruled",
+   "ruled_by": "operator",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a7-constitution-adversity",
+   "site": {
+    "booklet": "v1",
+    "page": "p11",
+    "block": 8
+   },
+   "ambiguity": "Constitution +1/+2 payoff is 'Will withstand adversity' — no typed mechanic derivable.",
+   "candidates": [
+    "prose-only field",
+    "open_adjudication"
+   ],
+   "chosen": "open_adjudication",
+   "rationale": "Operator: the text itself delegates to the referee.",
+   "status": "ruled",
+   "ruled_by": "operator",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a8-elf-class-model",
+   "site": {
+    "booklet": "v1",
+    "page": "p07",
+    "block": null
+   },
+   "ambiguity": "Elves elect Fighting-Man or Magic-User at the start of each adventure — race/class ontology fork.",
+   "candidates": [
+    "race entry + class-choice race-feature rule (keep races/classes split)",
+    "dual-class toggle entity"
+   ],
+   "chosen": "race entry + class-choice race-feature rule",
+   "rationale": "Operator: approaches equivalent; (i) maximizes 5.1 taxonomy reuse per D-5 principle.",
+   "status": "ruled",
+   "ruled_by": "operator",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a9-castle-table-die-header",
+   "site": {
+    "booklet": "v3",
+    "page": "p15",
+    "block": 4
+   },
+   "ambiguity": "Guards column header prints 'Die -1'.",
+   "candidates": [
+    "label 'Die' + column '1' with garbled spacing",
+    "literal die-minus-one"
+   ],
+   "chosen": "label 'Die' + column '1'",
+   "rationale": "Layout: columns 2-4 follow unlabeled; mechanical reading.",
+   "status": "ruled",
+   "ruled_by": "census (mechanical), operator batch-confirmed",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a10-city-encounter-column",
+   "site": {
+    "booklet": "v3",
+    "page": "p18",
+    "block": 2
+   },
+   "ambiguity": "City terrain column prints '---' for both Lost and Encounter rows; errata adds 'An Encounter occurs in a City on a 6.'",
+   "candidates": [
+    "leave both ---",
+    "apply errata to Encounter only"
+   ],
+   "chosen": "Encounter: 6 (errata); Lost: --- (cannot get lost in a city)",
+   "rationale": "Errata application per D-6.",
+   "status": "ruled",
+   "ruled_by": "census (mechanical), operator batch-confirmed",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a11-die-range-zero",
+   "site": {
+    "booklet": "all",
+    "page": "multiple",
+    "block": null
+   },
+   "ambiguity": "Die-range cells use 0 for 10 and 00 for 100 ('7-0', '9-0', '91-00').",
+   "candidates": [
+    "preserve literal",
+    "type as 10/100 with convention note"
+   ],
+   "chosen": "type as 10/100; convention documented once",
+   "rationale": "Period convention; verbatim layer preserves literals.",
+   "status": "ruled",
+   "ruled_by": "census (mechanical), operator batch-confirmed",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a12-abbreviation-map",
+   "site": {
+    "booklet": "v2/v3",
+    "page": "multiple",
+    "block": null
+   },
+   "ambiguity": "Tabular abbreviations require expansion for typed refs.",
+   "candidates": [
+    "per-entry ad hoc",
+    "single expansion map"
+   ],
+   "chosen": "single map: Myrmi's=Myrmidons, S'bucks.=Swashbucklers, Blsks.=Basilisks, Chmrs.=Chimeras, Grgyls.=Gargoyles, Lycs.=Lycanthropes, S'heros=Superheroes, H'griffs=Hippogriffs, Vmprs.=Vampires, W. Apes=White Apes, Champs.=Champions, Mntcrs.=Manticores, Heros=Heroes, Anmls.=Animals, Swim'r=Swimmer, misc. mg.=Miscellaneous Magic, Evil H. P.=Evil High Priest",
+   "rationale": "One census artifact; re-derivation per entry invites drift.",
+   "status": "ruled",
+   "ruled_by": "census (mechanical), operator batch-confirmed",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a13-alignment-list-errata",
+   "site": {
+    "booklet": "v1",
+    "page": "p09",
+    "block": null
+   },
+   "ambiguity": "Alignment lists: Wights listed twice; Griffons absent.",
+   "candidates": [
+    "as printed",
+    "apply errata"
+   ],
+   "chosen": "apply errata: delete first Wights listing (Chaos), add Griffons under Neutrality",
+   "rationale": "Errata application per D-6.",
+   "status": "ruled",
+   "ruled_by": "census (mechanical), operator batch-confirmed",
+   "date": "2026-07-17"
+  },
+  {
+   "id": "ir-a14-scepter-sceptre",
+   "site": {
+    "booklet": "v2",
+    "page": "p39",
+    "block": 0
+   },
+   "ambiguity": "Artifacts list mixes Scepter/Sceptre across the three crown sets.",
+   "candidates": [
+    "preserve mix",
+    "unify spelling"
+   ],
+   "chosen": "unify to Scepter",
+   "rationale": "D-6 typo normalization; majority spelling on the page.",
+   "status": "ruled",
+   "ruled_by": "census (mechanical), operator batch-confirmed",
+   "date": "2026-07-17"
+  }
+ ]
+}
