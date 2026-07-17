@@ -1,0 +1,56 @@
+{
+ "id": "spell-confusion",
+ "name": "Confusion",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": "12\"",
+ "range_inches": 12,
+ "duration_raw": "12 turns",
+ "duration_turns": 12,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Sows madness among enemies. Creatures of two hit dice or fewer succumb at once; stronger creatures resist for a delay of one twelve-sided die roll less the caster's level in turns (zero or negative: immediate). Creatures of four or more hit dice save against magic each turn — success that turn spares them, failure confuses them. The spell reaches 2d6 creatures, +1 per caster level above 8th. Each turn the confused roll 2d6: on 2-5 they attack the caster's party, on 6-8 they mill about, on 9-12 they fall on each other. Duration: 12 turns. Range: 12\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-confusion",
+ "interpretation_records": [],
+ "period_conventions": [
+  "delay formula: 1d12 − caster level, in turns"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p27",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "e73cfb670839f547d422b71d0e1a9be41a2ae1d1628516df2e53aedb55241c61"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

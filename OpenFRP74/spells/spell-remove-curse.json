@@ -1,0 +1,70 @@
+{
+ "id": "spell-remove-curse",
+ "name": "Remove Curse",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 4,
+   "note": null
+  },
+  {
+   "class": "cleric",
+   "level": 3,
+   "note": null
+  }
+ ],
+ "range_raw": "Adjacent to the object",
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Lifts any one curse or evil sending. Used on a cursed sword, it leaves an ordinary sword — not an enchanted blade. Range: touch (adjacent to the object).",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-remove-curse",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p26",
+  "blocks": [
+   11
+  ],
+  "content_sha256": [
+   "294d85cc365bb5a232b8c983384aa3fa49ef88d93c9839418bd2b035431a5430"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   },
+   {
+    "booklet": "v1",
+    "page": "p33",
+    "blocks": [
+     2
+    ],
+    "content_sha256": [
+     "f32ce514ff3e8a2450daf4fd43177aa9d36430f8b6fc8c3e708bc3184a39be7a"
+    ],
+    "note": "Cleric list entry"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

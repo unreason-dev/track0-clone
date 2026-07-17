@@ -1,0 +1,54 @@
+{
+ "id": "spell-wizard-eye",
+ "name": "Wizard Eye",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "6 turns",
+ "duration_turns": 6,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Sends an invisible scrying eye drifting up to 24\" from the caster, who watches through it without stirring. The eye moves 12\" per turn. Duration: 6 turns.",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-arcane-eye",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p28",
+  "blocks": [
+   2
+  ],
+  "content_sha256": [
+   "828c14461f033ae94f778ee08999989191fc16cc3e182f8694469960a760830c"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

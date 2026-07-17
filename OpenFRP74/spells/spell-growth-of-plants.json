@@ -1,0 +1,58 @@
+{
+ "id": "spell-growth-of-plants",
+ "name": "Growth of Plants",
+ "name_raw": "Growth of Plants (table: Growth/Plant)",
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": "12\"",
+ "range_inches": 12,
+ "duration_raw": "until negated by Dispell Magic",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Brush and woods erupt into strangling overgrowth — creepers, vines, thorns, briars — until the ground is virtually impassable. Covers up to 30 square inches of tabletop in whatever dimensions the caster chooses. It stands until negated by Dispel Magic. Range: 12\".",
+ "related_spells": [
+  "spell-dispel-magic"
+ ],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [
+  "area in square tabletop inches"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p28",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "05b9217b3e9aba11b7c087009b2c6fb1612fd8268a6a310ccf2b116efd8e4c5f"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

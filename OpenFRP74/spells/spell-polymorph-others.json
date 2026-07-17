@@ -1,0 +1,57 @@
+{
+ "id": "spell-polymorph-others",
+ "name": "Polymorph Others",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": "6\"",
+ "range_inches": 6,
+ "duration_raw": "until dispelled",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Transforms another creature wholly, lasting until dispelled. The subject gains all the characteristics of the new form — though not necessarily its mind. A creature made into a dragon has a dragon's every power; a troll made into a snail is, innately, no easier to crush underfoot than a troll. Range: 6\".",
+ "related_spells": [
+  "spell-polymorph-self",
+  "spell-dispel-magic"
+ ],
+ "counterpart_5_1srd": "spell-polymorph",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p26",
+  "blocks": [
+   10
+  ],
+  "content_sha256": [
+   "95e7c25f78fa011120a0e6886f3cf05e9c56a6110021d769599270792a0d8188"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

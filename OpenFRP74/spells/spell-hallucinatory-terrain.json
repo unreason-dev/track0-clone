@@ -1,0 +1,54 @@
+{
+ "id": "spell-hallucinatory-terrain",
+ "name": "Hallucinatory Terrain",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": "24\"",
+ "range_inches": 24,
+ "duration_raw": "until contacted by an opponent",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Hides or fabricates the land itself over a wide area — a swamp, hill, ridge, or wood concealed or conjured from nothing. The illusion breaks when an opponent contacts the magicked ground. Range: 24\".",
+ "related_spells": [],
+ "counterpart_5_1srd": "spell-hallucinatory-terrain",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p28",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "17c0a15957d069530102b405557e1d5520fba099405c2e55a1007e2aa1857cd1"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

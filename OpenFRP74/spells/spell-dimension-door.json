@@ -1,0 +1,60 @@
+{
+ "id": "spell-dimension-door",
+ "name": "Dimension Door",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": "1\"",
+ "range_inches": 1,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "A lesser Teleport: the subject is instantly carried up to 36\" in any direction, up or down included. There is no chance of misjudging — the traveler arrives exactly where called, be it 12\" upwards or 32\" east. Range: 1\".",
+ "related_spells": [
+  "spell-teleport"
+ ],
+ "counterpart_5_1srd": "spell-dimension-door",
+ "interpretation_records": [
+  "ir-a6-errata-each-east"
+ ],
+ "period_conventions": [
+  "'32\" each' printed; errata corrects to east (ir-a6)"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p28",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "8573d3facddf646d429bb1d95bb88e7011f87b58d4870a587b7a267f095255e4"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "id": "spell-charm-monster",
+ "name": "Charm Monster",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": null,
+ "range_inches": null,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "The counterpart of Charm Person, working on all creatures. Against animals or creatures of three or fewer hit dice, 3d6 are affected; otherwise identical to Charm Person.",
+ "related_spells": [
+  "spell-charm-person"
+ ],
+ "counterpart_5_1srd": null,
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p27",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "96771cbf6ebf97d81e1e8638f56f834375eea0971a6921e17ee9f8c793c5f39b"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

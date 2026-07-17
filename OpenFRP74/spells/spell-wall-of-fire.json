@@ -1,0 +1,67 @@
+{
+ "id": "spell-wall-of-fire",
+ "name": "Wall of Fire",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": "6\"",
+ "range_inches": 6,
+ "duration_raw": "concentration",
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Raises an opaque wall of flame that stands as long as the caster concentrates. Creatures of fewer than four hit dice cannot pass. Those who break through take one die (1-6) of damage — the undead two dice (2-12). Shape it as a plane up to 6\" wide and 2\" high, or a ring 3\" across and 2\" high. Range: 6\".",
+ "related_spells": [
+  "spell-wall-of-ice"
+ ],
+ "counterpart_5_1srd": "spell-wall-of-fire",
+ "interpretation_records": [],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p26",
+  "blocks": [
+   12
+  ],
+  "content_sha256": [
+   "65233e2063733262761a76d0ac8791358ede272bec277dd8f23dec20f91fc540"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p27",
+    "blocks": [
+     0
+    ],
+    "content_sha256": [
+     "b55f6d8c6b6b929aeb3b9fbc4bed52730a1f274e461412f5020fd2d3af77c530"
+    ],
+    "note": "entry concludes"
+   },
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

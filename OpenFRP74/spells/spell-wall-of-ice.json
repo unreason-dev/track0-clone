@@ -1,0 +1,58 @@
+{
+ "id": "spell-wall-of-ice",
+ "name": "Wall of Ice",
+ "name_raw": null,
+ "system": "openfrp74",
+ "available_to": [
+  {
+   "class": "magic-user",
+   "level": 4,
+   "note": null
+  }
+ ],
+ "range_raw": "12\"",
+ "range_inches": 12,
+ "duration_raw": null,
+ "duration_turns": null,
+ "duration_dice": null,
+ "duration_formula": null,
+ "reversible": false,
+ "description": "Conjures a wall of ice six feet thick, in dimensions as a Wall of Fire, proof against fire-wielding creatures and fire spells alike. Creatures of four or more hit dice may smash through, taking one die (1-6) of damage — double for fire-users. Range: 12\".",
+ "related_spells": [
+  "spell-wall-of-fire"
+ ],
+ "counterpart_5_1srd": "spell-wall-of-ice",
+ "interpretation_records": [],
+ "period_conventions": [
+  "\"six inches thick\" printed — tabletop-inch convention read as-stated; thickness kept raw"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v1",
+  "page": "p27",
+  "blocks": [
+   1
+  ],
+  "content_sha256": [
+   "e79e257144db3db9e2f6481ab31b4d3d6dc07a778309d2e3e8f8b07bddafb26a"
+  ],
+  "also": [
+   {
+    "booklet": "v1",
+    "page": "p21",
+    "blocks": [
+     4
+    ],
+    "content_sha256": [
+     "108543317cc7c685732e6ada51d0692dd2939b25aaa2512d8a50927dd08466e1"
+    ],
+    "note": "Magic-Users spells table, 4th-6th levels (level index)"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
