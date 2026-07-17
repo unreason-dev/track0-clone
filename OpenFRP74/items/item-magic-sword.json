@@ -1,0 +1,136 @@
+{
+ "id": "item-magic-sword",
+ "name": "Magic Swords",
+ "name_raw": null,
+ "aliases": [],
+ "system": "openfrp74",
+ "category": "sword",
+ "usable_by": [
+  "fighting-man"
+ ],
+ "duration_raw": null,
+ "description": "Alone among magic weapons, swords have human — and superhuman — attributes: an alignment (d% 01-65 Lawful, 66-90 Neutral, 91-00 Chaotic; reversed for the life-draining sword), an Intelligence (d12: 7+ brings Primary Powers and communication, 10+ speech and languages, 12 an Extraordinary Ability and telepathy), and — at Intelligence 7+ — an Egoism of 1-12. A sword of wrong alignment wounds its taker: 2 dice between Law and Chaos, 1 die between Neutrality and either (half for a directed non-player character, who may also be freed, converted, or lost to his master). If the sword's Intelligence+Egoism tops the taker's by 6 or more it controls him outright, converting him to its own alignment. An egoistic sword schemes: leading its user past better weapons, into danger for glory, into capture by worthier hands, or surrender to lesser ones it can rule; it demands treasure — scabbards, jewels, guardian magics. In key situations run the influence check (sword total vs character total, see table). Origin/Purpose: on 91+ (d%) the sword bears a mission, its Intelligence and Ego leap to maximum, and it gains a power by origin — Law paralyzes Chaotic opponents, Neutrality +1 to all saving throws, Chaos disintegrates Lawful opponents — applied only against its endowed prey or their servants (general-purpose missions apply to any opposed side). Purposes: slay Magic-Users / Clerics / Fighting-Men / Monsters, defeat Law / defeat Chaos. A purposed sword is always at its task; a user working against it forces an immediate influence check. Bonuses to hit apply always; damage bonuses only for the +2/+3-vs-specific-creature swords, against those creatures.",
+ "special_notes": [
+  "all Primary/Extraordinary functions pass to the user",
+  "alignment damage: Law-Chaos 2d6, Neutrality-either 1d6",
+  "control threshold: sword Int+Ego ≥ character +6"
+ ],
+ "related": [
+  "table-sword",
+  "table-sword-alignment",
+  "table-sword-intelligence",
+  "table-sword-primary-powers",
+  "table-sword-languages",
+  "table-sword-extraordinary-abilities",
+  "table-sword-influence"
+ ],
+ "interpretation_records": [
+  "ir-a2-sword-languages-overlap"
+ ],
+ "period_conventions": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p27",
+  "blocks": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "content_sha256": [
+   "d526aa2c082f6cb28b30bd98fef66a3279d604877f2eb91c93264ea6dc89e26d",
+   "2c6da59b39f0bcd77044849ca94a167636f2956e60b1aeac848e33ce21eec9df",
+   "e66644097593cfab455f6c00809580cf6cc5e5c993a8db41e5468add843f8164",
+   "05f88f8b7957632fc93d89bda33049124c56c98bc0acc0b994b0e6c3178e1e9d",
+   "82972390592b92ebc1aff807f01926ea2e22574983b5d2be60ad5cf7a326c9d9",
+   "a57ea6bc87ad220247d4032a894501f23aa29fdd8e93eb3b1d301a6c34395f3a",
+   "333a49102ecbe761cbdc24aaa3a2bd90afaf35b0f440430a2609df092b85916f",
+   "8b67826598769e2a682a7ad5b2bd61f2fc4b9e18f1b92f6391b89b83c7a1ba9f",
+   "d8a9691ef44a07a0e7b7e3ac8dbae0cf2e439f94eb3a87a75aedc804ef2f8bbc",
+   "07b6d1682e3766324d36ca7d783d68b15a6e27a81eba57f2c4fea57b0a4a563d"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p28",
+    "blocks": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "content_sha256": [
+     "dc39f7b29ec7614d96365343e1ca2d3e7106c548a77363943defd8643aac4ee9",
+     "4abb1da135779150f2c5c76ddb821a02b5e7398bb15ccd29fee8276987da534b",
+     "0ac419437cf1e6c68f043dad9fb784bd8c7c7b411d09ba7f996b0a66d9203dad",
+     "4884684c4cf59241461b2e25f7a2dfdfc5cee8a3235a381457a0de0ade7f4bf4",
+     "67832a0e1fde1a25abd691e8b81a195f82fce5c63adbfd30bd85c450f29bb458"
+    ],
+    "note": "intelligence/powers/languages tables"
+   },
+   {
+    "booklet": "v2",
+    "page": "p29",
+    "blocks": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "content_sha256": [
+     "7fe452225f9e70bf553570a88b8a3d1c3273cc4e0d9f77f3924084214bb3bd2f",
+     "c9c6189c757367608dbe4977ce41356ee1db044ffda842c2ccd352ad36bf6506",
+     "85f88e13246eb4c6299ba5134811489107333e78ff1074855a65d5f62c08d79a",
+     "edf9e3ea92bc36053d0d2e2020f6187963341d5cc0f86fc49ae8700838b2963e",
+     "694aa88d777b013f5fab44a56db030fc768d0ceabe2496328d797ed7d9eaf47c",
+     "b5b26c89daa1c387beea23d971fa24aa9f513bc23851bfaae9a8c452b723fdf5"
+    ],
+    "note": "extraordinary abilities, egoism"
+   },
+   {
+    "booklet": "v2",
+    "page": "p30",
+    "blocks": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "content_sha256": [
+     "6e0b30b1606e97e7ef2aee1c5ad4534f1b7c95e9a21a2a86068e92309d16b8b9",
+     "58cd30acd6832f89fa0d312ae902ca9294fc1863270c15a1a5bd522cb3e0816d",
+     "d4bb1ec46bf23e3036d00626ab8d6411caf8a67c5fae2076a2ad68d79484a593",
+     "764164235bfc2c12baaeaced7d0a2025bb6d0742ef626497199bfa6ffc16bdf3",
+     "d4419c5cbd4fc66b7754b6b8968d9a8519b4b5714783707a806073235fe06485",
+     "7e80bc0fbe7cdf24300a11385e97b091ce0f0330d79a42028002f943dc3a68a3",
+     "6df3c7f16f43ca31a19a89089ab90e38c697a99def959820a9c1c01f206e682a",
+     "1a05b67e5aba6c99efe656bca2c5a7ec20b57e291ed1c5fe4e3649c97c09baf1",
+     "8d0c30e5896247e98981f9357c42199afeb3f9ed138602b4a0943fd0b26594cf",
+     "d6fb8c67b754d438156284a35191197d40b0289cde04a44c72efcdf10233606a"
+    ],
+    "note": "influence, origin/purpose, damage bonuses"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

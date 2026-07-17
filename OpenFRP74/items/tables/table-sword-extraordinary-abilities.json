@@ -1,0 +1,145 @@
+{
+ "id": "table-sword-extraordinary-abilities",
+ "name": "Sword Extraordinary Abilities",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 10,
+   "result": "Clairaudience",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 11,
+   "max": 20,
+   "result": "Clairvoyance",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 21,
+   "max": 30,
+   "result": "E S P",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 31,
+   "max": 40,
+   "result": "Telepathy",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 41,
+   "max": 50,
+   "result": "Telekinesis",
+   "result_raw": "Telekensis",
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 51,
+   "max": 59,
+   "result": "Teleportation",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 60,
+   "max": 68,
+   "result": "X-Ray Vision",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 69,
+   "max": 77,
+   "result": "Illusion Generation",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 78,
+   "max": 82,
+   "result": "Levitation",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 83,
+   "max": 87,
+   "result": "Flying",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 88,
+   "max": 92,
+   "result": "Healing (1 point/6 turns or 6 points/day)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 93,
+   "max": 97,
+   "result": "1-4 Times Normal Strength for 1-10 Turns, Employable Once/Day",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 98,
+   "max": 99,
+   "result": "Take Two Rolls Ignoring Scores Over 97",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "result": "Take Three Rolls Ignoring Scores Over 97",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [
+  "Duplicate rolls double the ability's strength/range/accuracy"
+ ],
+ "interpretation_records": [
+  "ir-a3-telekinesis-spellings"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p29",
+  "blocks": [
+   0,
+   1
+  ],
+  "content_sha256": [
+   "7fe452225f9e70bf553570a88b8a3d1c3273cc4e0d9f77f3924084214bb3bd2f",
+   "c9c6189c757367608dbe4977ce41356ee1db044ffda842c2ccd352ad36bf6506"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

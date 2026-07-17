@@ -1,0 +1,68 @@
+{
+ "id": "table-sword-influence",
+ "name": "Sword Influence Check",
+ "system": "openfrp74",
+ "die_sides": 1,
+ "usage": "Compare sword total (Int + Ego + 1/Extraordinary Ability: 8-28) vs character total (Int + Str, modified: fresh +1d6; fatigued/10-50% damaged −1d4; >50% damaged or magic-strained −2d8). Rows indexed by the DIFFERENCE, not a die.",
+ "rows": [
+  {
+   "min": 6,
+   "max": 999,
+   "result": "Higher score prevails",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 2,
+   "max": 5,
+   "result": "75% chance the higher score prevails",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 0,
+   "max": 1,
+   "result": "50% either way",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p29",
+  "blocks": [
+   5
+  ],
+  "content_sha256": [
+   "b5b26c89daa1c387beea23d971fa24aa9f513bc23851bfaae9a8c452b723fdf5"
+  ],
+  "also": [
+   {
+    "booklet": "v2",
+    "page": "p30",
+    "blocks": [
+     0,
+     1,
+     2
+    ],
+    "content_sha256": [
+     "6e0b30b1606e97e7ef2aee1c5ad4534f1b7c95e9a21a2a86068e92309d16b8b9",
+     "58cd30acd6832f89fa0d312ae902ca9294fc1863270c15a1a5bd522cb3e0816d",
+     "d4bb1ec46bf23e3036d00626ab8d6411caf8a67c5fae2076a2ad68d79484a593"
+    ],
+    "note": "modifiers and continuing-relationship rule"
+   }
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

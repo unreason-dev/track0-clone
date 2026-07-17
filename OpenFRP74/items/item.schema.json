@@ -1,0 +1,102 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "OpenFRP74 item",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "id",
+  "name",
+  "system",
+  "category",
+  "description",
+  "source"
+ ],
+ "properties": {
+  "id": {
+   "type": "string",
+   "pattern": "^item-[a-z0-9-]+$"
+  },
+  "name": {
+   "type": "string"
+  },
+  "name_raw": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "aliases": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "system": {
+   "const": "openfrp74"
+  },
+  "category": {
+   "enum": [
+    "sword",
+    "armor",
+    "misc-weapon",
+    "potion",
+    "scroll",
+    "ring",
+    "wand",
+    "staff",
+    "misc-magic",
+    "mundane"
+   ]
+  },
+  "usable_by": {
+   "type": "array",
+   "items": {
+    "enum": [
+     "fighting-man",
+     "magic-user",
+     "cleric",
+     "all"
+    ]
+   }
+  },
+  "duration_raw": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "description": {
+   "type": "string"
+  },
+  "special_notes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "related": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "interpretation_records": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "period_conventions": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "source": {
+   "type": "object"
+  },
+  "extraction": {
+   "type": "object"
+  }
+ }
+}

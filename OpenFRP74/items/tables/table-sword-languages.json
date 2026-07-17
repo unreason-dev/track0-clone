@@ -1,0 +1,77 @@
+{
+ "id": "table-sword-languages",
+ "name": "Sword Languages Spoken",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 50,
+   "result": "One",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 51,
+   "max": 70,
+   "result": "Two",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 71,
+   "max": 85,
+   "result": "Three",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 86,
+   "max": 95,
+   "result": "Four",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 96,
+   "max": 99,
+   "result": "Five",
+   "result_raw": "90 - 99",
+   "refs": [],
+   "note": "range per ir-a2 fix"
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "result": "Take two rolls ignoring 00 if rolled again",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [
+  "ir-a2-sword-languages-overlap"
+ ],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p28",
+  "blocks": [
+   4
+  ],
+  "content_sha256": [
+   "67832a0e1fde1a25abd691e8b81a195f82fce5c63adbfd30bd85c450f29bb458"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

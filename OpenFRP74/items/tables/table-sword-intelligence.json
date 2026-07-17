@@ -1,0 +1,87 @@
+{
+ "id": "table-sword-intelligence",
+ "name": "Sword Intelligence",
+ "system": "openfrp74",
+ "die_sides": 12,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 6,
+   "result": "None endowed; no communication",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 7,
+   "max": 7,
+   "result": "1 Primary Power; Empathy",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 8,
+   "max": 8,
+   "result": "2 Primary Powers; Empathy",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 9,
+   "max": 9,
+   "result": "3 Primary Powers; Empathy",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 10,
+   "max": 10,
+   "result": "3 Primary + use of Languages; Speech",
+   "result_raw": null,
+   "refs": [
+    "table-sword-languages"
+   ],
+   "note": null
+  },
+  {
+   "min": 11,
+   "max": 11,
+   "result": "As 10 + Reads Magic; Speech",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 12,
+   "max": 12,
+   "result": "As 11 + 1 Extraordinary Ability; Telepathy",
+   "result_raw": null,
+   "refs": [
+    "table-sword-extraordinary-abilities"
+   ],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p28",
+  "blocks": [
+   0
+  ],
+  "content_sha256": [
+   "dc39f7b29ec7614d96365343e1ca2d3e7106c548a77363943defd8643aac4ee9"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}

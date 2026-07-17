@@ -1,0 +1,117 @@
+{
+ "id": "table-sword-primary-powers",
+ "name": "Sword Primary Powers",
+ "system": "openfrp74",
+ "die_sides": 100,
+ "usage": null,
+ "rows": [
+  {
+   "min": 1,
+   "max": 15,
+   "result": "Note Shifting Walls & Rooms",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 16,
+   "max": 30,
+   "result": "Detect Sloping Passages",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 31,
+   "max": 40,
+   "result": "Locate Secret Doors",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 41,
+   "max": 50,
+   "result": "Detect Traps",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 51,
+   "max": 60,
+   "result": "See Invisible Objects",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 61,
+   "max": 70,
+   "result": "Detect Evil and/or Gold",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 71,
+   "max": 80,
+   "result": "Detect Metal & What Kind",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 81,
+   "max": 90,
+   "result": "Detect Magic",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 91,
+   "max": 95,
+   "result": "Detect Gems (# and Size)",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 96,
+   "max": 99,
+   "result": "Take two rolls ignoring scores over 95 except a score of 00",
+   "result_raw": null,
+   "refs": [],
+   "note": null
+  },
+  {
+   "min": 100,
+   "max": 100,
+   "result": "Roll on Extraordinary Ability Table instead",
+   "result_raw": null,
+   "refs": [
+    "table-sword-extraordinary-abilities"
+   ],
+   "note": null
+  }
+ ],
+ "footnotes": [],
+ "interpretation_records": [],
+ "source": {
+  "work": "OpenFRP74",
+  "booklet": "v2",
+  "page": "p28",
+  "blocks": [
+   3
+  ],
+  "content_sha256": [
+   "4884684c4cf59241461b2e25f7a2dfdfc5cee8a3235a381457a0de0ade7f4bf4"
+  ]
+ },
+ "extraction": {
+  "date": "2026-07-17",
+  "model": "claude-opus-4-8",
+  "notes": null
+ }
+}
