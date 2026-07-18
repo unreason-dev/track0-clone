@@ -32,8 +32,11 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PAGES_DIR = ROOT / "OpenFRP74" / "digitization" / "pages"
-OUT_DIR = ROOT / "OpenFRP74" / "digitization" / "transcripts"
+_ap0 = argparse.ArgumentParser(add_help=False)
+_ap0.add_argument("--work", default="OpenFRP74")
+_WORK, _ = _ap0.parse_known_args()
+PAGES_DIR = ROOT / "digitization" / _WORK.work / "pages"
+OUT_DIR = ROOT / "digitization" / _WORK.work / "transcripts"
 SCHEMA_PATH = Path(__file__).resolve().parent / "page-transcript.schema.json"
 BATCH_STATE = OUT_DIR / "batch-state.json"
 
@@ -262,6 +265,7 @@ def main() -> int:
     g.add_argument("--collect", action="store_true")
     g.add_argument("--validate", action="store_true")
     ap.add_argument("--pages", help="comma-separated page ids to limit --submit")
+    ap.add_argument("--work", default="OpenFRP74", help="corpus/work id under digitization/")
     args = ap.parse_args()
     if args.pilot:
         return cmd_pilot(args.pilot.split(","))

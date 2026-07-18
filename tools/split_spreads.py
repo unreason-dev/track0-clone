@@ -38,7 +38,7 @@ from pathlib import Path
 from PIL import Image
 
 DEFAULT_SOURCE = "/Users/jon/dev/ai/reference/Dungeons & Dragons.pdf"
-DEFAULT_OUT = Path(__file__).resolve().parent.parent / "OpenFRP74" / "digitization" / "pages"
+DEFAULT_OUT = Path(__file__).resolve().parent.parent / "digitization" / "OpenFRP74" / "pages"
 RENDER_DPI = 300
 
 # Booklet definitions: (id, title, first_pdf_page, last_pdf_page).

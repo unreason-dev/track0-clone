@@ -36,16 +36,33 @@ legibility manifest). Each node re-projects the ontology from its own source
 don't appear, and node-specific sections (e.g. race-as-class machinery) are
 authored from the source's own structure.
 
+Top-level split (2026-07-18 restructure): `system/` holds ONLY the published
+schema-corpora (one subfolder per node); the gitignored digitization
+substrate lives in a separate top-level `digitization/` tree; test/tooling
+artifacts (e.g. the OpenFRP74 oracle-smoke suite) live under `tools/`.
+
 ```
-OpenFRP74/                  # the 1974 three-booklet node (pilot)
-  <section>/                # per-section: schema + entries, 5.1-srd style
-  digitization/             # GITIGNORED — local transcription intermediates
+system/                     # PUBLISHED schema-corpora (this is what consumers read)
+  OpenFRP74/                # the 1974 three-booklet node (pilot) — COMPLETE
+    <section>/              #   per-section: schema + entries, 5.1-srd style
+    interpretation-records.json   # Jon's interpretation layer (charter §10)
+    counterpart-map.json          # verified 5.1-srd id mapping (scrub-package seed)
+  OpenFRP77b/               # Holmes Basic 1977 node (created when extraction starts)
+digitization/               # GITIGNORED — local transcription substrate, per node
+  OpenFRP74/  OpenFRP77b/   #   pages/ (scans + pass-1 OCR), transcripts/ (pass-2), manifest
+tools/                      # pipeline: checkpoint/render/stamp/diff take --work <node>
+  openfrp74-oracle-smoke/   #   frozen oracle smoke suite (OpenFRP74-specific)
+docs/                       # durable methodology
 findings/                   # disposition/findings docs (append-only-by-creation:
                             # one new dated doc per cycle, never rewrite)
 ```
 
+Tooling contract: grind tools resolve `digitization/<work>/{pages,transcripts}`
+via `--work <node>` (default `OpenFRP74`). The `oracle_smoke.py` harness is
+OpenFRP74-specific (a sibling is written per node).
+
 ## Status
 
-Pilot node OpenFRP74 is at Stage A (digitization substrate). See
-`findings/openfrp74-source-disposition-2026-07-16.md` for the source
-suitability assessment.
+OpenFRP74 is COMPLETE: 407-entry schema-corpus + 311-row oracle smoke suite
+(all green). OpenFRP77b (Holmes Basic) is mid Stage A transcription. See the
+`findings/` docs and `operator-cookie.md`.

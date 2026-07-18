@@ -13,8 +13,8 @@ import argparse
 _ap = argparse.ArgumentParser()
 _ap.add_argument("--work", default="OpenFRP74")
 _ARGS, _ = _ap.parse_known_args()
-PAGES = ROOT / _ARGS.work / "digitization" / "pages"
-TRANS = ROOT / _ARGS.work / "digitization" / "transcripts"
+PAGES = ROOT / "digitization" / _ARGS.work / "pages"
+TRANS = ROOT / "digitization" / _ARGS.work / "transcripts"
 
 
 def main() -> int:
@@ -46,8 +46,9 @@ def main() -> int:
         print("next:", ", ".join(todo[:12]), "…" if len(todo) > 12 else "")
 
     rc1 = subprocess.run([sys.executable, str(ROOT / "tools" / "transcribe_pages.py"),
-                          "--validate"]).returncode
-    rc2 = subprocess.run([sys.executable, str(ROOT / "tools" / "diff_passes.py")]).returncode
+                          "--validate", "--work", _ARGS.work]).returncode
+    rc2 = subprocess.run([sys.executable, str(ROOT / "tools" / "diff_passes.py"),
+                          "--work", _ARGS.work]).returncode
     return rc1 or rc2
 
 

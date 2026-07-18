@@ -31,8 +31,11 @@ from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PAGES_DIR = ROOT / "OpenFRP74" / "digitization" / "pages"
-TRANSCRIPTS_DIR = ROOT / "OpenFRP74" / "digitization" / "transcripts"
+_ap0 = argparse.ArgumentParser(add_help=False)
+_ap0.add_argument("--work", default="OpenFRP74")
+_WORK, _ = _ap0.parse_known_args()
+PAGES_DIR = ROOT / "digitization" / _WORK.work / "pages"
+TRANSCRIPTS_DIR = ROOT / "digitization" / _WORK.work / "transcripts"
 
 DIGIT_RUN = re.compile(r"\d+")
 
@@ -100,6 +103,7 @@ def main() -> int:
     ap.add_argument("--gold", action="store_true",
                     help="diff *.gold.json instead of *.pass2.json")
     ap.add_argument("--pages", help="comma-separated page ids to limit")
+    ap.add_argument("--work", default="OpenFRP74", help="corpus/work id under digitization/")
     args = ap.parse_args()
 
     suffix = ".gold.json" if args.gold else ".pass2.json"

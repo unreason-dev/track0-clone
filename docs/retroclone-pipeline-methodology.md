@@ -206,14 +206,25 @@ What the pilot did manually that a drop-in-a-PDF run must do itself:
 The first "drop in a new PDF" test of this pipeline. What held, what changed:
 
 ### Pipeline (all held with minimal deltas)
+- **Repo layout (2026-07-18 restructure).** `system/<node>/` holds ONLY the
+  published schema-corpora (git carries these). The gitignored digitization
+  substrate is a SEPARATE top-level `digitization/<node>/` tree. Test/tooling
+  artifacts (e.g. the OpenFRP74 oracle-smoke suite) live under `tools/`. All
+  grind tools take `--work <node>` and resolve `digitization/<node>/`.
 - **Single-leaf sources need no splitter.** `tools/render_singles.py` is the
   sibling of split_spreads.py: render + per-page pass-1 + hashed manifest in
   the same shape, so `checkpoint.py --work <Work>` and
   `stamp_block_hashes.py --work <Work>` run unchanged. Adaptation cost for a
-  new source: under an hour, as predicted.
-- **Parameterize tools by --work from the start.** Retrofitting OpenFRP74
-  paths out of checkpoint/stamper was trivial but should never recur; any
-  new tool takes --work on day one.
+  new source: under an hour, as predicted. NB: render_singles MUST record
+  `pass1_text`/`pass1_sha256` per page in the manifest or the differ skips
+  every page ("no pass1") — a bug fixed 2026-07-18.
+- **Parameterize tools by --work from the start, AND forward it through
+  subprocess calls.** checkpoint.py silently ran the validator and differ
+  against OpenFRP74 during the whole 77b grind because it did not pass --work
+  to the transcribe_pages/diff_passes subprocesses (fixed 2026-07-18). A
+  parameterized entry point that hardcodes children is worse than no
+  parameter — it looks like it validated the right thing. Any new tool takes
+  --work on day one and threads it all the way down.
 - **Long renders: launch in background immediately** and start transcribing
   as pages appear — the grind outruns the renderer only briefly.
 

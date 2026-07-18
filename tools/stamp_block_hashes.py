@@ -14,7 +14,7 @@ transcriber_note (transcriber commentary, not source content), continuation
 flags and index (structural bookkeeping), and all source/provenance fields
 (already covered by image_sha256 in the transcript itself).
 
-Output: OpenFRP74/digitization/transcripts/block-hashes.json
+Output: digitization/<work>/transcripts/block-hashes.json
   { "<page id>": {"work":…, "booklet":…, "label":…, "image_sha256":…,
                    "blocks": [{"block_index": n, "content_sha256": …}, …]}, … }
 
@@ -30,7 +30,7 @@ _ap = argparse.ArgumentParser()
 _ap.add_argument("--work", default="OpenFRP74")
 _ARGS, _ = _ap.parse_known_args()
 ROOT = Path(__file__).resolve().parent.parent
-TRANSCRIPTS = ROOT / _ARGS.work / "digitization" / "transcripts"
+TRANSCRIPTS = ROOT / "digitization" / _ARGS.work / "transcripts"
 OUT = TRANSCRIPTS / "block-hashes.json"
 
 CONTENT_FIELDS = ("type", "text", "level", "underlined", "items", "columns", "caption", "rows")

@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""OpenFRP74 rules-oracle smoke test.
+"""OpenFRP74 rules-oracle smoke test — SPECIFIC TO OpenFRP74 (not --work generic).
+
+The grind tools (checkpoint/render/stamp/diff) take --work; this harness is
+keyed to the OpenFRP74 corpus and its question families. A sibling would be
+written per system. Reads corpus from system/OpenFRP74/, transcripts from
+digitization/OpenFRP74/, writes the frozen suite to tools/openfrp74-oracle-smoke/.
 
 The oracle discipline (ttrpg-app docs/question-generation.md): frozen JSONL
 suites of single-entity lookup questions with gold answers, resolved by a
@@ -7,7 +12,7 @@ deterministic engine. This harness does both halves for OpenFRP74:
 
 1. SYNTHESIZE a question suite by walking the pass-2 intermediate (the
    PDF decode) — b170-style rows, gold values taken from the TRANSCRIPTS.
-2. RESOLVE each question against the extracted corpus (OpenFRP74/*/) via
+2. RESOLVE each question against the extracted corpus (system/OpenFRP74/*/) via
    typed paths — no LLM, pure lookups.
 
 Because gold comes from the transcripts and answers from the corpus, a
@@ -15,7 +20,7 @@ mismatch is an extraction-fidelity finding, not a tautology. Expected
 divergences (errata applied in the normalized layer per D-6) are declared
 and scored as `expected_divergence`.
 
-Output: OpenFRP74/oracle-smoke/suite-openfrp74-smoke-01.jsonl (frozen-style
+Output: tools/openfrp74-oracle-smoke/suite-openfrp74-smoke-01.jsonl (frozen-style
 suite for later oracle integration) + a scored report on stdout.
 """
 
@@ -25,9 +30,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-T = ROOT / 'OpenFRP74' / 'digitization' / 'transcripts'
-C = ROOT / 'OpenFRP74'
-OUT = C / 'oracle-smoke'
+T = ROOT / 'digitization' / 'OpenFRP74' / 'transcripts'
+C = ROOT / 'system' / 'OpenFRP74'
+OUT = ROOT / 'tools' / 'openfrp74-oracle-smoke'
 
 
 def tr(pid):

@@ -10,6 +10,12 @@
 # it is just not published. The public repo carries ONLY what ships:
 # schemas, corpus entries (mechanics + firewalled expression), manifests,
 # edge changelogs, findings.
+#
+# Layout (2026-07-18 restructure): the published schema-corpora live under
+# system/<work>/ (git carries these); the digitization substrate lives under
+# a SEPARATE top-level digitization/<work>/ tree (gitignored below). Tooling
+# takes --work <name> and resolves digitization/<name>/{pages,transcripts}.
+/digitization/
 **/digitization/
 
 # Belt-and-braces: no source scans or PDFs ever land in the public repo.

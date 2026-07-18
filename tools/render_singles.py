@@ -48,7 +48,7 @@ def main() -> int:
     ap.add_argument('--dpi', type=int, default=RENDER_DPI)
     a = ap.parse_args()
 
-    out = ROOT / a.work / 'digitization' / 'pages'
+    out = ROOT / 'digitization' / a.work / 'pages'
     bdir = out / a.booklet
     bdir.mkdir(parents=True, exist_ok=True)
 
@@ -73,12 +73,16 @@ def main() -> int:
             txt = subprocess.run(['pdftotext', '-f', str(p), '-l', str(p),
                                   a.source, '-'], capture_output=True,
                                  text=True, check=True).stdout
-            (bdir / f'{pid}.pass1.txt').write_text(txt)
+            p1 = bdir / f'{pid}.pass1.txt'
+            p1.write_text(txt)
             pages.append({
                 'id': pid, 'booklet': a.booklet, 'label': label,
                 'pdf_page': p, 'side': 'single',
                 'image': f'{a.booklet}/{pid}.png',
                 'image_sha256': sha256_file(png),
+                # pass-1 (embedded OCR half) — the differ reads this pointer.
+                'pass1_text': f'{a.booklet}/{pid}.pass1.txt',
+                'pass1_sha256': sha256_file(p1),
                 'booklet_page_claimed': None,
             })
             if p % 8 == 0:
