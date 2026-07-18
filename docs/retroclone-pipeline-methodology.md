@@ -199,3 +199,57 @@ What the pilot did manually that a drop-in-a-PDF run must do itself:
 2. Booklet-range configuration (see A.1 autonomy note).
 3. Prompt/format tuning for pass 2 — pilot validates once; future systems
    inherit the format and only re-tune on measured failure.
+
+
+## Second-adapter learnings (OpenFRP77b / Holmes Basic, 2026-07-17/18)
+
+The first "drop in a new PDF" test of this pipeline. What held, what changed:
+
+### Pipeline (all held with minimal deltas)
+- **Single-leaf sources need no splitter.** `tools/render_singles.py` is the
+  sibling of split_spreads.py: render + per-page pass-1 + hashed manifest in
+  the same shape, so `checkpoint.py --work <Work>` and
+  `stamp_block_hashes.py --work <Work>` run unchanged. Adaptation cost for a
+  new source: under an hour, as predicted.
+- **Parameterize tools by --work from the start.** Retrofitting OpenFRP74
+  paths out of checkpoint/stamper was trivial but should never recur; any
+  new tool takes --work on day one.
+- **Long renders: launch in background immediately** and start transcribing
+  as pages appear — the grind outruns the renderer only briefly.
+
+### Transcription conventions that carried over cleanly
+- The 74 block model fits professionally typeset two-column print with ZERO
+  schema changes. New page-shape conventions (record once, then imitate):
+  - Two-column pages transcribe in reading order (left column then right).
+  - **Show-through** (reverse-page ink mirroring through thin paper) is
+    ignored as non-content; note once per affected page if prominent.
+  - Spell entries: bold name + stat line + indented body = ONE paragraph
+    block, stat line first, name in __ __.
+  - Monster entries: italic-labeled stat rows ("Move:", "Hit Dice:", ...)
+    = one label/value table per statline; body prose follows as paragraphs.
+    Statlines that span the column break are still one table (note it).
+  - Stacked column heads (AC number over armor name) join with \n.
+  - **Italics-as-data**: the 77b clerical spell lists mark reversible spells
+    by italics, exactly as 74's p22 underlines marked them. Typography IS
+    mechanics in this lineage — always transcribe emphasis.
+- Emphasis mapping for typeset sources: bold AND italic both render as
+  __ __ (the schema's single emphasis channel); disambiguate in
+  transcriber_note only when the distinction is data (see above).
+
+### New failure classes (77b scan)
+- **Missing leaf**: printed page 13 (saving-throw matrix + MAGIC SPELLS
+  intro) is absent from this PDF — printed 12 jumps to 14. Pass-1 confirms.
+  Lesson: verify printed-page continuity at every page turn; a clean-looking
+  scan can silently omit a leaf. Recorded in the hb-p14 transcript;
+  candidate for the errata-style restoration decision at census time.
+- Clean typeset pass-1 (Acrobat Paper Capture) has near-zero %-mangling;
+  the disagreement queue will be small but NOT empty — the differ still
+  earns its keep on l/1 noise and column-order scrambles.
+
+### Delta-census discipline (new, works well)
+Flag deltas from the prior node IN the transcriber_note at transcription
+time ("77b delta: ...") — thief class, five-point alignment, d8/d6/d4 hit
+dice, dexterity initiative, parry, cumulative protection, simplified
+subdual, new monsters, changed dragon color set. This makes Stage B's delta
+census a grep over the transcripts instead of a fresh read. Convention:
+prefix `77b delta:` (nodewise: `<node> delta:`).
